@@ -1,30 +1,55 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import navbar from "./navbar";
-import sidebar from "./sidebar";
+import navbar from "./navbar";   
+import sidebar from "./sidebar";  
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-v2-demo.mrhope.site",
+  // 当前网站部署到的域名。
+  hostname: "https://brysonlin.github.io/blog/",
+  // 是否全屏按钮
+  fullscreen: true,
+  //主题色选择器
+  themeColor: {
+    blue: "#2196f3",
+    red: "#f26d6d",
+    green: "#3eaf7c",
+    orange: "#fb9b5f",
+  },
+  // 返回顶部控件，默认情况下将在下滑 300px 后显示。设置为一个数字以更改默认的触发距离。
+  backToTop: true, 
 
+  // 作者
   author: {
-    name: "Mr.Hope",
-    url: "https://mrhope.site",
+    name: "BrysonLin",
+    url: "https://mrhope.site",  // 个人网站地址
   },
 
-  iconAssets: "iconfont",
+  // 阿里图标库
+  iconAssets: "iconfont",  
 
-  logo: "/logo.svg",
+  // 个人主页头像
+  logo: "/logo.svg",  
 
+  // 纯净模式
+  // pure: true,
+
+  // 仓库配置，用于在导航栏中显示仓库链接。
   repo: "vuepress-theme-hope/vuepress-theme-hope",
+  // 自定义仓库链接文字。默认从 `repo` 中自动推断为
+  // "GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
+  repoLabel: "GitHub",
+  // 是否显示仓库按钮
+  repoDisplay:true,  
 
-  docsDir: "demo/src",
+  // 文档在仓库中的目录
+  // docsDir: "demo/src",
 
-  // navbar
+  // 标题栏
   navbar: navbar,
 
-  // sidebar
+  // 侧边栏
   sidebar: sidebar,
 
-  footer: "默认页脚",
+  footer: "BrysonLin@outlook.com",
 
   displayFooter: true,
 
