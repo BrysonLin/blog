@@ -5,7 +5,6 @@ layout: Slide
 ---
 
 <!-- markdownlint-disable MD024 MD033 -->
-
 @slidestart
 
 <!-- .slide: data-transition="slide" -->

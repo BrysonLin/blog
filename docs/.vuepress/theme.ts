@@ -38,13 +38,19 @@ export default hopeTheme({
   // "GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
   repoLabel: "GitHub",
   // 是否显示仓库按钮
-  repoDisplay:true,  
+  repoDisplay:false,  
 
   // 文档在仓库中的目录
   // docsDir: "demo/src",
 
   // 标题栏
   navbar: navbar,
+  // 标题栏布局方式
+  navbarLayout:{ 
+    left: ["Brand"], 
+    center: ["Links"], 
+    right: ["Search","Language", "Repo", "Outlook"] 
+  },
 
   // 侧边栏
   sidebar: sidebar,
@@ -96,7 +102,6 @@ export default hopeTheme({
       "/guide/encrypt.html": ["1234"],
     },
   },
-
   plugins: {
     blog: {
       autoExcerpt: true,
