@@ -55,9 +55,10 @@ export default hopeTheme({
   // 侧边栏
   sidebar: sidebar,
 
-  footer: "BrysonLin@outlook.com",
-
+  copyright: "© 2022 BrysonLin",
+  footer: "vuepress-theme-hope | BrysonLin@outlook.com",
   displayFooter: true,
+  
 
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 

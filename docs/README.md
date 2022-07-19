@@ -5,7 +5,7 @@ icon: home
 title: 博客主页
 heroImage: /logo.svg # Hero 的图片
 heroText: 林初笔墨的博客 # Hero 的文字
-heroFullScreen: true # 是否全屏显示 Hero
+heroFullScreen: false # 是否全屏显示 Hero
 tagline: 大道至简知易行难
 projects:
   - icon: project
@@ -37,5 +37,4 @@ projects:
     name: 自定义项目
     desc: 自定义详细介绍
     link: https://你的自定义链接
-
 ---
