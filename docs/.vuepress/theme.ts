@@ -65,35 +65,6 @@ export default hopeTheme({
     description: "一个前端开发者",
     intro: "/intro.html",
     medias: {
-      Baidu: "https://example.com",
-      Bitbucket: "https://example.com",
-      Dingding: "https://example.com",
-      Discord: "https://example.com",
-      Dribbble: "https://example.com",
-      Email: "https://example.com",
-      Evernote: "https://example.com",
-      Facebook: "https://example.com",
-      Flipboard: "https://example.com",
-      Gitee: "https://example.com",
-      GitHub: "https://example.com",
-      Gitlab: "https://example.com",
-      Gmail: "https://example.com",
-      Instagram: "https://example.com",
-      Lines: "https://example.com",
-      Linkedin: "https://example.com",
-      Pinterest: "https://example.com",
-      Pocket: "https://example.com",
-      QQ: "https://example.com",
-      Qzone: "https://example.com",
-      Reddit: "https://example.com",
-      Rss: "https://example.com",
-      Steam: "https://example.com",
-      Twitter: "https://example.com",
-      Wechat: "https://example.com",
-      Weibo: "https://example.com",
-      Whatsapp: "https://example.com",
-      Youtube: "https://example.com",
-      Zhihu: "https://example.com",
     },
   },
 
@@ -104,7 +75,7 @@ export default hopeTheme({
   },
   plugins: {
     blog: {
-      autoExcerpt: true,
+      autoExcerpt: true, // 自动提取摘要,除了有手动提取的摘要外 | <!-- more --> 以上为手动摘要
     },
 
     // 如果你不需要评论，可以直接删除 comment 配置，
@@ -113,12 +84,29 @@ export default hopeTheme({
     comment: {
       /**
        * Using Giscus
+       * <script src="https://giscus.app/client.js"
+          data-repo="BrysonLin/blog"
+          data-repo-id="R_kgDOHrKHcQ"
+          data-category="Announcements"
+          data-category-id="DIC_kwDOHrKHcc4CQTUW"
+          data-mapping="pathname"
+          data-reactions-enabled="1"
+          data-emit-metadata="0"
+          data-input-position="bottom"
+          data-theme="light"
+          data-lang="zh-CN"
+          data-loading="lazy"
+          crossorigin="anonymous"
+          async>
+          </script>
        */
       provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
+      repo: "BrysonLin/blog",
+      repoId: "R_kgDOHrKHcQ",
       category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
+      categoryId: "DIC_kwDOHrKHcc4CQTUW",
+
+
 
       /**
        * Using Twikoo
@@ -132,9 +120,9 @@ export default hopeTheme({
       // provider: "Waline",
       // serverURL: "https://vuepress-theme-hope-comment.vercel.app",
     },
-
+    // 增强Markdown语法的插件
     mdEnhance: {
-      enableAll: true,
+      enableAll: true,  // 是否启用全部功能。
       presentation: {
         plugins: ["highlight", "math", "search", "notes", "zoom"],
       },
