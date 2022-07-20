@@ -3,38 +3,44 @@ home: true
 layout: Blog
 icon: home
 title: 博客主页
-heroImage: /logo.svg # Hero 的图片
+bgImage: /img/background/background.jpg
+# heroImage: /img/background/backgroun-head.jpg # Hero 的图片
 heroText: 林初笔墨的博客 # Hero 的文字
-heroFullScreen: false # 是否全屏显示 Hero
+heroFullScreen: true # 是否全屏显示 Hero
 tagline: 大道至简知易行难
 projects:
   - icon: project
-    name: 项目名称
-    desc: 项目详细描述
-    link: https://你的项目链接
+    name: HTML+CSS+JS
+    desc: 前端三剑客.
+    link: https://developer.mozilla.org/zh-CN/docs/Web
 
   - icon: link
-    name: 链接名称
-    desc: 链接详细描述
-    link: https://链接地址
+    name: Vue
+    desc: Vue 是一套用于构建用户界面的渐进式框架.
+    link: https://v3.cn.vuejs.org/guide/introduction.html
 
   - icon: book
-    name: 书籍名称
-    desc: 书籍详细描述
-    link: https://你的书籍链接
+    name: React
+    desc: React 是一个用于构建用户界面的 JavaScript 库.
+    link: https://zh-hans.reactjs.org/docs/hello-world.html
 
   - icon: article
-    name: 文章名称
-    desc: 文章详细描述
-    link: https://你的文章链接
+    name: NodeJS
+    desc: Node.js 是一个跨平台 JavaScript 运行环境，使开发者可以搭建服务器端的 JavaScript 应用程序.
+    link: https://developer.mozilla.org/zh-CN/docs/Glossary/Node.js
 
   - icon: friend
-    name: 伙伴名称
-    desc: 伙伴详细介绍
-    link: https://你的伙伴链接
+    name: VuePress
+    desc: Vue 驱动的静态网站生成器.
+    link: https://v2.vuepress.vuejs.org/zh/
 
-  - icon: /logo.svg
-    name: 自定义项目
-    desc: 自定义详细介绍
-    link: https://你的自定义链接
+  - icon: article
+    name: 编程导航
+    desc: 最专业的程序员导航,一站式编程资源搜索和优质编程学习资源.
+    link: https://www.code-nav.cn/
+
+  - icon: /img/logo.svg
+    name: 前端面试指南
+    desc: 前端进阶学习路线,前端笔记整理,前端系统进阶笔记整理.
+    link: https://interview2.poetries.top/
 ---
