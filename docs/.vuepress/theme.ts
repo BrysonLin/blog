@@ -69,7 +69,7 @@ export default hopeTheme({
     medias: {
       Gitee: "https://gitee.com/",
       GitHub: "https://github.com/BrysonLin/blog/tree/gh-pages",
-      juejing: "https://juejin.cn/",
+      // juejing: "https://juejin.cn/",
       Zhihu: "https://www.zhihu.com/signin?next=%2F",
       Email: "https://outlook.live.com/mail/0/",
       // Wechat: "https://example.com",

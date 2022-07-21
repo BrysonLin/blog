@@ -85,18 +85,6 @@ tag:
 
 ## <a name="color">颜色</a>
 
-> Markdown 不允许您更改文本的颜色，但如果您的 Markdown 处理器支持 HTML，您可以使用`<font>`HTML 标签。该 color 属性允许您使用颜色名称或十六进制#RRGGBB 代码指定字体颜色。
-
-```markdown
-<font color="red">This text is red!</font>
-```
-
-渲染的输出如下所示:
-
-<font color="red">This text is red!</font>
-
-> `<font>`HTML 标记在技术上受支持，但已正式弃用，这意味着它现在可以工作，但您不应该使用它。不幸的是，没有另一种纯 HTML 替代方案。您可以尝试使用其中一种 CSS 替代方案。`<font>`并非所有 Markdown 应用程序都提供 CSS 支持，但如果您正在使用的应用程序提供 CSS 支持，这里有一个标签的替代方案：
-
 ```markdown
 <p style="color:blue">将此文本设为蓝色。</p>
 ```
@@ -142,12 +130,12 @@ tag:
 > 图像的 Markdown 语法不允许您指定图像的宽度和高度。如果您需要调整图像大小并且您的 Markdown 处理器支持 HTML，您可以使用带有和属性的 imgHTML 标签来设置图像的尺寸（以像素为单位）。widthheight
 
 ```markdown
-<img src="assets/image-20220716172445057.png" width="100%" height="500">
+<img src="./assets/image-20220716172445057.png" width="100%" height="500">
 ```
 
 渲染的输出如下所示：
 
-<img src="assets/image-20220716172445057.png" width="100%" height="500">
+<img src="./assets/image-20220716172445057.png" width="100%" height="500">
 
 ## 图片说明
 
@@ -155,7 +143,7 @@ tag:
 
 ```markdown
 <figure>
-    <img src="assets/image-20220716172445057.png"
+    <img src="./assets/image-20220716172445057.png"
          alt="我是说明">
     <figcaption>新墨西哥州阿尔伯克基郊外的一条单轨小径。</figcaption>
 </figure>
@@ -164,7 +152,7 @@ tag:
 渲染的输出如下所示：
 
 <figure>
-    <img src="assets/image-20220716172445057.png"
+    <img src="./assets/image-20220716172445057.png"
          alt="我是说明">
     <figcaption>新墨西哥州阿尔伯克基郊外的一条单轨小径。</figcaption>
 </figure>
