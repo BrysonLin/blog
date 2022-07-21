@@ -1,10 +1,12 @@
 ---
 title: 幻灯片页
 icon: slides
-layout: Slide
+layout: Slide,
+article: false
 ---
 
 <!-- markdownlint-disable MD024 MD033 -->
+
 @slidestart
 
 <!-- .slide: data-transition="slide" -->
