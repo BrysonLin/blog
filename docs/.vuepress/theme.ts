@@ -27,7 +27,7 @@ export default hopeTheme({
   iconAssets: "iconfont",  
 
   // 个人主页头像
-  logo: "/img/logo.svg",  
+  logo: "/logo.svg",  
 
   // 纯净模式
   // pure: true,

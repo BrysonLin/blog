@@ -39,7 +39,7 @@ projects:
     desc: 最专业的程序员导航,一站式编程资源搜索和优质编程学习资源.
     link: https://www.code-nav.cn/
 
-  - icon: /img/logo.svg
+  - icon: /logo.svg
     name: 前端面试指南
     desc: 前端进阶学习路线,前端笔记整理,前端系统进阶笔记整理.
     link: https://interview2.poetries.top/
