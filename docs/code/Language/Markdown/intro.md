@@ -2,9 +2,9 @@
 title: Markdown 介绍
 icon: info
 category: Markdown
-article: false
 tag:
   - Markdown
+article: false
 ---
 
 Markdown 是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。
@@ -107,7 +107,7 @@ Markdown 将会把它转换为:
 
 Markdown 就是一个扩展名为 `.md` 的文本文件。
 
-<!-- #理论上您可以使用任何编辑器 (如 [VS Code](../../../software/vscode/README.md))编辑 Markdown，也可以使用专门的 Markdown 编辑器 (如 [Typora](https://typora.io)) 进行编写。 -->
+理论上您可以使用任何编辑器 (如 [VS Code](../../../software/vscode/README.md))编辑 Markdown，也可以使用专门的 Markdown 编辑器 (如 [Typora](https://typora.io)) 进行编写。
 
 [1]: http://docutils.sourceforge.net/mirror/setext.html
 [2]: http://www.aaronsw.com/2002/atx/

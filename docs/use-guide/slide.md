@@ -157,7 +157,7 @@ $$
 
 ## 布局
 
-![Logo](/logo.svg)
+![Logo](/img/logo.svg)
 
 <!-- .element: class="r-stretch" -->
 
