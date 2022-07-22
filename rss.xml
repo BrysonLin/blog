@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <atom:link href="https://brysonlin.github.io/blog/blog/rss.xml" rel="self" type="application/rss+xml"/>
+    <title>林初笔墨</title>
+    <link>https://brysonlin.github.io/blog/blog/</link>
+    <description>林初笔墨,林初笔墨的博客,Web前端博客,前端博客,Web全栈技术博客,前端工程师博客</description>
+    <language>zh-CN</language>
+    <pubDate>Fri, 22 Jul 2022 01:50:53 GMT</pubDate>
+    <lastBuildDate>Fri, 22 Jul 2022 01:50:53 GMT</lastBuildDate>
+    <generator>vuepress-plugin-feed2</generator>
+    <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>Git</category>
+    <category>Markdown</category>
+    <item>
+      <title>Git 入门基础</title>
+      <link>https://brysonlin.github.io/blog/blog/code/basic/Git/</link>
+      <guid>https://brysonlin.github.io/blog/blog/code/basic/Git/</guid>
+      <source url="https://brysonlin.github.io/blog/blog/rss.xml">Git 入门基础</source>
+      <description>当前页面内容描述。</description>
+      <category>Git</category>
+      <pubDate>Sun, 09 Jan 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>快速了解 Git 的基本操作，在学习中先让自己用起来!</p>
+
+<h2 id="一、git-是什么" tabindex="-1"> 一、Git 是什么？</h2>
+<div><p>提示</p>
+<p>Git 是目前世界上最先进的<code>分布式版本控制系统</code>（没有之一）,用于敏捷高效地处理任何或小或大的项目。简单理解就是<code>代码管理工具</code>。使用 Git 一般处于以下三种原因：</p>
+<p><code>1、代码管理</code></p>
+<ul>
+<li>在本地写完代码后需要将代码备份到一个地方，Git 就给我们提供了一个仓库来进行存储和管理；</li>
+</ul>
+<p><code>2、版本控制</code></p>
+<ul>
+<li>如：我们开发一个项目，发布了很多个版本，想要查看之前某一个版本都更新了哪些内容或做版本回滚，就会非常的方便和快捷；</li>
+</ul>
+<p><code>3、团队协作</code></p>
+<ul>
+<li>当项目达到一定规模，会有多个人一起开发同一个项目（UI、前端、后端、运维）,文件或代码都是放到同一个仓库的，这么多人同时操作仓库里的文件很容易造成混乱，Git 也提供了团队协作的支持</li>
+</ul>
+</div>
+<h2 id="二、git-的安装配置" tabindex="-1"> 二、Git 的安装配置</h2>
+<div><p>提示</p>
+<p>在使用 Git 前我们需要先安装 Git。Git 目前支持 Linux/Unix、Solaris、Mac 和 Windows 平台上运行。
+Git 各平台安装包下载地址为：http://git-scm.com/downloads</p>
+<ul>
+<li>完成安装之后，就可以使用命令行的 git 工具（已经自带了 ssh 客户端）了，另外还有一个图形界面的 Git 项目管理工具。</li>
+<li>在开始菜单里找到 &quot;Gig&quot;-&gt;&quot;Git Bash&quot;, 会弹出 Git 命令窗口，你可以在该窗口进行 Git 操作。</li>
+</ul>
+</div>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Markdown</title>
+      <link>https://brysonlin.github.io/blog/blog/code/Language/Markdown/</link>
+      <guid>https://brysonlin.github.io/blog/blog/code/Language/Markdown/</guid>
+      <source url="https://brysonlin.github.io/blog/blog/rss.xml">Markdown</source>
+      <description>Markdown 是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。
+</description>
+      <category>Markdown</category>
+      <pubDate>Thu, 21 Jul 2022 09:23:30 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Markdown 是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。</p>
+
+<p>Markdown 的目标是实现「易读易写」。</p>
+<p>Markdown 的主要目的是用来作为一种网络内容的<strong>写作用语言</strong>。</p>
+<h2 id="目录" tabindex="-1"> 目录</h2>
+<ul>
+<li><a href="/code/Language/Markdown/intro.html">简介</a></li>
+<li><a href="/code/Language/Markdown/block.html">块元素</a></li>
+<li><a href="/code/Language/Markdown/inline.html">行内元素</a></li>
+<li><a href="/code/Language/Markdown/extend.html">扩展与其他内容</a></li>
+</ul>
+<h2 id="markdown-效果演示" tabindex="-1"> Markdown 效果演示</h2>
+<ul>
+<li><a href="/code/Language/Markdown/demo.html">查看详情</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Markdown Emoji 列表</title>
+      <link>https://brysonlin.github.io/blog/blog/code/Language/Markdown/emoji/</link>
+      <guid>https://brysonlin.github.io/blog/blog/code/Language/Markdown/emoji/</guid>
+      <source url="https://brysonlin.github.io/blog/blog/rss.xml">Markdown Emoji 列表</source>
+      <category>Markdown</category>
+      <pubDate>Thu, 21 Jul 2022 09:23:30 GMT</pubDate>
+      <content:encoded><![CDATA[<h2 id="人物" tabindex="-1"> 人物</h2>
+<ul>
+<li><a href="/code/Language/Markdown/emoji/people.html">点击前往</a></li>
+</ul>
+<h2 id="自然" tabindex="-1"> 自然</h2>
+<ul>
+<li><a href="/code/Language/Markdown/emoji/nature.html">点击前往</a></li>
+</ul>
+<h2 id="对象" tabindex="-1"> 对象</h2>
+<ul>
+<li><a href="/code/Language/Markdown/emoji/object.html">点击前往</a></li>
+</ul>
+<h2 id="地点" tabindex="-1"> 地点</h2>
+<ul>
+<li><a href="/code/Language/Markdown/emoji/place.html">点击前往</a></li>
+</ul>
+<h2 id="符号" tabindex="-1"> 符号</h2>
+<ul>
+<li><a href="/code/Language/Markdown/emoji/symbol.html">点击前往</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

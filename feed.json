@@ -1,0 +1,47 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "林初笔墨",
+  "home_page_url": "https://brysonlin.github.io/blog/blog/",
+  "feed_url": "https://brysonlin.github.io/blog/blog/feed.json",
+  "description": "林初笔墨,林初笔墨的博客,Web前端博客,前端博客,Web全栈技术博客,前端工程师博客",
+  "items": [
+    {
+      "title": "Git 入门基础",
+      "url": "https://brysonlin.github.io/blog/blog/code/basic/Git/",
+      "id": "https://brysonlin.github.io/blog/blog/code/basic/Git/",
+      "summary": "当前页面内容描述。",
+      "content_html": "<p>快速了解 Git 的基本操作，在学习中先让自己用起来!</p>\n\n<h2 id=\"一、git-是什么\" tabindex=\"-1\"> 一、Git 是什么？</h2>\n<div><p>提示</p>\n<p>Git 是目前世界上最先进的<code>分布式版本控制系统</code>（没有之一）,用于敏捷高效地处理任何或小或大的项目。简单理解就是<code>代码管理工具</code>。使用 Git 一般处于以下三种原因：</p>\n<p><code>1、代码管理</code></p>\n<ul>\n<li>在本地写完代码后需要将代码备份到一个地方，Git 就给我们提供了一个仓库来进行存储和管理；</li>\n</ul>\n<p><code>2、版本控制</code></p>\n<ul>\n<li>如：我们开发一个项目，发布了很多个版本，想要查看之前某一个版本都更新了哪些内容或做版本回滚，就会非常的方便和快捷；</li>\n</ul>\n<p><code>3、团队协作</code></p>\n<ul>\n<li>当项目达到一定规模，会有多个人一起开发同一个项目（UI、前端、后端、运维）,文件或代码都是放到同一个仓库的，这么多人同时操作仓库里的文件很容易造成混乱，Git 也提供了团队协作的支持</li>\n</ul>\n</div>\n<h2 id=\"二、git-的安装配置\" tabindex=\"-1\"> 二、Git 的安装配置</h2>\n<div><p>提示</p>\n<p>在使用 Git 前我们需要先安装 Git。Git 目前支持 Linux/Unix、Solaris、Mac 和 Windows 平台上运行。\nGit 各平台安装包下载地址为：http://git-scm.com/downloads</p>\n<ul>\n<li>完成安装之后，就可以使用命令行的 git 工具（已经自带了 ssh 客户端）了，另外还有一个图形界面的 Git 项目管理工具。</li>\n<li>在开始菜单里找到 &quot;Gig&quot;-&gt;&quot;Git Bash&quot;, 会弹出 Git 命令窗口，你可以在该窗口进行 Git 操作。</li>\n</ul>\n</div>\n",
+      "date_published": "2022-01-09T00:00:00.000Z",
+      "date_modified": "2022-07-21T09:23:30.000Z",
+      "authors": [],
+      "tags": [
+        "Git"
+      ]
+    },
+    {
+      "title": "Markdown",
+      "url": "https://brysonlin.github.io/blog/blog/code/Language/Markdown/",
+      "id": "https://brysonlin.github.io/blog/blog/code/Language/Markdown/",
+      "summary": "Markdown 是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。\n",
+      "content_html": "<p>Markdown 是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。</p>\n\n<p>Markdown 的目标是实现「易读易写」。</p>\n<p>Markdown 的主要目的是用来作为一种网络内容的<strong>写作用语言</strong>。</p>\n<h2 id=\"目录\" tabindex=\"-1\"> 目录</h2>\n<ul>\n<li><a href=\"/code/Language/Markdown/intro.html\">简介</a></li>\n<li><a href=\"/code/Language/Markdown/block.html\">块元素</a></li>\n<li><a href=\"/code/Language/Markdown/inline.html\">行内元素</a></li>\n<li><a href=\"/code/Language/Markdown/extend.html\">扩展与其他内容</a></li>\n</ul>\n<h2 id=\"markdown-效果演示\" tabindex=\"-1\"> Markdown 效果演示</h2>\n<ul>\n<li><a href=\"/code/Language/Markdown/demo.html\">查看详情</a></li>\n</ul>\n",
+      "date_published": "2022-07-21T09:23:30.000Z",
+      "date_modified": "2022-07-22T01:39:25.000Z",
+      "authors": [],
+      "tags": [
+        "Markdown"
+      ]
+    },
+    {
+      "title": "Markdown Emoji 列表",
+      "url": "https://brysonlin.github.io/blog/blog/code/Language/Markdown/emoji/",
+      "id": "https://brysonlin.github.io/blog/blog/code/Language/Markdown/emoji/",
+      "content_html": "<h2 id=\"人物\" tabindex=\"-1\"> 人物</h2>\n<ul>\n<li><a href=\"/code/Language/Markdown/emoji/people.html\">点击前往</a></li>\n</ul>\n<h2 id=\"自然\" tabindex=\"-1\"> 自然</h2>\n<ul>\n<li><a href=\"/code/Language/Markdown/emoji/nature.html\">点击前往</a></li>\n</ul>\n<h2 id=\"对象\" tabindex=\"-1\"> 对象</h2>\n<ul>\n<li><a href=\"/code/Language/Markdown/emoji/object.html\">点击前往</a></li>\n</ul>\n<h2 id=\"地点\" tabindex=\"-1\"> 地点</h2>\n<ul>\n<li><a href=\"/code/Language/Markdown/emoji/place.html\">点击前往</a></li>\n</ul>\n<h2 id=\"符号\" tabindex=\"-1\"> 符号</h2>\n<ul>\n<li><a href=\"/code/Language/Markdown/emoji/symbol.html\">点击前往</a></li>\n</ul>\n",
+      "date_published": "2022-07-21T09:23:30.000Z",
+      "date_modified": "2022-07-21T09:23:30.000Z",
+      "authors": [],
+      "tags": [
+        "Markdown"
+      ]
+    }
+  ]
+}
