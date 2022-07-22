@@ -97,6 +97,9 @@ export default hopeTheme({
       rss: true,
     },
     // 增强Markdown语法的插件
+    // mdEnhance: {
+    //   enableAll: true,
+    // }
     mdEnhance: {
       attrs: true,  // 你可以使用特殊标记为 Markdown 元素添加属性
       container: true, // 自定义容器
@@ -106,11 +109,11 @@ export default hopeTheme({
       flowchart: true,
       footnote: true,  // 让你的 VuePress 站点中的 Markdown 文件支持脚注。
       imageMark: true,
-      presentation: true,   // 是否启用幻灯片支持
       sub: true,
       sup: true,
       tex: true,
       vpre: true,
+      presentation: true,   // 是否启用幻灯片支持
     },
   },
 });
