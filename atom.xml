@@ -3,11 +3,45 @@
   <id>https://brysonlin.github.io/blog/blog/</id>
   <title>林初笔墨</title>
   <subtitle>林初笔墨,林初笔墨的博客,Web前端博客,前端博客,Web全栈技术博客,前端工程师博客</subtitle>
-  <updated>2022-07-22T07:20:15.880Z</updated>
+  <updated>2022-07-24T08:05:42.114Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://brysonlin.github.io/blog/blog/atom.xml"/>
   <link rel="alternate" href="https://brysonlin.github.io/blog/blog/"/>
+  <category term="书籍"/>
   <category term="Markdown"/>
+  <entry>
+    <title type="html">书籍文档</title>
+    <id>https://brysonlin.github.io/blog/blog/books/</id>
+    <link href="https://brysonlin.github.io/blog/blog/books/"/>
+    <updated>2022-07-24T08:04:21.000Z</updated>
+    <summary type="html"><![CDATA[<p>前端程序员必看书籍</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>前端程序员必看书籍</p>
+
+<h2 id="书籍列表" tabindex="-1"> 书籍列表</h2>
+<h3 id="javascript" tabindex="-1"> JavaScript</h3>
+<ul>
+<li>
+<p><a href="/books/little-red-book(v4).html">JavaScript高级程序设计（第4版）</a></p>
+</li>
+<li>
+<p><a href="/books/js-object-oriented.html">JavaScrip面向对象编程指南（第二版）</a></p>
+</li>
+<li>
+<p><a href="/books/js-dom-programming-art.html">JavaScript DOM编程艺术(第2版)</a></p>
+</li>
+<li>
+<p><a href="/books/js-definitive-guide.html">JavaScript 权威指南（第四版）</a></p>
+</li>
+</ul>
+<h3 id="css" tabindex="-1"> CSS</h3>
+<ul>
+<li><a href="/books/css-definitive-guide.html">CSS权威指南 （第3版）</a></li>
+</ul>
+]]></content>
+    <category term="书籍" scheme=""/>
+    <published>2020-10-05T00:00:00.000Z</published>
+  </entry>
   <entry>
     <title type="html">代码笔记</title>
     <id>https://brysonlin.github.io/blog/blog/code/</id>
@@ -86,7 +120,7 @@
     <title type="html">Markdown</title>
     <id>https://brysonlin.github.io/blog/blog/code/Language/Markdown/</id>
     <link href="https://brysonlin.github.io/blog/blog/code/Language/Markdown/"/>
-    <updated>2022-07-22T07:01:38.000Z</updated>
+    <updated>2022-07-24T08:04:21.000Z</updated>
     <summary type="html"><![CDATA[<p>Markdown 是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>Markdown 是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。</p>

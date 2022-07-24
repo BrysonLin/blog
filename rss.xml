@@ -6,11 +6,45 @@
     <link>https://brysonlin.github.io/blog/blog/</link>
     <description>林初笔墨,林初笔墨的博客,Web前端博客,前端博客,Web全栈技术博客,前端工程师博客</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 22 Jul 2022 07:20:15 GMT</pubDate>
-    <lastBuildDate>Fri, 22 Jul 2022 07:20:15 GMT</lastBuildDate>
+    <pubDate>Sun, 24 Jul 2022 08:05:42 GMT</pubDate>
+    <lastBuildDate>Sun, 24 Jul 2022 08:05:42 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>书籍</category>
     <category>Markdown</category>
+    <item>
+      <title>书籍文档</title>
+      <link>https://brysonlin.github.io/blog/blog/books/</link>
+      <guid>https://brysonlin.github.io/blog/blog/books/</guid>
+      <source url="https://brysonlin.github.io/blog/blog/rss.xml">书籍文档</source>
+      <description>前端程序员必看书籍
+</description>
+      <category>书籍</category>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>前端程序员必看书籍</p>
+
+<h2 id="书籍列表" tabindex="-1"> 书籍列表</h2>
+<h3 id="javascript" tabindex="-1"> JavaScript</h3>
+<ul>
+<li>
+<p><a href="/books/little-red-book(v4).html">JavaScript高级程序设计（第4版）</a></p>
+</li>
+<li>
+<p><a href="/books/js-object-oriented.html">JavaScrip面向对象编程指南（第二版）</a></p>
+</li>
+<li>
+<p><a href="/books/js-dom-programming-art.html">JavaScript DOM编程艺术(第2版)</a></p>
+</li>
+<li>
+<p><a href="/books/js-definitive-guide.html">JavaScript 权威指南（第四版）</a></p>
+</li>
+</ul>
+<h3 id="css" tabindex="-1"> CSS</h3>
+<ul>
+<li><a href="/books/css-definitive-guide.html">CSS权威指南 （第3版）</a></li>
+</ul>
+]]></content:encoded>
+    </item>
     <item>
       <title>代码笔记</title>
       <link>https://brysonlin.github.io/blog/blog/code/</link>
