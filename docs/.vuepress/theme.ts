@@ -24,7 +24,7 @@ export default hopeTheme({
   },
 
   // 阿里图标库
-  iconAssets: "iconfont",  
+  iconAssets: "iconfont",
 
   // 个人主页头像
   logo: "/logo.svg",  
@@ -101,19 +101,32 @@ export default hopeTheme({
     //   enableAll: true,
     // }
     mdEnhance: {
-      attrs: true,  // 你可以使用特殊标记为 Markdown 元素添加属性
-      container: true, // 自定义容器
-      align: true,
-      codetabs: true,
-      demo: true,
-      flowchart: true,
-      footnote: true,  // 让你的 VuePress 站点中的 Markdown 文件支持脚注。
-      imageMark: true,
-      sub: true,
-      sup: true,
-      tex: true,
-      vpre: true,
+      attrs: true,          // 你可以使用特殊标记为 Markdown 元素添加属性
+      container: true,      // 主题可以为你添加提示、注释、信息、注意、警告和详情自定义容器的支持。
+      align: true,          // 段落对齐进行自定义。
+      flowchart: true,      // 流程图
+      footnote: true,       // 让你的 VuePress 站点中的 Markdown 文件支持脚注。
+      sub: true,            // 启用下角标功能
+      sup: true,            // 启用上角标
+      tex: true,            // 支持公示
+      chart: true,          // 文件支持图表。
+      echarts: true,        // 文件支持echarts图表。
+      mermaid: true,        // 甘特图、git图等
+      vpre: true,           // Mustache  语法
       presentation: true,   // 是否启用幻灯片支持
+      tabs: true,           // Markdown 文件支持供选项卡。
+      codetabs: true,       // 代码块分组
+      demo: true,           //让你的 VuePress 站点中的 Markdown 文件支持代码案例。
+      tasklist: true,       //任务列表。 
+      imageMark: true,      // 启用图片标记
+      imageSize: true,      // 启用图片大小
+      include: true,        // 导入其他文件。
+      mark: true,           // Markdown 文件支持标记 ==标记==
     },
+    components:[
+      "Badge",
+      "CodePen",
+      "PDF",
+    ]
   },
 });
