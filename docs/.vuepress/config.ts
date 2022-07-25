@@ -1,6 +1,6 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme";  // vuepress-theme-hope 主题
-import { searchPlugin } from "@vuepress/plugin-search";  // 搜索框
+// import { searchPlugin } from "@vuepress/plugin-search";  // 搜索框
 
 export default defineUserConfig({
   lang: "zh-CN",
@@ -10,13 +10,14 @@ export default defineUserConfig({
   base: "/blog/",  // 部署站点的基础路径。
   theme, // 主题配置
   plugins: [
-    searchPlugin({
-      // 你的选项
-      locales: {
-        "/zh/": {
-          placeholder: "搜索",
-        },
-      },
-    }),
+    // searchPlugin({
+    //   // 你的选项
+    //   locales: {
+    //     '/': {
+    //       placeholder: '搜索文档',
+    //     },
+    //   },
+    //   hotKeys: ['s', 'k']
+    // }),
   ],
 });
