@@ -49,7 +49,7 @@ export default hopeTheme({
   navbarLayout:{ 
     left: ["Brand"], 
     center: ["Links"], 
-    right: ["Search","Language", "Repo", "Outlook"] 
+    right: ["Language", "Repo", "Outlook","Search"] 
   },
 
   // 侧边栏
