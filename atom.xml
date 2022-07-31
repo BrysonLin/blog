@@ -3,7 +3,7 @@
   <id>https://brysonlin.github.io/blog/blog/</id>
   <title>林初笔墨</title>
   <subtitle>林初笔墨,林初笔墨的博客,Web前端博客,前端博客,Web全栈技术博客,前端工程师博客</subtitle>
-  <updated>2022-07-31T03:24:31.433Z</updated>
+  <updated>2022-07-31T03:44:12.636Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://brysonlin.github.io/blog/blog/atom.xml"/>
   <link rel="alternate" href="https://brysonlin.github.io/blog/blog/"/>
@@ -11,9 +11,9 @@
   <category term="书籍"/>
   <entry>
     <title type="html">Markdown</title>
-    <id>https://brysonlin.github.io/blog/blog/code/language/markdown/</id>
-    <link href="https://brysonlin.github.io/blog/blog/code/language/markdown/"/>
-    <updated>2022-07-31T03:23:32.000Z</updated>
+    <id>https://brysonlin.github.io/blog/blog/code/github/language/markdown/</id>
+    <link href="https://brysonlin.github.io/blog/blog/code/github/language/markdown/"/>
+    <updated>2022-07-31T03:43:11.000Z</updated>
     <summary type="html"><![CDATA[<p>Markdown 是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>Markdown 是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。</p>
@@ -22,36 +22,36 @@
 <p>Markdown 的主要目的是用来作为一种网络内容的<strong>写作用语言</strong>。</p>
 ]]></content>
     <category term="Markdown" scheme=""/>
-    <published>2022-07-31T03:23:32.000Z</published>
+    <published>2022-07-31T03:43:11.000Z</published>
   </entry>
   <entry>
     <title type="html">Markdown Emoji 列表</title>
-    <id>https://brysonlin.github.io/blog/blog/code/language/markdown/emoji/</id>
-    <link href="https://brysonlin.github.io/blog/blog/code/language/markdown/emoji/"/>
-    <updated>2022-07-31T03:23:32.000Z</updated>
+    <id>https://brysonlin.github.io/blog/blog/code/github/language/markdown/emoji/</id>
+    <link href="https://brysonlin.github.io/blog/blog/code/github/language/markdown/emoji/"/>
+    <updated>2022-07-31T03:43:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="人物" tabindex="-1"> 人物</h2>
 <ul>
-<li><a href="/code/language/markdown/emoji/people.html">点击前往</a></li>
+<li><a href="/code/github/language/markdown/emoji/people.html">点击前往</a></li>
 </ul>
 <h2 id="自然" tabindex="-1"> 自然</h2>
 <ul>
-<li><a href="/code/language/markdown/emoji/nature.html">点击前往</a></li>
+<li><a href="/code/github/language/markdown/emoji/nature.html">点击前往</a></li>
 </ul>
 <h2 id="对象" tabindex="-1"> 对象</h2>
 <ul>
-<li><a href="/code/language/markdown/emoji/object.html">点击前往</a></li>
+<li><a href="/code/github/language/markdown/emoji/object.html">点击前往</a></li>
 </ul>
 <h2 id="地点" tabindex="-1"> 地点</h2>
 <ul>
-<li><a href="/code/language/markdown/emoji/place.html">点击前往</a></li>
+<li><a href="/code/github/language/markdown/emoji/place.html">点击前往</a></li>
 </ul>
 <h2 id="符号" tabindex="-1"> 符号</h2>
 <ul>
-<li><a href="/code/language/markdown/emoji/symbol.html">点击前往</a></li>
+<li><a href="/code/github/language/markdown/emoji/symbol.html">点击前往</a></li>
 </ul>
 ]]></content>
     <category term="Markdown" scheme=""/>
-    <published>2022-07-31T03:23:32.000Z</published>
+    <published>2022-07-31T03:43:11.000Z</published>
   </entry>
   <entry>
     <title type="html">书籍文档</title>
@@ -159,49 +159,5 @@
 </ul>
 ]]></content>
     <published>2022-07-22T07:01:38.000Z</published>
-  </entry>
-  <entry>
-    <title type="html">Markdown</title>
-    <id>https://brysonlin.github.io/blog/blog/code/Language/Markdown/</id>
-    <link href="https://brysonlin.github.io/blog/blog/code/Language/Markdown/"/>
-    <updated>2022-07-24T08:04:21.000Z</updated>
-    <summary type="html"><![CDATA[<p>Markdown 是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>Markdown 是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。</p>
-
-<p>Markdown 的目标是实现「易读易写」。</p>
-<p>Markdown 的主要目的是用来作为一种网络内容的<strong>写作用语言</strong>。</p>
-]]></content>
-    <category term="Markdown" scheme=""/>
-    <published>2022-07-21T09:23:30.000Z</published>
-  </entry>
-  <entry>
-    <title type="html">Markdown Emoji 列表</title>
-    <id>https://brysonlin.github.io/blog/blog/code/Language/Markdown/emoji/</id>
-    <link href="https://brysonlin.github.io/blog/blog/code/Language/Markdown/emoji/"/>
-    <updated>2022-07-21T09:23:30.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="人物" tabindex="-1"> 人物</h2>
-<ul>
-<li><a href="/code/Language/Markdown/emoji/people.html">点击前往</a></li>
-</ul>
-<h2 id="自然" tabindex="-1"> 自然</h2>
-<ul>
-<li><a href="/code/Language/Markdown/emoji/nature.html">点击前往</a></li>
-</ul>
-<h2 id="对象" tabindex="-1"> 对象</h2>
-<ul>
-<li><a href="/code/Language/Markdown/emoji/object.html">点击前往</a></li>
-</ul>
-<h2 id="地点" tabindex="-1"> 地点</h2>
-<ul>
-<li><a href="/code/Language/Markdown/emoji/place.html">点击前往</a></li>
-</ul>
-<h2 id="符号" tabindex="-1"> 符号</h2>
-<ul>
-<li><a href="/code/Language/Markdown/emoji/symbol.html">点击前往</a></li>
-</ul>
-]]></content>
-    <category term="Markdown" scheme=""/>
-    <published>2022-07-21T09:23:30.000Z</published>
   </entry>
 </feed>
