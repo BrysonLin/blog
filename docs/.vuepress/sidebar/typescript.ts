@@ -6,8 +6,14 @@ export default arraySidebar([
     text: "基础介绍",
     icon: "windows",
     children: [
-      "installandcompiler/",
-      "editor/"
+      "installandcompiler",
+      "editor",
+      "data-type",
+      "fn",
+      "class",
+      "interface",
+      "genericity",
+      "decorator",
     ],
   },
 ]);

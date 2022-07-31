@@ -47,16 +47,24 @@ article: false
   ts-node helloWorld.ts
 ```
 
-3. 命令编译报错
+## 三、命令编译报错
 ::: info
   [tsc命令报错:](https://blog.csdn.net/ddx2019/article/details/106252949/)
 :::
 
+按住win+x  选择 Windows PowerShell（管理员）
+在cmd中输入：  
+```shell
+  set-ExecutionPolicy RemoteSigned
 ```
-  按住win+x  选择 Windows PowerShell（管理员）
-  输入  **`set-ExecutionPolicy RemoteSigned`**
-  再输入**`get-ExecutionPolicy`** 看到Restricted  
+再输入 
+```shell
+  get-ExecutionPolicy 
 ```
+```shell
+  Restricted  
+```
+
    
 
 
