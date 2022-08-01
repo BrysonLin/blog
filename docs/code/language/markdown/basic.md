@@ -4,7 +4,7 @@ icon: markdown
 article: true
 category: Markdown
 tag:
-  - Markdown
+  - Markdown初级
 ---
 
 ::: info Mardown 语法提示
