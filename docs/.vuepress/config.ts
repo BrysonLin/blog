@@ -2,6 +2,7 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme";  // vuepress-theme-hope 主题
 import { docsearchPlugin } from "@vuepress/plugin-docsearch";
 
+
 export default defineUserConfig({
   lang: "zh-CN",
   title: "林初笔墨",

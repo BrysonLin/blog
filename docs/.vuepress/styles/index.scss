@@ -1,2 +1,17 @@
+@import "./html.scss";
+
 .pdf {--content-width: 100vw;}  // pdf 插件页面调整
+
+/* css class类 用于 attri属性 */
+
+// 重点语法标识
+.code{
+  color: #c7254e;
+  background-color: #f9f2f4;
+  font-size: 14px;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: auto 3px;
+}
 

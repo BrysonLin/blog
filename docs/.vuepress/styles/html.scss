@@ -1,0 +1,4 @@
+/* 需要显示 HTML 语句 而不渲染时用 （相当于在markdown中重写了 HTML标签的默认样式） */
+.html{
+  background: transparent;
+}

@@ -3,4 +3,10 @@ $theme-color: #3eaf7c;
 // content
 // $content-width: 1200px !default;
 
-
+/* 改变引用块的样式 */
+blockquote {
+  border-left: 4px solid #42b983;
+  padding: 10px 15px;
+  color: #777;
+  background-color: rgba(66, 185, 131, .1);
+}
