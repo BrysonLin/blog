@@ -6,12 +6,73 @@
     <link>https://brysonlin.github.io/blog/blog/</link>
     <description>林初笔墨,林初笔墨的博客,Web前端博客,前端博客,Web全栈技术博客,前端工程师博客</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 02 Aug 2022 13:10:20 GMT</pubDate>
-    <lastBuildDate>Tue, 02 Aug 2022 13:10:20 GMT</lastBuildDate>
+    <pubDate>Tue, 02 Aug 2022 13:28:15 GMT</pubDate>
+    <lastBuildDate>Tue, 02 Aug 2022 13:28:15 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <category>Markdown</category>
     <category>书籍</category>
+    <category>Markdown</category>
+    <item>
+      <title>学习笔记</title>
+      <link>https://brysonlin.github.io/blog/blog/learning/</link>
+      <guid>https://brysonlin.github.io/blog/blog/learning/</guid>
+      <source url="https://brysonlin.github.io/blog/blog/rss.xml">学习笔记</source>
+      <pubDate>Tue, 02 Aug 2022 13:26:11 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h2 id="该内容正在努力建设中" tabindex="-1"> 该内容正在努力建设中 ......</h2>
+<blockquote>
+<p>That's a Four-Oh-Four.</p>
+</blockquote>
+<p><a href="/">Take me home.</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>书籍文档</title>
+      <link>https://brysonlin.github.io/blog/blog/learning/books/</link>
+      <guid>https://brysonlin.github.io/blog/blog/learning/books/</guid>
+      <source url="https://brysonlin.github.io/blog/blog/rss.xml">书籍文档</source>
+      <description>前端程序员必看书籍
+</description>
+      <category>书籍</category>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>前端程序员必看书籍</p>
+
+<h2 id="书籍列表" tabindex="-1"> 书籍列表</h2>
+<h3 id="javascript" tabindex="-1"> JavaScript</h3>
+<ul>
+<li>
+<p><a href="/learning/books/little-red-book(v4).html">JavaScript高级程序设计（第4版）</a></p>
+</li>
+<li>
+<p><a href="/learning/books/js-object-oriented.html">JavaScrip面向对象编程指南（第二版）</a></p>
+</li>
+<li>
+<p><a href="/learning/books/js-dom-programming-art.html">JavaScript DOM编程艺术(第2版)</a></p>
+</li>
+<li>
+<p><a href="/learning/books/js-definitive-guide.html">JavaScript 权威指南（第四版）</a></p>
+</li>
+</ul>
+<h3 id="css" tabindex="-1"> CSS</h3>
+<ul>
+<li><a href="/learning/books/css-definitive-guide.html">CSS权威指南 （第3版）</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Web 前端</title>
+      <link>https://brysonlin.github.io/blog/blog/learning/web/</link>
+      <guid>https://brysonlin.github.io/blog/blog/learning/web/</guid>
+      <source url="https://brysonlin.github.io/blog/blog/rss.xml">Web 前端</source>
+      <pubDate>Tue, 02 Aug 2022 13:26:11 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h2 id="该内容正在努力建设中" tabindex="-1"> 该内容正在努力建设中 ......</h2>
+<blockquote>
+<p>That's a Four-Oh-Four.</p>
+</blockquote>
+<p><a href="/">Take me home.</a></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>泛应用</title>
       <link>https://brysonlin.github.io/blog/blog/generic-application/</link>
@@ -1808,39 +1869,6 @@ p<span>.</span><span>work</span><span>(</span><span>)</span>
 <h2 id="符号" tabindex="-1"> 符号</h2>
 <ul>
 <li><a href="/code/language/markdown/emoji/symbol.html">点击前往</a></li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>书籍文档</title>
-      <link>https://brysonlin.github.io/blog/blog/books/</link>
-      <guid>https://brysonlin.github.io/blog/blog/books/</guid>
-      <source url="https://brysonlin.github.io/blog/blog/rss.xml">书籍文档</source>
-      <description>前端程序员必看书籍
-</description>
-      <category>书籍</category>
-      <pubDate>Mon, 05 Oct 2020 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>前端程序员必看书籍</p>
-
-<h2 id="书籍列表" tabindex="-1"> 书籍列表</h2>
-<h3 id="javascript" tabindex="-1"> JavaScript</h3>
-<ul>
-<li>
-<p><a href="/books/little-red-book(v4).html">JavaScript高级程序设计（第4版）</a></p>
-</li>
-<li>
-<p><a href="/books/js-object-oriented.html">JavaScrip面向对象编程指南（第二版）</a></p>
-</li>
-<li>
-<p><a href="/books/js-dom-programming-art.html">JavaScript DOM编程艺术(第2版)</a></p>
-</li>
-<li>
-<p><a href="/books/js-definitive-guide.html">JavaScript 权威指南（第四版）</a></p>
-</li>
-</ul>
-<h3 id="css" tabindex="-1"> CSS</h3>
-<ul>
-<li><a href="/books/css-definitive-guide.html">CSS权威指南 （第3版）</a></li>
 </ul>
 ]]></content:encoded>
     </item>

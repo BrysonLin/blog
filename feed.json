@@ -6,6 +6,39 @@
   "description": "林初笔墨,林初笔墨的博客,Web前端博客,前端博客,Web全栈技术博客,前端工程师博客",
   "items": [
     {
+      "title": "学习笔记",
+      "url": "https://brysonlin.github.io/blog/blog/learning/",
+      "id": "https://brysonlin.github.io/blog/blog/learning/",
+      "content_html": "\n<h2 id=\"该内容正在努力建设中\" tabindex=\"-1\"> 该内容正在努力建设中 ......</h2>\n<blockquote>\n<p>That's a Four-Oh-Four.</p>\n</blockquote>\n<p><a href=\"/\">Take me home.</a></p>\n",
+      "date_published": "2022-08-02T13:26:11.000Z",
+      "date_modified": "2022-08-02T13:26:11.000Z",
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "书籍文档",
+      "url": "https://brysonlin.github.io/blog/blog/learning/books/",
+      "id": "https://brysonlin.github.io/blog/blog/learning/books/",
+      "summary": "前端程序员必看书籍\n",
+      "content_html": "<p>前端程序员必看书籍</p>\n\n<h2 id=\"书籍列表\" tabindex=\"-1\"> 书籍列表</h2>\n<h3 id=\"javascript\" tabindex=\"-1\"> JavaScript</h3>\n<ul>\n<li>\n<p><a href=\"/learning/books/little-red-book(v4).html\">JavaScript高级程序设计（第4版）</a></p>\n</li>\n<li>\n<p><a href=\"/learning/books/js-object-oriented.html\">JavaScrip面向对象编程指南（第二版）</a></p>\n</li>\n<li>\n<p><a href=\"/learning/books/js-dom-programming-art.html\">JavaScript DOM编程艺术(第2版)</a></p>\n</li>\n<li>\n<p><a href=\"/learning/books/js-definitive-guide.html\">JavaScript 权威指南（第四版）</a></p>\n</li>\n</ul>\n<h3 id=\"css\" tabindex=\"-1\"> CSS</h3>\n<ul>\n<li><a href=\"/learning/books/css-definitive-guide.html\">CSS权威指南 （第3版）</a></li>\n</ul>\n",
+      "date_published": "2020-10-05T00:00:00.000Z",
+      "date_modified": "2022-08-02T13:26:11.000Z",
+      "authors": [],
+      "tags": [
+        "书籍"
+      ]
+    },
+    {
+      "title": "Web 前端",
+      "url": "https://brysonlin.github.io/blog/blog/learning/web/",
+      "id": "https://brysonlin.github.io/blog/blog/learning/web/",
+      "content_html": "\n<h2 id=\"该内容正在努力建设中\" tabindex=\"-1\"> 该内容正在努力建设中 ......</h2>\n<blockquote>\n<p>That's a Four-Oh-Four.</p>\n</blockquote>\n<p><a href=\"/\">Take me home.</a></p>\n",
+      "date_published": "2022-08-02T13:26:11.000Z",
+      "date_modified": "2022-08-02T13:26:11.000Z",
+      "authors": [],
+      "tags": []
+    },
+    {
       "title": "泛应用",
       "url": "https://brysonlin.github.io/blog/blog/generic-application/",
       "id": "https://brysonlin.github.io/blog/blog/generic-application/",
@@ -226,19 +259,6 @@
       "authors": [],
       "tags": [
         "Markdown"
-      ]
-    },
-    {
-      "title": "书籍文档",
-      "url": "https://brysonlin.github.io/blog/blog/books/",
-      "id": "https://brysonlin.github.io/blog/blog/books/",
-      "summary": "前端程序员必看书籍\n",
-      "content_html": "<p>前端程序员必看书籍</p>\n\n<h2 id=\"书籍列表\" tabindex=\"-1\"> 书籍列表</h2>\n<h3 id=\"javascript\" tabindex=\"-1\"> JavaScript</h3>\n<ul>\n<li>\n<p><a href=\"/books/little-red-book(v4).html\">JavaScript高级程序设计（第4版）</a></p>\n</li>\n<li>\n<p><a href=\"/books/js-object-oriented.html\">JavaScrip面向对象编程指南（第二版）</a></p>\n</li>\n<li>\n<p><a href=\"/books/js-dom-programming-art.html\">JavaScript DOM编程艺术(第2版)</a></p>\n</li>\n<li>\n<p><a href=\"/books/js-definitive-guide.html\">JavaScript 权威指南（第四版）</a></p>\n</li>\n</ul>\n<h3 id=\"css\" tabindex=\"-1\"> CSS</h3>\n<ul>\n<li><a href=\"/books/css-definitive-guide.html\">CSS权威指南 （第3版）</a></li>\n</ul>\n",
-      "date_published": "2020-10-05T00:00:00.000Z",
-      "date_modified": "2022-07-24T08:04:21.000Z",
-      "authors": [],
-      "tags": [
-        "书籍"
       ]
     },
     {
