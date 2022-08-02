@@ -3,7 +3,7 @@
   <id>https://brysonlin.github.io/blog/blog/</id>
   <title>林初笔墨</title>
   <subtitle>林初笔墨,林初笔墨的博客,Web前端博客,前端博客,Web全栈技术博客,前端工程师博客</subtitle>
-  <updated>2022-08-01T14:51:57.465Z</updated>
+  <updated>2022-08-02T03:30:44.580Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://brysonlin.github.io/blog/blog/atom.xml"/>
   <link rel="alternate" href="https://brysonlin.github.io/blog/blog/"/>
@@ -13,15 +13,15 @@
     <title type="html">Markdown扩展语法</title>
     <id>https://brysonlin.github.io/blog/blog/code/language/markdown/extension.html</id>
     <link href="https://brysonlin.github.io/blog/blog/code/language/markdown/extension.html"/>
-    <updated>2022-08-01T14:50:55.000Z</updated>
+    <updated>2022-08-02T03:29:36.000Z</updated>
     <content type="html"><![CDATA[<h2 id="表格" tabindex="-1"> 表格</h2>
 <blockquote>
 <p>要添加表格，请使用三个或更多连字符 ( <code>---</code>) 来创建每一列的标题，并使用竖线 ( <code>|</code>) 分隔每一列。为了兼容性，您还应该在行的任一端添加一个管道。</p>
 </blockquote>
-<div><pre><code><span><span><span>|</span><span> Syntax      </span><span>|</span><span> Description </span><span>|</span>
-</span><span><span>|</span> <span>-----------</span> <span>|</span> <span>-----------</span> <span>|</span>
-</span><span><span>|</span><span> Header      </span><span>|</span><span> Title       </span><span>|</span>
-<span>|</span><span> Paragraph   </span><span>|</span><span> Text        </span><span>|</span>
+<div><pre><code><span><span><span>|</span><span> Syntax    </span><span>|</span><span> Description </span><span>|</span>
+</span><span><span>|</span> <span>---------</span> <span>|</span> <span>-----------</span> <span>|</span>
+</span><span><span>|</span><span> Header    </span><span>|</span><span> Title       </span><span>|</span>
+<span>|</span><span> Paragraph </span><span>|</span><span> Text        </span><span>|</span>
 </span></span></code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div></div></div><p>渲染的输出如下所示:</p>
 <table>
 <thead>
@@ -44,18 +44,18 @@
 <blockquote>
 <p>单元格宽度可以变化，如下所示。渲染的输出看起来是一样的。</p>
 </blockquote>
-<div><pre><code><span><span><span>|</span><span> Syntax </span><span>|</span><span> Description </span><span>|</span>
-</span><span><span>|</span> <span>---</span> <span>|</span> <span>-----------</span> <span>|</span>
-</span><span><span>|</span><span> Header </span><span>|</span><span> Title </span><span>|</span>
-<span>|</span><span> Paragraph </span><span>|</span><span> Text </span><span>|</span>
+<div><pre><code><span><span><span>|</span><span> Syntax    </span><span>|</span><span> Description </span><span>|</span>
+</span><span><span>|</span> <span>---------</span> <span>|</span> <span>-----------</span> <span>|</span>
+</span><span><span>|</span><span> Header    </span><span>|</span><span> Title       </span><span>|</span>
+<span>|</span><span> Paragraph </span><span>|</span><span> Text        </span><span>|</span>
 </span></span></code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div></div></div><h3 id="表格内的对齐方式用" tabindex="-1"> 表格内的对齐方式用</h3>
 <blockquote>
 <p>您可以通过在标题行内连字符的<code>左侧、右侧或两侧添加冒号 (:) 来将列中的文本向左、向右或居中对齐</code>。</p>
 </blockquote>
-<div><pre><code><span><span><span>|</span><span> 左对齐     </span><span>|</span><span> 居中对齐       </span><span>|</span><span> 右对齐     </span><span>|</span>
-</span><span><span>|</span> <span>:---</span>        <span>|</span>    <span>:----:</span>   <span>|</span>          <span>---:</span> <span>|</span>
-</span><span><span>|</span><span> Header      </span><span>|</span><span> Title       </span><span>|</span><span> Here's this   </span><span>|</span>
-<span>|</span><span> Paragraph   </span><span>|</span><span> Text        </span><span>|</span><span> And more      </span><span>|</span>
+<div><pre><code><span><span><span>|</span><span> 左对齐    </span><span>|</span><span> 居中对齐 </span><span>|</span><span>      右对齐 </span><span>|</span>
+</span><span><span>|</span> <span>:--------</span> <span>|</span> <span>:------:</span> <span>|</span> <span>----------:</span> <span>|</span>
+</span><span><span>|</span><span> Header    </span><span>|</span><span>  Title   </span><span>|</span><span> Here's this </span><span>|</span>
+<span>|</span><span> Paragraph </span><span>|</span><span>   Text   </span><span>|</span><span>    And more </span><span>|</span>
 </span></span></code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div></div></div><p>渲染的输出如下所示:</p>
 <table>
 <thead>
@@ -89,11 +89,11 @@
 <blockquote>
 <p>基本的 Markdown 语法允许您通过将行<code>缩进四个空格</code>或<code>一个制表符</code>来创建代码块。如果您觉得不方便，请尝试使用围栏代码块。根据您的 Markdown 处理器或编辑器，您将在代码块前后的行上使用三个反引号 ( ```) 或三个波浪号 ( )。~~~最好的部分？您不必缩进任何行！</p>
 </blockquote>
-<div><pre><code>  {
-    "firstName": "John",
-    "lastName": "Smith",
-    "age": 25
-  }
+<div><pre><code>{
+"firstName": "John",
+"lastName": "Smith",
+"age": 25
+}
 </code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div></div></div><p>渲染的输出如下所示:</p>
 <p>{
 &quot;firstName&quot;: &quot;John&quot;,
@@ -104,40 +104,45 @@
 <blockquote>
 <p>许多 Markdown 处理器支持对受保护的代码块进行语法高亮显示。此功能允许您为编写代码的任何语言添加颜色突出显示。要添加语法突出显示，请在受保护的代码块之前的反引号旁边指定一种语言。</p>
 </blockquote>
-<div><pre><code>  ```json
-  {
-    "firstName": "John",
-    "lastName": "Smith",
-    "age": 25
-  }
-</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div></div></div><div><pre><code>
-渲染的输出如下所示:
-
-```json
-{
+<div><pre><code><span><span>```</span><span>json</span>
+<span>{
   "firstName": "John",
   "lastName": "Smith",
   "age": 25
-}
-</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h2 id="脚注" tabindex="-1"> 脚注</h2>
+}</span>
+<span>```</span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p>渲染的输出如下所示:</p>
+<div><pre><code><span>{</span>
+  <span>"firstName"</span><span>:</span> <span>"John"</span><span>,</span>
+  <span>"lastName"</span><span>:</span> <span>"Smith"</span><span>,</span>
+  <span>"age"</span><span>:</span> <span>25</span>
+<span>}</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div></div></div><h2 id="脚注" tabindex="-1"> 脚注</h2>
 <blockquote>
+<ul>
+<li>
 <p>脚注允许您添加注释和参考，而不会弄乱文档的正文。当您创建脚注时，带有链接的上标编号会出现在您添加脚注引用的位置。读者可以点击链接跳转到页面底部脚注的内容。</p>
+</li>
+<li>
 <p><sup></sup>要创建脚注引用，请在方括号 ( )内添加插入符号和标识符。标识符可以是数字或单词，但不能包含空格或制表符。标识符仅将脚注引用与脚注本身相关联——在输出中，脚注按顺序编号。</p>
+</li>
+<li>
 <p>在带有冒号和文本 ( <strong><sup></sup>:</strong> My footnote.) 的括号内使用另一个插入符号和数字添加脚注。您不必在文档末尾添加脚注。除了列表、块引号和表格等其他元素之外，您可以将它们放在任何地方。</p>
+</li>
+</ul>
 </blockquote>
 <div><pre><code>这是一个简单的脚注[^1]，这是一个更长的脚注。[^bignote]
 
-[^1]:这是第一个脚注。 ↩
-
+<span><span>[</span><span>^1</span><span>]</span><span>:</span> 这是第一个脚注。</span> ↩
 <span><span>[</span><span>^bignote</span><span>]</span><span>:</span> 这是一个有多个段落和代码的。缩进段落以将它们包含在脚注中。{</span> my code }添加尽可能多的段落。 ↩
-</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div></div></div><p>渲染的输出如下所示:</p>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div></div></div><p>渲染的输出如下所示:</p>
 <p>这是一个简单的脚注<sup></sup>，这是一个更长的脚注。<sup></sup></p>
 <h2 id="标题-id" tabindex="-1"> 标题 ID</h2>
 <blockquote>
-<p>许多 Markdown 处理器支持<strong>标题</strong>的自定义ID——一些 Markdown 处理器会自动添加它们。添加自定义 ID 允许您直接链接到标题并使用 CSS 修改它们。要添加自定义标题 ID，请将自定义 ID 括在与标题相同的行上的花括号中。</p>
+<p>许多 Markdown 处理器支持<strong>标题</strong>的自定义 ID——一些 Markdown 处理器会自动添加它们。添加自定义 ID 允许您直接链接到标题并使用 CSS 修改它们。要添加自定义标题 ID，请将自定义 ID 括在与标题相同的行上的花括号中。</p>
 <blockquote>
 <p>Markdown 官网自定义标题设置锚点是错误的(Typor 亲测)
-正确的写法两种 name只能为英文,中文不能跳转:</p>
+正确的写法两种 name 只能为英文,中文不能跳转:</p>
 <blockquote>
 <p><a name="divtop">表</a></p>
 <h3 id="custom-id">我是自定义标题</h3>
@@ -154,7 +159,7 @@
 <table>
 <thead>
 <tr>
-<th style="text-align:left">Markdown写法</th>
+<th style="text-align:left">Markdown 写法</th>
 <th style="text-align:center">HTML</th>
 <th style="text-align:right">渲染输出</th>
 </tr>
@@ -194,18 +199,19 @@
     <span><span><span>&lt;</span>dd</span><span>></span></span>这是第二个术语的另一个定义。<span><span><span>&lt;/</span>dd</span><span>></span></span>
 <span><span><span>&lt;</span>dl</span><span>></span></span>
 </code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p>渲染的输出如下所示:</p>
-<div><pre><code><span><span><span>&lt;</span>dl</span><span>></span></span>
-  <span><span><span>&lt;</span>dt</span><span>></span></span>第一学期<span><span><span>&lt;/</span>dt</span><span>></span></span>
-    <span><span><span>&lt;</span>dd</span><span>></span></span>这是第一项的定义。<span><span><span>&lt;/</span>dd</span><span>></span></span>
-  <span><span><span>&lt;</span>dt</span><span>></span></span>第二期<span><span><span>&lt;/</span>dt</span><span>></span></span>
-    <span><span><span>&lt;</span>dd</span><span>></span></span>这是第二个术语的一个定义。<span><span><span>&lt;/</span>dd</span><span>></span></span>
-    <span><span><span>&lt;</span>dd</span><span>></span></span>这是第二个术语的另一个定义。<span><span><span>&lt;/</span>dd</span><span>></span></span>
-<span><span><span>&lt;</span>dl</span><span>></span></span>
-</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h2 id="删除线" tabindex="-1"> 删除线</h2>
+<dl>
+  <dt>第一学期</dt>
+  <dd>这是第一项的定义。</dd>
+  <dt>第二期</dt>
+  <dd>这是第二个术语的一个定义。</dd>
+  <dd>这是第二个术语的另一个定义。</dd>
+  <dl></dl>
+</dl>
+<h2 id="删除线" tabindex="-1"> 删除线</h2>
 <blockquote>
 <p>您可以通过在单词中心放置一条水平线来删除单词。结果看起来**<s>像这样.</s>** 此功能允许您指出某些单词是错误的，不应包含在文档中。~~要删除单词，请在单词前后使用两个波浪号 (<code>~~</code> )。</p>
 </blockquote>
-<div><pre><code>\~<span><span>~</span><span>世界是平的\~</span><span>~</span></span>。我们现在知道世界是圆的。
+<div><pre><code><span><span>~~</span><span>世界是平的</span><span>~~</span></span>。我们现在知道世界是圆的。
 </code></pre><div aria-hidden="true"><div></div></div></div><p>渲染的输出如下所示:</p>
 <p><s>世界是平的</s>。我们现在知道世界是圆的。</p>
 <h2 id="任务列表" tabindex="-1"> 任务列表</h2>
@@ -229,9 +235,9 @@
 </blockquote>
 <h3 id="复制和粘贴表情符号" tabindex="-1"> 复制和粘贴表情符号</h3>
 <blockquote>
-<p><a href="https://emojipedia.org/" target="_blank" rel="noopener noreferrer">在大多数情况下，您可以简单地从Emojipedia</a>等来源复制表情符号并将其粘贴到您的文档中。许多 Markdown 应用程序会自动以 Markdown 格式的文本显示表情符号。您从 Markdown 应用程序导出的 HTML 和 PDF 文件应显示表情符号。</p>
+<p><a href="https://emojipedia.org/" target="_blank" rel="noopener noreferrer">在大多数情况下，您可以简单地从 Emojipedia</a>等来源复制表情符号并将其粘贴到您的文档中。许多 Markdown 应用程序会自动以 Markdown 格式的文本显示表情符号。您从 Markdown 应用程序导出的 HTML 和 PDF 文件应显示表情符号。</p>
 <blockquote>
-<p>提示：如果您使用的是静态网站生成器，请确保将HTML 页面编码为 UTF-8。</p>
+<p>提示：如果您使用的是静态网站生成器，请确保将 HTML 页面编码为 UTF-8。</p>
 </blockquote>
 </blockquote>
 <h3 id="使用表情符号简码" tabindex="-1"> 使用表情符号简码</h3>
@@ -258,7 +264,7 @@
 <div><pre><code>H<span><span>~</span><span>2</span><span>~</span></span>O
 </code></pre><div aria-hidden="true"><div></div></div></div><p>渲染的输出如下所示:</p>
 <p>H<sub>2</sub>O</p>
-<p>HTML语法</p>
+<p>HTML 语法</p>
 <div><pre><code>H&lt;sub&gt;2&lt;/sub&gt;O
 </code></pre><div aria-hidden="true"><div></div></div></div><h2 id="上标" tabindex="-1"> 上标</h2>
 <blockquote>
@@ -267,7 +273,7 @@
 <div><pre><code>X^2^
 </code></pre><div aria-hidden="true"><div></div></div></div><p>渲染的输出如下所示:</p>
 <p>X<sup>2</sup></p>
-<p>HTML语法</p>
+<p>HTML 语法</p>
 <div><pre><code>X&lt;sup&gt;2&lt;/sup&gt;
 </code></pre><div aria-hidden="true"><div></div></div></div><h2 id="自动-url-链接" tabindex="-1"> 自动 URL 链接</h2>
 <blockquote>
