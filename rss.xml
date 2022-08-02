@@ -6,12 +6,186 @@
     <link>https://brysonlin.github.io/blog/blog/</link>
     <description>林初笔墨,林初笔墨的博客,Web前端博客,前端博客,Web全栈技术博客,前端工程师博客</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 02 Aug 2022 03:30:44 GMT</pubDate>
-    <lastBuildDate>Tue, 02 Aug 2022 03:30:44 GMT</lastBuildDate>
+    <pubDate>Tue, 02 Aug 2022 13:10:20 GMT</pubDate>
+    <lastBuildDate>Tue, 02 Aug 2022 13:10:20 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Markdown</category>
     <category>书籍</category>
+    <item>
+      <title>泛应用</title>
+      <link>https://brysonlin.github.io/blog/blog/generic-application/</link>
+      <guid>https://brysonlin.github.io/blog/blog/generic-application/</guid>
+      <source url="https://brysonlin.github.io/blog/blog/rss.xml">泛应用</source>
+      <description>
+主要介绍目前前端技术在主流的互联网应用形式上的开发，其中包括小程序、快应用、H5、移动 App，甚至是桌面应用，同时我们也会介绍 uni-app 这种多端统一开发框架，一份代码解决多端需求。帮你快速掌握多端开发，从容应对不同的客户端载体，向一名多端前端开发者进阶。
+
+</description>
+      <pubDate>Tue, 02 Aug 2022 13:08:47 GMT</pubDate>
+      <content:encoded><![CDATA[<blockquote>
+<p>主要介绍目前前端技术在主流的互联网应用形式上的开发，其中包括小程序、快应用、H5、移动 App，甚至是桌面应用，同时我们也会介绍 uni-app 这种多端统一开发框架，一份代码解决多端需求。帮你快速掌握多端开发，从容应对不同的客户端载体，向一名多端前端开发者进阶。</p>
+</blockquote>
+
+<ul>
+<li>
+<p>小程序</p>
+</li>
+<li>
+<p>React Native</p>
+</li>
+<li>
+<p>Flutter 原生 App 开发</p>
+</li>
+<li>
+<p>Electron 桌面应用开发</p>
+</li>
+<li>
+<p>Hybrid App 开发</p>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>全栈开发</title>
+      <link>https://brysonlin.github.io/blog/blog/whole-stack/</link>
+      <guid>https://brysonlin.github.io/blog/blog/whole-stack/</guid>
+      <source url="https://brysonlin.github.io/blog/blog/rss.xml">全栈开发</source>
+      <pubDate>Tue, 02 Aug 2022 13:08:47 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h2 id="该内容正在努力建设中" tabindex="-1"> 该内容正在努力建设中 ......</h2>
+<blockquote>
+<p>That's a Four-Oh-Four.</p>
+</blockquote>
+<p><a href="/">Take me home.</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>语言</title>
+      <link>https://brysonlin.github.io/blog/blog/code/language/</link>
+      <guid>https://brysonlin.github.io/blog/blog/code/language/</guid>
+      <source url="https://brysonlin.github.io/blog/blog/rss.xml">语言</source>
+      <description>Markdown 是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。
+</description>
+      <pubDate>Tue, 02 Aug 2022 13:08:47 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Markdown 是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。</p>
+
+<ul>
+<li>
+<p>TypeScript</p>
+</li>
+<li>
+<p>Markdown</p>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>前端进阶</title>
+      <link>https://brysonlin.github.io/blog/blog/core-foundation/advanced/</link>
+      <guid>https://brysonlin.github.io/blog/blog/core-foundation/advanced/</guid>
+      <source url="https://brysonlin.github.io/blog/blog/rss.xml">前端进阶</source>
+      <pubDate>Tue, 02 Aug 2022 13:08:47 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h2 id="该内容正在努力建设中" tabindex="-1"> 该内容正在努力建设中 ......</h2>
+<blockquote>
+<p>That's a Four-Oh-Four.</p>
+</blockquote>
+<p><a href="/">Take me home.</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>项目实战</title>
+      <link>https://brysonlin.github.io/blog/blog/core-foundation/project-training/</link>
+      <guid>https://brysonlin.github.io/blog/blog/core-foundation/project-training/</guid>
+      <source url="https://brysonlin.github.io/blog/blog/rss.xml">项目实战</source>
+      <pubDate>Tue, 02 Aug 2022 13:08:47 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h2 id="该内容正在努力建设中" tabindex="-1"> 该内容正在努力建设中 ......</h2>
+<blockquote>
+<p>That's a Four-Oh-Four.</p>
+</blockquote>
+<p><a href="/">Take me home.</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Electron 桌面应用开发</title>
+      <link>https://brysonlin.github.io/blog/blog/generic-application/electron/</link>
+      <guid>https://brysonlin.github.io/blog/blog/generic-application/electron/</guid>
+      <source url="https://brysonlin.github.io/blog/blog/rss.xml">Electron 桌面应用开发</source>
+      <pubDate>Tue, 02 Aug 2022 13:08:47 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h2 id="该内容正在努力建设中" tabindex="-1"> 该内容正在努力建设中 ......</h2>
+<blockquote>
+<p>That's a Four-Oh-Four.</p>
+</blockquote>
+<p><a href="/">Take me home.</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Flutter 原生 App 开发</title>
+      <link>https://brysonlin.github.io/blog/blog/generic-application/flutter/</link>
+      <guid>https://brysonlin.github.io/blog/blog/generic-application/flutter/</guid>
+      <source url="https://brysonlin.github.io/blog/blog/rss.xml">Flutter 原生 App 开发</source>
+      <pubDate>Tue, 02 Aug 2022 13:08:47 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h2 id="该内容正在努力建设中" tabindex="-1"> 该内容正在努力建设中 ......</h2>
+<blockquote>
+<p>That's a Four-Oh-Four.</p>
+</blockquote>
+<p><a href="/">Take me home.</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Hybrid App 开发</title>
+      <link>https://brysonlin.github.io/blog/blog/generic-application/hybrid-app/</link>
+      <guid>https://brysonlin.github.io/blog/blog/generic-application/hybrid-app/</guid>
+      <source url="https://brysonlin.github.io/blog/blog/rss.xml">Hybrid App 开发</source>
+      <pubDate>Tue, 02 Aug 2022 13:08:47 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h2 id="该内容正在努力建设中" tabindex="-1"> 该内容正在努力建设中 ......</h2>
+<blockquote>
+<p>That's a Four-Oh-Four.</p>
+</blockquote>
+<p><a href="/">Take me home.</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>React Native</title>
+      <link>https://brysonlin.github.io/blog/blog/generic-application/react-native/</link>
+      <guid>https://brysonlin.github.io/blog/blog/generic-application/react-native/</guid>
+      <source url="https://brysonlin.github.io/blog/blog/rss.xml">React Native</source>
+      <pubDate>Tue, 02 Aug 2022 13:08:47 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h2 id="该内容正在努力建设中" tabindex="-1"> 该内容正在努力建设中 ......</h2>
+<blockquote>
+<p>That's a Four-Oh-Four.</p>
+</blockquote>
+<p><a href="/">Take me home.</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>小程序开发</title>
+      <link>https://brysonlin.github.io/blog/blog/generic-application/small-program/</link>
+      <guid>https://brysonlin.github.io/blog/blog/generic-application/small-program/</guid>
+      <source url="https://brysonlin.github.io/blog/blog/rss.xml">小程序开发</source>
+      <pubDate>Tue, 02 Aug 2022 13:08:47 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h2 id="该内容正在努力建设中" tabindex="-1"> 该内容正在努力建设中 ......</h2>
+<blockquote>
+<p>That's a Four-Oh-Four.</p>
+</blockquote>
+<p><a href="/">Take me home.</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Vue-Route 路由</title>
+      <link>https://brysonlin.github.io/blog/blog/code/vue-family-meals/vue-router/</link>
+      <guid>https://brysonlin.github.io/blog/blog/code/vue-family-meals/vue-router/</guid>
+      <source url="https://brysonlin.github.io/blog/blog/rss.xml">Vue-Route 路由</source>
+      <pubDate>Tue, 02 Aug 2022 13:08:47 GMT</pubDate>
+      <content:encoded><![CDATA[<h2 id="vue-route-路由" tabindex="-1"> Vue-Route 路由</h2>
+]]></content:encoded>
+    </item>
     <item>
       <title>Markdown扩展语法</title>
       <link>https://brysonlin.github.io/blog/blog/code/language/markdown/extension.html</link>
@@ -1671,10 +1845,10 @@ p<span>.</span><span>work</span><span>(</span><span>)</span>
 ]]></content:encoded>
     </item>
     <item>
-      <title>代码笔记</title>
+      <title>跨端开发</title>
       <link>https://brysonlin.github.io/blog/blog/code/</link>
       <guid>https://brysonlin.github.io/blog/blog/code/</guid>
-      <source url="https://brysonlin.github.io/blog/blog/rss.xml">代码笔记</source>
+      <source url="https://brysonlin.github.io/blog/blog/rss.xml">跨端开发</source>
       <description>此处是 Mr.BrysonLin 存放的一些代码笔记。
 </description>
       <pubDate>Fri, 22 Jul 2022 07:01:38 GMT</pubDate>
