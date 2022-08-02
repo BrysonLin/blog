@@ -106,11 +106,19 @@ export default navbar([
       }
     ]
   },
-  { text: "学习笔记", icon: "enum", link: "/books/" },
-  // { text: "使用指南", icon: "create", link: "/use-guide/" },
-  // {
-  //   text: "主题文档",
-  //   icon: "note",
-  //   link: "https://vuepress-theme-hope.github.io/v2/zh/",
-  // },
+  { 
+    text: "学习笔记",
+    icon: "enum",
+    prefix: "/learning/",
+    children:[
+      { text: "Web前端", link: "web/", icon: "books" },  
+      { text: "书籍列表", link: "books/", icon: "books" },  
+      { text: "使用指南", link: "use-guide/",icon: "create" },
+      {
+        text: "主题文档",
+        icon: "note",
+        link: "https://vuepress-theme-hope.github.io/v2/zh/",
+      },
+    ]
+  },
 ]);
