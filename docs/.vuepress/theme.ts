@@ -23,11 +23,10 @@ export default hopeTheme({
   },
 
   
-  /* 
-    // 阿里图标库
-    iconAssets: "//at.alicdn.com/t/c/font_3537847_syzs1pv3pef.css",  // 这是阿里图标库里自己创建的
-    iconPrefix: "iconfont icon-", */
-  iconAssets: "iconfont",  // 默认的官网图标库
+  // 阿里图标库
+  iconAssets: "//at.alicdn.com/t/c/font_3537847_rz09ut8lebm.css",  // 这是阿里图标库里自己创建的
+  iconPrefix: "iconfont ",
+  // iconAssets: "iconfont",  // 默认的官网图标库
 
   // 个人主页头像
   logo: "/logo.svg",  
@@ -51,8 +50,8 @@ export default hopeTheme({
   // 标题栏布局方式
   navbarLayout:{ 
     left: ["Brand"], 
-    center: ["Links"], 
-    right: ["Language", "Repo", "Outlook","Search"] 
+    center: ["Links",], 
+    right: ["Language", "Repo", "Outlook","Search",] 
   },
 
   // 侧边栏

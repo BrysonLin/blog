@@ -1,10 +1,6 @@
 ---
 title: CSS/CSS3 基础
-icon: css
-date: 2019-12-26
-category: CSS
-tag: CSS 基础
-article: false
+icon: icon-css3
 ---
 
 <!-- more -->

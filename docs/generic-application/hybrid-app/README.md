@@ -1,6 +1,6 @@
 ---
 title: Hybrid App 开发
-icon: language
+icon: icon-hybrid
 ---
 
 <!-- more -->

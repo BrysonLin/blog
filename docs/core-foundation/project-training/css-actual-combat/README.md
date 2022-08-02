@@ -1,11 +1,6 @@
 ---
 title: CSS实战案例
-icon: css
-category:
-  - css
-tag:
-  - css
-article: false
+icon: icon-Case
 ---
 
 ## JavaScript 实战案例

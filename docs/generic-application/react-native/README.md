@@ -1,6 +1,6 @@
 ---
 title: React Native
-icon: react
+icon: icon-Atomic-Reactor
 ---
 
 <!-- more -->

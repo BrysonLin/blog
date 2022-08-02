@@ -4,7 +4,7 @@ export default navbar([
   "/",
   { 
     text: "核心基础",
-    icon: "launch",
+    icon: "icon-jisutuikuan",
     prefix: "/core-foundation/",
     children:[
       {
@@ -38,38 +38,38 @@ export default navbar([
   },
   { 
     text: "跨端开发",
-    icon: "strong", 
+    icon: "icon-iconfontandroid1", 
     prefix: "/code/",
     children:[
       {
         text: "Vue 全家桶",
         prefix: "vue-family-meals/",
         children:[
-          { text: "Vue 核心基础", link: "vue/", icon: "vue" },
-          { text: "Vue-Router 路由管理", link: "vue-router/", icon: "vue" },
-          { text: "Vuex 状态管理", link: "vuex/", icon: "vue" },
-          { text: "Vue-cli 脚手架", link: "vue-cli/", icon: "vue" },
+          { text: "Vue 核心基础", link: "vue/", icon: "icon-vuejs-fill" },
+          { text: "Vue-Router 路由管理", link: "vue-router/", icon: "icon-router" },
+          { text: "Vuex 状态管理", link: "vuex/", icon: "icon-clusterhealthstatus" },
+          { text: "Vue-cli 脚手架", link: "vue-cli/", icon: "icon-clip" },
         ]
       },
       {
         text: "React 全家桶",
         prefix: "react-family-meals/",
         children:[
-          { text: "React 核心基础", link: "react/", icon: "react" },
+          { text: "React 核心基础", link: "react/", icon: "icon-react" },
         ]
       },
       {
         text: "语言",
         prefix: "language/",
         children:[
-          { text: "TypeScript", link: "typescript/", icon: "typescript" },
-          { text: "Markdown", link: "markdown/", icon: "markdown" },
+          { text: "TypeScript", link: "typescript/", icon: "icon-typescript" },
+          { text: "Markdown", link: "markdown/", icon: "icon-markdown" },
         ]
       }
     ]
   },
   { text: "泛应用",
-    icon: "create",
+    icon: "icon-ai-module",
     prefix: "/generic-application/",
     children:[
       "small-program/",
@@ -84,31 +84,31 @@ export default navbar([
   { text: "LeetCode", icon: "create", link: "/use-guide/" },*/
   { 
     text: "全栈开发",
-    icon: "enum",
+    icon: "icon-CodeSandbox-circle-f",
     prefix: "whole-stack/",
     children:[
       {
         text: "后端开发",
         prefix: "service/",
         children:[
-          { text: "NodeJS 基础+高级", link: "nodejs/", icon: "nodeJS" },
-          { text: "Koa 框架基础+实战", link: "koa/", icon: "nodeJS" },
+          { text: "NodeJS 基础+高级", link: "nodejs/", icon: "icon-node" },
+          { text: "Koa 框架基础+实战", link: "koa/", icon: "icon-Koala" },
         ]
       },
       {
         text: "团队协同、工程化、运维监控",
         prefix: "team-collaboration/",
         children:[
-          { text: "Git团队开发与跨团队开发", link: "github/", icon: "github" },
-          { text: "项目自动化构建与自动化部署", link: "engineering/", icon: "markdown" },
-          { text: "Nginx负载均衡，日志与管理", link: "nginx/", icon: "nginx" },
+          { text: "Git团队开发与跨团队开发", link: "github/", icon: "icon-github-fill" },
+          { text: "项目自动化构建与自动化部署", link: "engineering/", icon: "icon-webpack" },
+          { text: "Nginx负载均衡，日志与管理", link: "nginx/", icon: "icon-a-ziyuan55" },
         ]
       }
     ]
   },
   { 
     text: "学习笔记",
-    icon: "enum",
+    icon: "icon-lamp",
     prefix: "/learning/",
     children:[
       { text: "Web前端", link: "web/", icon: "books" },  

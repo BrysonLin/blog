@@ -1,7 +1,7 @@
 ---
 home: true
 layout: Blog
-icon: home
+icon: icon-home_fill_light
 title: 博客主页
 bgImage: /img/background/background.jpg
 # heroImage: /img/background/backgroun-head.jpg # Hero 的图片

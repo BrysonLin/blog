@@ -1,11 +1,6 @@
 ---
-title: JavaScript实战案例
-icon: javascript
-category:
-  - 案例
-tag:
-  - 高级
-article: false
+title: JavaScript 实战案例
+icon: icon-Case
 ---
 
 ## JavaScript 实战案例

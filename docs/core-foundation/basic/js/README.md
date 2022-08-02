@@ -1,12 +1,7 @@
 ---
 title: JavaScript
-icon: javascript
+icon: icon-js
 order: 3
-category:
-  - JavaScript
-tag:
-  - 基础
-article: false
 ---
 
 ## 我是 JavaScript 笔记

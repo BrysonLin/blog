@@ -1,10 +1,6 @@
 ---
 title: HTML/HTML5基础介绍
-icon: html
-date: 2019-12-26
-category: HTML
-tag: HTML 基础
-article: false
+icon: icon-html5
 ---
 
 <!-- more -->
