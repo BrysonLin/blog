@@ -3,7 +3,7 @@
   <id>https://brysonlin.github.io/blog/blog/</id>
   <title>林初笔墨</title>
   <subtitle>林初笔墨,林初笔墨的博客,Web前端博客,前端博客,Web全栈技术博客,前端工程师博客</subtitle>
-  <updated>2022-08-02T13:28:15.070Z</updated>
+  <updated>2022-08-02T15:03:17.737Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://brysonlin.github.io/blog/blog/atom.xml"/>
   <link rel="alternate" href="https://brysonlin.github.io/blog/blog/"/>
@@ -169,7 +169,7 @@
     <title type="html">Electron 桌面应用开发</title>
     <id>https://brysonlin.github.io/blog/blog/generic-application/electron/</id>
     <link href="https://brysonlin.github.io/blog/blog/generic-application/electron/"/>
-    <updated>2022-08-02T13:08:47.000Z</updated>
+    <updated>2022-08-02T15:01:05.000Z</updated>
     <content type="html"><![CDATA[
 <h2 id="该内容正在努力建设中" tabindex="-1"> 该内容正在努力建设中 ......</h2>
 <blockquote>
@@ -183,7 +183,7 @@
     <title type="html">Flutter 原生 App 开发</title>
     <id>https://brysonlin.github.io/blog/blog/generic-application/flutter/</id>
     <link href="https://brysonlin.github.io/blog/blog/generic-application/flutter/"/>
-    <updated>2022-08-02T13:08:47.000Z</updated>
+    <updated>2022-08-02T15:01:05.000Z</updated>
     <content type="html"><![CDATA[
 <h2 id="该内容正在努力建设中" tabindex="-1"> 该内容正在努力建设中 ......</h2>
 <blockquote>
@@ -197,7 +197,7 @@
     <title type="html">Hybrid App 开发</title>
     <id>https://brysonlin.github.io/blog/blog/generic-application/hybrid-app/</id>
     <link href="https://brysonlin.github.io/blog/blog/generic-application/hybrid-app/"/>
-    <updated>2022-08-02T13:08:47.000Z</updated>
+    <updated>2022-08-02T15:01:05.000Z</updated>
     <content type="html"><![CDATA[
 <h2 id="该内容正在努力建设中" tabindex="-1"> 该内容正在努力建设中 ......</h2>
 <blockquote>
@@ -211,7 +211,7 @@
     <title type="html">React Native</title>
     <id>https://brysonlin.github.io/blog/blog/generic-application/react-native/</id>
     <link href="https://brysonlin.github.io/blog/blog/generic-application/react-native/"/>
-    <updated>2022-08-02T13:08:47.000Z</updated>
+    <updated>2022-08-02T15:01:05.000Z</updated>
     <content type="html"><![CDATA[
 <h2 id="该内容正在努力建设中" tabindex="-1"> 该内容正在努力建设中 ......</h2>
 <blockquote>
@@ -225,7 +225,7 @@
     <title type="html">小程序开发</title>
     <id>https://brysonlin.github.io/blog/blog/generic-application/small-program/</id>
     <link href="https://brysonlin.github.io/blog/blog/generic-application/small-program/"/>
-    <updated>2022-08-02T13:08:47.000Z</updated>
+    <updated>2022-08-02T15:01:05.000Z</updated>
     <content type="html"><![CDATA[
 <h2 id="该内容正在努力建设中" tabindex="-1"> 该内容正在努力建设中 ......</h2>
 <blockquote>
@@ -236,11 +236,111 @@
     <published>2022-08-02T13:08:47.000Z</published>
   </entry>
   <entry>
+    <title type="html">React</title>
+    <id>https://brysonlin.github.io/blog/blog/code/react-family-meals/react/</id>
+    <link href="https://brysonlin.github.io/blog/blog/code/react-family-meals/react/"/>
+    <updated>2022-08-02T15:01:05.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="我是-react-笔记" tabindex="-1"> 我是 React 笔记</h2>
+]]></content>
+    <published>2022-08-02T13:08:47.000Z</published>
+  </entry>
+  <entry>
+    <title type="html">React</title>
+    <id>https://brysonlin.github.io/blog/blog/code/react-family-meals/redux/</id>
+    <link href="https://brysonlin.github.io/blog/blog/code/react-family-meals/redux/"/>
+    <updated>2022-08-02T15:01:05.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="我是-react-笔记" tabindex="-1"> 我是 React 笔记</h2>
+]]></content>
+    <published>2022-08-02T13:08:47.000Z</published>
+  </entry>
+  <entry>
     <title type="html">Vue-Route 路由</title>
     <id>https://brysonlin.github.io/blog/blog/code/vue-family-meals/vue-router/</id>
     <link href="https://brysonlin.github.io/blog/blog/code/vue-family-meals/vue-router/"/>
     <updated>2022-08-02T13:08:47.000Z</updated>
     <content type="html"><![CDATA[<h2 id="vue-route-路由" tabindex="-1"> Vue-Route 路由</h2>
+]]></content>
+    <published>2022-08-02T13:08:47.000Z</published>
+  </entry>
+  <entry>
+    <title type="html">CSS布局</title>
+    <id>https://brysonlin.github.io/blog/blog/core-foundation/advanced/css-layout/</id>
+    <link href="https://brysonlin.github.io/blog/blog/core-foundation/advanced/css-layout/"/>
+    <updated>2022-08-02T15:01:05.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="我是-css-布局-笔记" tabindex="-1"> 我是 CSS 布局 笔记</h2>
+]]></content>
+    <published>2022-08-02T13:08:47.000Z</published>
+  </entry>
+  <entry>
+    <title type="html">JavaScript高级</title>
+    <id>https://brysonlin.github.io/blog/blog/core-foundation/advanced/js-senior/</id>
+    <link href="https://brysonlin.github.io/blog/blog/core-foundation/advanced/js-senior/"/>
+    <updated>2022-08-02T15:01:05.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="我是-javascript-笔记" tabindex="-1"> 我是 JavaScript 笔记</h2>
+]]></content>
+    <published>2022-08-02T13:08:47.000Z</published>
+  </entry>
+  <entry>
+    <title type="html">CSS/CSS3 基础</title>
+    <id>https://brysonlin.github.io/blog/blog/core-foundation/basic/css/</id>
+    <link href="https://brysonlin.github.io/blog/blog/core-foundation/basic/css/"/>
+    <updated>2022-08-02T15:01:05.000Z</updated>
+    <content type="html"><![CDATA[
+<h2 id="该内容正在努力建设中" tabindex="-1"> 该内容正在努力建设中 ......</h2>
+<blockquote>
+<p>That's a Four-Oh-Four.</p>
+</blockquote>
+<p><a href="/">Take me home.</a></p>
+]]></content>
+    <published>2022-08-02T13:08:47.000Z</published>
+  </entry>
+  <entry>
+    <title type="html">HTML/HTML5基础介绍</title>
+    <id>https://brysonlin.github.io/blog/blog/core-foundation/basic/html/</id>
+    <link href="https://brysonlin.github.io/blog/blog/core-foundation/basic/html/"/>
+    <updated>2022-08-02T15:01:05.000Z</updated>
+    <content type="html"><![CDATA[
+<h2 id="该内容正在努力建设中" tabindex="-1"> 该内容正在努力建设中 ......</h2>
+<blockquote>
+<p>That's a Four-Oh-Four.</p>
+</blockquote>
+<p><a href="/">Take me home.</a></p>
+]]></content>
+    <published>2022-08-02T13:08:47.000Z</published>
+  </entry>
+  <entry>
+    <title type="html">JavaScript</title>
+    <id>https://brysonlin.github.io/blog/blog/core-foundation/basic/js/</id>
+    <link href="https://brysonlin.github.io/blog/blog/core-foundation/basic/js/"/>
+    <updated>2022-08-02T15:01:05.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="我是-javascript-笔记" tabindex="-1"> 我是 JavaScript 笔记</h2>
+]]></content>
+    <published>2022-08-02T13:08:47.000Z</published>
+  </entry>
+  <entry>
+    <title type="html">CSS实战案例</title>
+    <id>https://brysonlin.github.io/blog/blog/core-foundation/project-training/css-actual-combat/</id>
+    <link href="https://brysonlin.github.io/blog/blog/core-foundation/project-training/css-actual-combat/"/>
+    <updated>2022-08-02T15:01:05.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="javascript-实战案例" tabindex="-1"> JavaScript 实战案例</h2>
+]]></content>
+    <published>2022-08-02T13:08:47.000Z</published>
+  </entry>
+  <entry>
+    <title type="html">HTML实战案例</title>
+    <id>https://brysonlin.github.io/blog/blog/core-foundation/project-training/html-actual-combat/</id>
+    <link href="https://brysonlin.github.io/blog/blog/core-foundation/project-training/html-actual-combat/"/>
+    <updated>2022-08-02T15:01:05.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="html-实战案例" tabindex="-1"> HTML 实战案例</h2>
+]]></content>
+    <published>2022-08-02T13:08:47.000Z</published>
+  </entry>
+  <entry>
+    <title type="html">JavaScript 实战案例</title>
+    <id>https://brysonlin.github.io/blog/blog/core-foundation/project-training/js-actual-combat/</id>
+    <link href="https://brysonlin.github.io/blog/blog/core-foundation/project-training/js-actual-combat/"/>
+    <updated>2022-08-02T15:01:05.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="javascript-实战案例" tabindex="-1"> JavaScript 实战案例</h2>
 ]]></content>
     <published>2022-08-02T13:08:47.000Z</published>
   </entry>

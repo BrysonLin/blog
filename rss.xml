@@ -6,8 +6,8 @@
     <link>https://brysonlin.github.io/blog/blog/</link>
     <description>林初笔墨,林初笔墨的博客,Web前端博客,前端博客,Web全栈技术博客,前端工程师博客</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 02 Aug 2022 13:28:15 GMT</pubDate>
-    <lastBuildDate>Tue, 02 Aug 2022 13:28:15 GMT</lastBuildDate>
+    <pubDate>Tue, 02 Aug 2022 15:03:17 GMT</pubDate>
+    <lastBuildDate>Tue, 02 Aug 2022 15:03:17 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>书籍</category>
@@ -239,12 +239,112 @@
 ]]></content:encoded>
     </item>
     <item>
+      <title>React</title>
+      <link>https://brysonlin.github.io/blog/blog/code/react-family-meals/react/</link>
+      <guid>https://brysonlin.github.io/blog/blog/code/react-family-meals/react/</guid>
+      <source url="https://brysonlin.github.io/blog/blog/rss.xml">React</source>
+      <pubDate>Tue, 02 Aug 2022 13:08:47 GMT</pubDate>
+      <content:encoded><![CDATA[<h2 id="我是-react-笔记" tabindex="-1"> 我是 React 笔记</h2>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>React</title>
+      <link>https://brysonlin.github.io/blog/blog/code/react-family-meals/redux/</link>
+      <guid>https://brysonlin.github.io/blog/blog/code/react-family-meals/redux/</guid>
+      <source url="https://brysonlin.github.io/blog/blog/rss.xml">React</source>
+      <pubDate>Tue, 02 Aug 2022 13:08:47 GMT</pubDate>
+      <content:encoded><![CDATA[<h2 id="我是-react-笔记" tabindex="-1"> 我是 React 笔记</h2>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Vue-Route 路由</title>
       <link>https://brysonlin.github.io/blog/blog/code/vue-family-meals/vue-router/</link>
       <guid>https://brysonlin.github.io/blog/blog/code/vue-family-meals/vue-router/</guid>
       <source url="https://brysonlin.github.io/blog/blog/rss.xml">Vue-Route 路由</source>
       <pubDate>Tue, 02 Aug 2022 13:08:47 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="vue-route-路由" tabindex="-1"> Vue-Route 路由</h2>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>CSS布局</title>
+      <link>https://brysonlin.github.io/blog/blog/core-foundation/advanced/css-layout/</link>
+      <guid>https://brysonlin.github.io/blog/blog/core-foundation/advanced/css-layout/</guid>
+      <source url="https://brysonlin.github.io/blog/blog/rss.xml">CSS布局</source>
+      <pubDate>Tue, 02 Aug 2022 13:08:47 GMT</pubDate>
+      <content:encoded><![CDATA[<h2 id="我是-css-布局-笔记" tabindex="-1"> 我是 CSS 布局 笔记</h2>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>JavaScript高级</title>
+      <link>https://brysonlin.github.io/blog/blog/core-foundation/advanced/js-senior/</link>
+      <guid>https://brysonlin.github.io/blog/blog/core-foundation/advanced/js-senior/</guid>
+      <source url="https://brysonlin.github.io/blog/blog/rss.xml">JavaScript高级</source>
+      <pubDate>Tue, 02 Aug 2022 13:08:47 GMT</pubDate>
+      <content:encoded><![CDATA[<h2 id="我是-javascript-笔记" tabindex="-1"> 我是 JavaScript 笔记</h2>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>CSS/CSS3 基础</title>
+      <link>https://brysonlin.github.io/blog/blog/core-foundation/basic/css/</link>
+      <guid>https://brysonlin.github.io/blog/blog/core-foundation/basic/css/</guid>
+      <source url="https://brysonlin.github.io/blog/blog/rss.xml">CSS/CSS3 基础</source>
+      <pubDate>Tue, 02 Aug 2022 13:08:47 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h2 id="该内容正在努力建设中" tabindex="-1"> 该内容正在努力建设中 ......</h2>
+<blockquote>
+<p>That's a Four-Oh-Four.</p>
+</blockquote>
+<p><a href="/">Take me home.</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>HTML/HTML5基础介绍</title>
+      <link>https://brysonlin.github.io/blog/blog/core-foundation/basic/html/</link>
+      <guid>https://brysonlin.github.io/blog/blog/core-foundation/basic/html/</guid>
+      <source url="https://brysonlin.github.io/blog/blog/rss.xml">HTML/HTML5基础介绍</source>
+      <pubDate>Tue, 02 Aug 2022 13:08:47 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h2 id="该内容正在努力建设中" tabindex="-1"> 该内容正在努力建设中 ......</h2>
+<blockquote>
+<p>That's a Four-Oh-Four.</p>
+</blockquote>
+<p><a href="/">Take me home.</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>JavaScript</title>
+      <link>https://brysonlin.github.io/blog/blog/core-foundation/basic/js/</link>
+      <guid>https://brysonlin.github.io/blog/blog/core-foundation/basic/js/</guid>
+      <source url="https://brysonlin.github.io/blog/blog/rss.xml">JavaScript</source>
+      <pubDate>Tue, 02 Aug 2022 13:08:47 GMT</pubDate>
+      <content:encoded><![CDATA[<h2 id="我是-javascript-笔记" tabindex="-1"> 我是 JavaScript 笔记</h2>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>CSS实战案例</title>
+      <link>https://brysonlin.github.io/blog/blog/core-foundation/project-training/css-actual-combat/</link>
+      <guid>https://brysonlin.github.io/blog/blog/core-foundation/project-training/css-actual-combat/</guid>
+      <source url="https://brysonlin.github.io/blog/blog/rss.xml">CSS实战案例</source>
+      <pubDate>Tue, 02 Aug 2022 13:08:47 GMT</pubDate>
+      <content:encoded><![CDATA[<h2 id="javascript-实战案例" tabindex="-1"> JavaScript 实战案例</h2>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>HTML实战案例</title>
+      <link>https://brysonlin.github.io/blog/blog/core-foundation/project-training/html-actual-combat/</link>
+      <guid>https://brysonlin.github.io/blog/blog/core-foundation/project-training/html-actual-combat/</guid>
+      <source url="https://brysonlin.github.io/blog/blog/rss.xml">HTML实战案例</source>
+      <pubDate>Tue, 02 Aug 2022 13:08:47 GMT</pubDate>
+      <content:encoded><![CDATA[<h2 id="html-实战案例" tabindex="-1"> HTML 实战案例</h2>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>JavaScript 实战案例</title>
+      <link>https://brysonlin.github.io/blog/blog/core-foundation/project-training/js-actual-combat/</link>
+      <guid>https://brysonlin.github.io/blog/blog/core-foundation/project-training/js-actual-combat/</guid>
+      <source url="https://brysonlin.github.io/blog/blog/rss.xml">JavaScript 实战案例</source>
+      <pubDate>Tue, 02 Aug 2022 13:08:47 GMT</pubDate>
+      <content:encoded><![CDATA[<h2 id="javascript-实战案例" tabindex="-1"> JavaScript 实战案例</h2>
 ]]></content:encoded>
     </item>
     <item>

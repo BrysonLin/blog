@@ -96,7 +96,7 @@
       "id": "https://brysonlin.github.io/blog/blog/generic-application/electron/",
       "content_html": "\n<h2 id=\"该内容正在努力建设中\" tabindex=\"-1\"> 该内容正在努力建设中 ......</h2>\n<blockquote>\n<p>That's a Four-Oh-Four.</p>\n</blockquote>\n<p><a href=\"/\">Take me home.</a></p>\n",
       "date_published": "2022-08-02T13:08:47.000Z",
-      "date_modified": "2022-08-02T13:08:47.000Z",
+      "date_modified": "2022-08-02T15:01:05.000Z",
       "authors": [],
       "tags": []
     },
@@ -106,7 +106,7 @@
       "id": "https://brysonlin.github.io/blog/blog/generic-application/flutter/",
       "content_html": "\n<h2 id=\"该内容正在努力建设中\" tabindex=\"-1\"> 该内容正在努力建设中 ......</h2>\n<blockquote>\n<p>That's a Four-Oh-Four.</p>\n</blockquote>\n<p><a href=\"/\">Take me home.</a></p>\n",
       "date_published": "2022-08-02T13:08:47.000Z",
-      "date_modified": "2022-08-02T13:08:47.000Z",
+      "date_modified": "2022-08-02T15:01:05.000Z",
       "authors": [],
       "tags": []
     },
@@ -116,7 +116,7 @@
       "id": "https://brysonlin.github.io/blog/blog/generic-application/hybrid-app/",
       "content_html": "\n<h2 id=\"该内容正在努力建设中\" tabindex=\"-1\"> 该内容正在努力建设中 ......</h2>\n<blockquote>\n<p>That's a Four-Oh-Four.</p>\n</blockquote>\n<p><a href=\"/\">Take me home.</a></p>\n",
       "date_published": "2022-08-02T13:08:47.000Z",
-      "date_modified": "2022-08-02T13:08:47.000Z",
+      "date_modified": "2022-08-02T15:01:05.000Z",
       "authors": [],
       "tags": []
     },
@@ -126,7 +126,7 @@
       "id": "https://brysonlin.github.io/blog/blog/generic-application/react-native/",
       "content_html": "\n<h2 id=\"该内容正在努力建设中\" tabindex=\"-1\"> 该内容正在努力建设中 ......</h2>\n<blockquote>\n<p>That's a Four-Oh-Four.</p>\n</blockquote>\n<p><a href=\"/\">Take me home.</a></p>\n",
       "date_published": "2022-08-02T13:08:47.000Z",
-      "date_modified": "2022-08-02T13:08:47.000Z",
+      "date_modified": "2022-08-02T15:01:05.000Z",
       "authors": [],
       "tags": []
     },
@@ -136,7 +136,27 @@
       "id": "https://brysonlin.github.io/blog/blog/generic-application/small-program/",
       "content_html": "\n<h2 id=\"该内容正在努力建设中\" tabindex=\"-1\"> 该内容正在努力建设中 ......</h2>\n<blockquote>\n<p>That's a Four-Oh-Four.</p>\n</blockquote>\n<p><a href=\"/\">Take me home.</a></p>\n",
       "date_published": "2022-08-02T13:08:47.000Z",
-      "date_modified": "2022-08-02T13:08:47.000Z",
+      "date_modified": "2022-08-02T15:01:05.000Z",
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "React",
+      "url": "https://brysonlin.github.io/blog/blog/code/react-family-meals/react/",
+      "id": "https://brysonlin.github.io/blog/blog/code/react-family-meals/react/",
+      "content_html": "<h2 id=\"我是-react-笔记\" tabindex=\"-1\"> 我是 React 笔记</h2>\n",
+      "date_published": "2022-08-02T13:08:47.000Z",
+      "date_modified": "2022-08-02T15:01:05.000Z",
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "React",
+      "url": "https://brysonlin.github.io/blog/blog/code/react-family-meals/redux/",
+      "id": "https://brysonlin.github.io/blog/blog/code/react-family-meals/redux/",
+      "content_html": "<h2 id=\"我是-react-笔记\" tabindex=\"-1\"> 我是 React 笔记</h2>\n",
+      "date_published": "2022-08-02T13:08:47.000Z",
+      "date_modified": "2022-08-02T15:01:05.000Z",
       "authors": [],
       "tags": []
     },
@@ -147,6 +167,86 @@
       "content_html": "<h2 id=\"vue-route-路由\" tabindex=\"-1\"> Vue-Route 路由</h2>\n",
       "date_published": "2022-08-02T13:08:47.000Z",
       "date_modified": "2022-08-02T13:08:47.000Z",
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "CSS布局",
+      "url": "https://brysonlin.github.io/blog/blog/core-foundation/advanced/css-layout/",
+      "id": "https://brysonlin.github.io/blog/blog/core-foundation/advanced/css-layout/",
+      "content_html": "<h2 id=\"我是-css-布局-笔记\" tabindex=\"-1\"> 我是 CSS 布局 笔记</h2>\n",
+      "date_published": "2022-08-02T13:08:47.000Z",
+      "date_modified": "2022-08-02T15:01:05.000Z",
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "JavaScript高级",
+      "url": "https://brysonlin.github.io/blog/blog/core-foundation/advanced/js-senior/",
+      "id": "https://brysonlin.github.io/blog/blog/core-foundation/advanced/js-senior/",
+      "content_html": "<h2 id=\"我是-javascript-笔记\" tabindex=\"-1\"> 我是 JavaScript 笔记</h2>\n",
+      "date_published": "2022-08-02T13:08:47.000Z",
+      "date_modified": "2022-08-02T15:01:05.000Z",
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "CSS/CSS3 基础",
+      "url": "https://brysonlin.github.io/blog/blog/core-foundation/basic/css/",
+      "id": "https://brysonlin.github.io/blog/blog/core-foundation/basic/css/",
+      "content_html": "\n<h2 id=\"该内容正在努力建设中\" tabindex=\"-1\"> 该内容正在努力建设中 ......</h2>\n<blockquote>\n<p>That's a Four-Oh-Four.</p>\n</blockquote>\n<p><a href=\"/\">Take me home.</a></p>\n",
+      "date_published": "2022-08-02T13:08:47.000Z",
+      "date_modified": "2022-08-02T15:01:05.000Z",
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "HTML/HTML5基础介绍",
+      "url": "https://brysonlin.github.io/blog/blog/core-foundation/basic/html/",
+      "id": "https://brysonlin.github.io/blog/blog/core-foundation/basic/html/",
+      "content_html": "\n<h2 id=\"该内容正在努力建设中\" tabindex=\"-1\"> 该内容正在努力建设中 ......</h2>\n<blockquote>\n<p>That's a Four-Oh-Four.</p>\n</blockquote>\n<p><a href=\"/\">Take me home.</a></p>\n",
+      "date_published": "2022-08-02T13:08:47.000Z",
+      "date_modified": "2022-08-02T15:01:05.000Z",
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "JavaScript",
+      "url": "https://brysonlin.github.io/blog/blog/core-foundation/basic/js/",
+      "id": "https://brysonlin.github.io/blog/blog/core-foundation/basic/js/",
+      "content_html": "<h2 id=\"我是-javascript-笔记\" tabindex=\"-1\"> 我是 JavaScript 笔记</h2>\n",
+      "date_published": "2022-08-02T13:08:47.000Z",
+      "date_modified": "2022-08-02T15:01:05.000Z",
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "CSS实战案例",
+      "url": "https://brysonlin.github.io/blog/blog/core-foundation/project-training/css-actual-combat/",
+      "id": "https://brysonlin.github.io/blog/blog/core-foundation/project-training/css-actual-combat/",
+      "content_html": "<h2 id=\"javascript-实战案例\" tabindex=\"-1\"> JavaScript 实战案例</h2>\n",
+      "date_published": "2022-08-02T13:08:47.000Z",
+      "date_modified": "2022-08-02T15:01:05.000Z",
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "HTML实战案例",
+      "url": "https://brysonlin.github.io/blog/blog/core-foundation/project-training/html-actual-combat/",
+      "id": "https://brysonlin.github.io/blog/blog/core-foundation/project-training/html-actual-combat/",
+      "content_html": "<h2 id=\"html-实战案例\" tabindex=\"-1\"> HTML 实战案例</h2>\n",
+      "date_published": "2022-08-02T13:08:47.000Z",
+      "date_modified": "2022-08-02T15:01:05.000Z",
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "JavaScript 实战案例",
+      "url": "https://brysonlin.github.io/blog/blog/core-foundation/project-training/js-actual-combat/",
+      "id": "https://brysonlin.github.io/blog/blog/core-foundation/project-training/js-actual-combat/",
+      "content_html": "<h2 id=\"javascript-实战案例\" tabindex=\"-1\"> JavaScript 实战案例</h2>\n",
+      "date_published": "2022-08-02T13:08:47.000Z",
+      "date_modified": "2022-08-02T15:01:05.000Z",
       "authors": [],
       "tags": []
     },
