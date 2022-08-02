@@ -1,12 +1,12 @@
 ---
-title: Vue
-icon: vue
+title: React
+icon: react
 order: 3
 category:
-  - Vue
+  - React
 tag:
   - 基础
 article: false
 ---
 
-## 我是 Vue 笔记
+## 我是 React 笔记

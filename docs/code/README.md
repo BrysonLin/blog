@@ -1,6 +1,6 @@
 ---
-title: 代码笔记
-icon: code
+title: 跨端开发
+icon: strong
 star: true
 sticky: 20
 breadcrumb: false

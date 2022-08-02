@@ -22,8 +22,12 @@ export default hopeTheme({
     url: "https://brysonlin.github.io/blog/",  // 个人网站地址
   },
 
-  // 阿里图标库
-  iconAssets: "iconfont",
+  
+  /* 
+    // 阿里图标库
+    iconAssets: "//at.alicdn.com/t/c/font_3537847_syzs1pv3pef.css",  // 这是阿里图标库里自己创建的
+    iconPrefix: "iconfont icon-", */
+  iconAssets: "iconfont",  // 默认的官网图标库
 
   // 个人主页头像
   logo: "/logo.svg",  
