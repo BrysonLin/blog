@@ -46,7 +46,7 @@ export default navbar([
         prefix: "vue-family-meals/",
         children:[
           { text: "Vue 核心基础", link: "vue/", icon: "icon-vuejs-fill" },
-          { text: "Vue-Router 路由管理", link: "vue-router/", icon: "icon-router" },
+          { text: "Vue-Router 路由管理", link: "vue-router/", icon: "icon-a-WifiRouter" },
           { text: "Vuex 状态管理", link: "vuex/", icon: "icon-clusterhealthstatus" },
           { text: "Vue-cli 脚手架", link: "vue-cli/", icon: "icon-clip" },
         ]
@@ -99,9 +99,9 @@ export default navbar([
         text: "团队协同、工程化、运维监控",
         prefix: "team-collaboration/",
         children:[
-          { text: "Git团队开发与跨团队开发", link: "github/", icon: "icon-github-fill" },
+          { text: "Git团队开发与跨团队开发", link: "github/", icon: "icon-createbug_Flat_icons" },
           { text: "项目自动化构建与自动化部署", link: "engineering/", icon: "icon-webpack" },
-          { text: "Nginx负载均衡，日志与管理", link: "nginx/", icon: "icon-a-ziyuan55" },
+          { text: "Nginx负载均衡，日志与管理", link: "nginx/", icon: "icon-ai-module" },
         ]
       }
     ]
@@ -111,12 +111,12 @@ export default navbar([
     icon: "icon-lamp",
     prefix: "/learning/",
     children:[
-      { text: "Web前端", link: "web/", icon: "books" },  
-      { text: "书籍列表", link: "books/", icon: "books" },  
-      { text: "使用指南", link: "use-guide/",icon: "create" },
+      { text: "Web前端", link: "web/", icon: "icon-weblock" },  
+      { text: "书籍列表", link: "books/", icon: "icon-books" },  
+      { text: "使用指南", link: "use-guide/",icon: "icon-zhinanzhidao" },
       {
         text: "主题文档",
-        icon: "note",
+        icon: "icon-pifuzhuti",
         link: "https://vuepress-theme-hope.github.io/v2/zh/",
       },
     ]

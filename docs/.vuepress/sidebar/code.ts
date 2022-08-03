@@ -25,7 +25,6 @@ export default arraySidebar([
     prefix: "language/",
     // link: "Language/",
     children: [
-      "js/",
       "typescript/",
       "markdown/",
     ],

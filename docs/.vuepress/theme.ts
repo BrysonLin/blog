@@ -24,7 +24,7 @@ export default hopeTheme({
 
   
   // 阿里图标库
-  iconAssets: "//at.alicdn.com/t/c/font_3537847_rz09ut8lebm.css",  // 这是阿里图标库里自己创建的
+  iconAssets: "//at.alicdn.com/t/c/font_3537847_eymgysin1wj.css",  // 这是阿里图标库里自己创建的
   iconPrefix: "iconfont ",
   // iconAssets: "iconfont",  // 默认的官网图标库
 
