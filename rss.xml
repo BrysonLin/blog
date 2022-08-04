@@ -6,8 +6,8 @@
     <link>https://brysonlin.github.io/blog/blog/</link>
     <description>林初笔墨,林初笔墨的博客,Web前端博客,前端博客,Web全栈技术博客,前端工程师博客</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 03 Aug 2022 01:38:24 GMT</pubDate>
-    <lastBuildDate>Wed, 03 Aug 2022 01:38:24 GMT</lastBuildDate>
+    <pubDate>Thu, 04 Aug 2022 00:01:19 GMT</pubDate>
+    <lastBuildDate>Thu, 04 Aug 2022 00:01:19 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>书籍</category>
@@ -66,6 +66,21 @@
       <source url="https://brysonlin.github.io/blog/blog/rss.xml">Web 前端</source>
       <pubDate>Tue, 02 Aug 2022 13:26:11 GMT</pubDate>
       <content:encoded><![CDATA[
+<h2 id="该内容正在努力建设中" tabindex="-1"> 该内容正在努力建设中 ......</h2>
+<blockquote>
+<p>That's a Four-Oh-Four.</p>
+</blockquote>
+<p><a href="/">Take me home.</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>核心基础</title>
+      <link>https://brysonlin.github.io/blog/blog/core-foundation/</link>
+      <guid>https://brysonlin.github.io/blog/blog/core-foundation/</guid>
+      <source url="https://brysonlin.github.io/blog/blog/rss.xml">核心基础</source>
+      <pubDate>Tue, 02 Aug 2022 13:08:47 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h2 id="我是核心基础页面" tabindex="-1"> 我是核心基础页面</h2>
 <h2 id="该内容正在努力建设中" tabindex="-1"> 该内容正在努力建设中 ......</h2>
 <blockquote>
 <p>That's a Four-Oh-Four.</p>

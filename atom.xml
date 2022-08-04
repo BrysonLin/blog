@@ -3,7 +3,7 @@
   <id>https://brysonlin.github.io/blog/blog/</id>
   <title>林初笔墨</title>
   <subtitle>林初笔墨,林初笔墨的博客,Web前端博客,前端博客,Web全栈技术博客,前端工程师博客</subtitle>
-  <updated>2022-08-03T01:38:24.960Z</updated>
+  <updated>2022-08-04T00:01:19.402Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://brysonlin.github.io/blog/blog/atom.xml"/>
   <link rel="alternate" href="https://brysonlin.github.io/blog/blog/"/>
@@ -69,6 +69,21 @@
 <p><a href="/">Take me home.</a></p>
 ]]></content>
     <published>2022-08-02T13:26:11.000Z</published>
+  </entry>
+  <entry>
+    <title type="html">核心基础</title>
+    <id>https://brysonlin.github.io/blog/blog/core-foundation/</id>
+    <link href="https://brysonlin.github.io/blog/blog/core-foundation/"/>
+    <updated>2022-08-04T00:00:07.000Z</updated>
+    <content type="html"><![CDATA[
+<h2 id="我是核心基础页面" tabindex="-1"> 我是核心基础页面</h2>
+<h2 id="该内容正在努力建设中" tabindex="-1"> 该内容正在努力建设中 ......</h2>
+<blockquote>
+<p>That's a Four-Oh-Four.</p>
+</blockquote>
+<p><a href="/">Take me home.</a></p>
+]]></content>
+    <published>2022-08-02T13:08:47.000Z</published>
   </entry>
   <entry>
     <title type="html">泛应用</title>
