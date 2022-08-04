@@ -12,26 +12,26 @@ export default navbar([
         prefix: "basic/",
         children:[
           // { text: "前端基础", link: "", icon: "strong", activeMatch: "^/core-foundation/$", },
-          "js/",
-          "css/",
-          "html/",
+          { text: "JavaScript", link: "js/", icon: "icon-js", },
+          { text: "CSS/CSS3", link: "css/", icon: "icon-css3", },
+          { text: "HTML/HTML5 基础介绍", link: "html/", icon: "icon-html5", },
         ]
       },
       {
         text: "前端进阶",
         prefix: "advanced/",
         children:[
-          "js-senior/",
-          "css-layout/",
+          { text: "JavaScript 高级", link: "js-senior/", icon: "icon-java-script", },
+          { text: "CSS 布局", link: "css-layout/", icon: "icon-CSS", },
         ]
       },
       {
         text: "项目实战",
         prefix: "project-training/",
         children:[
-          "js-actual-combat/",
-          "css-actual-combat/",
-          "html-actual-combat/",
+          { text: "JavaScript 实战案例", link: "js-actual-combat/", icon: "icon-Case", },
+          { text: "CSS 实战案例", link: "css-actual-combat/", icon: "icon-Case", },
+          { text: "HTML 实战案例", link: "html-actual-combat/", icon: "icon-Case", },
         ]
       }
     ] 

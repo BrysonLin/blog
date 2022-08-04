@@ -1,13 +1,11 @@
 ---
 title: 核心基础
-date: 2019-12-26
-category: 基础
-timeline: false
-star: true
-article: false
+icon: icon-setup_assistant_guide
 ---
 
 <!-- more -->
+
+## 我是核心基础页面
 
 ## 该内容正在努力建设中 ......
 
