@@ -8,12 +8,10 @@ tag:
 article: false
 ---
 
-## Vue 全家桶
+<!-- more -->
 
-- Vue 核心
+## 该内容正在努力建设中 ......
 
-- Vue-Router
+> That's a Four-Oh-Four.
 
-- Vuex
-
-- Vue-cli
+[Take me home.](/blog/)

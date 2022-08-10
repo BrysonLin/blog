@@ -85,7 +85,7 @@ export default navbar([
   { 
     text: "全栈开发",
     icon: "icon-CodeSandbox-circle-f",
-    prefix: "whole-stack/",
+    prefix: "/whole-stack/",
     children:[
       {
         text: "后端开发",

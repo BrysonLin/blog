@@ -12,6 +12,9 @@ export default hopeTheme({
     blue: "#2196f3",
     red: "#f26d6d",
     orange: "#fb9b5f",
+    orange1: "#FF770F",
+    green: "#91B822",
+    blue1: "#80D1C8"
   },
   // 返回顶部控件，默认情况下将在下滑 300px 后显示。设置为一个数字以更改默认的触发距离。
   backToTop: true, 
