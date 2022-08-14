@@ -14,7 +14,7 @@ export default navbar([
           // { text: "前端基础", link: "", icon: "strong", activeMatch: "^/core-foundation/$", },
           { text: "JavaScript", link: "js/", icon: "icon-js", },
           { text: "CSS/CSS3", link: "css/", icon: "icon-css3", },
-          { text: "HTML/HTML5 基础介绍", link: "html/", icon: "icon-html5", },
+          { text: "HTML/HTML5", link: "html/", icon: "icon-html5", },
         ]
       },
       {

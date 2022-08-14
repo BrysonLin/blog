@@ -1,12 +1,14 @@
 ---
-title: HTML/HTML5基础介绍
+title: HTML标签和属性系统学习
 icon: icon-html5
 ---
 
 <!-- more -->
 
-## 该内容正在努力建设中 ......
+## 目录
 
-> That's a Four-Oh-Four.
+- [HTML5 核心标签和属性](basic.md)
 
-[Take me home.](/blog/)
+- [HTML/HTML5基础介绍](html-core.md)
+
+- [HTML/HTML5 常用标签和属性](html-html5-course.md)
