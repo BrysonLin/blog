@@ -6,12 +6,2830 @@
     <link>https://brysonlin.github.io/blog/blog/</link>
     <description>林初笔墨,林初笔墨的博客,Web前端博客,前端博客,Web全栈技术博客,前端工程师博客</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 10 Aug 2022 15:30:14 GMT</pubDate>
-    <lastBuildDate>Wed, 10 Aug 2022 15:30:14 GMT</lastBuildDate>
+    <pubDate>Sun, 14 Aug 2022 01:08:26 GMT</pubDate>
+    <lastBuildDate>Sun, 14 Aug 2022 01:08:26 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>书籍</category>
     <category>Markdown</category>
+    <item>
+      <title>HTML标签和属性系统学习</title>
+      <link>https://brysonlin.github.io/blog/blog/core-foundation/basic/html.html</link>
+      <guid>https://brysonlin.github.io/blog/blog/core-foundation/basic/html.html</guid>
+      <source url="https://brysonlin.github.io/blog/blog/rss.xml">HTML标签和属性系统学习</source>
+      <pubDate>Sun, 14 Aug 2022 01:03:48 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h2 id="目录" tabindex="-1"> 目录</h2>
+<ul>
+<li>
+<p><a href="/core-foundation/basic/html/html-core.html">HTML5 核心标签和属性</a></p>
+</li>
+<li>
+<p><a href="/core-foundation/basic/html/basic.html">HTML/HTML5基础介绍</a></p>
+</li>
+<li>
+<p><a href="/core-foundation/basic/html/html-html5-course.html">HTML/HTML5 常用标签和属性</a></p>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>HTML/HTML5基础介绍</title>
+      <link>https://brysonlin.github.io/blog/blog/core-foundation/basic/html/basic.html</link>
+      <guid>https://brysonlin.github.io/blog/blog/core-foundation/basic/html/basic.html</guid>
+      <source url="https://brysonlin.github.io/blog/blog/rss.xml">HTML/HTML5基础介绍</source>
+      <description>TIP
+Web前端开发零基础快速入门，HTML/HTML5标签及属性的基础语法
+
+</description>
+      <pubDate>Sun, 14 Aug 2022 01:03:48 GMT</pubDate>
+      <content:encoded><![CDATA[<div><p>TIP</p>
+<p>Web前端开发零基础快速入门，HTML/HTML5标签及属性的基础语法</p>
+</div>
+
+<h2 id="一、基础入门" tabindex="-1"> 一、基础入门</h2>
+<div><p>TIP</p>
+<ul>
+<li>从零开始创建一个网页（2 种方法）</li>
+<li>生成 HTML5 骨架</li>
+</ul>
+</div>
+<h3 id="_1、创建第一个网页" tabindex="-1"> 1、创建第一个网页</h3>
+<div><p>相关信息</p>
+<p><strong>方法一：</strong></p>
+<ul>
+<li>创建一个空文件夹</li>
+<li>在文件夹中，右键新建文本文件</li>
+<li>然后将文件后缀名<code>.txt</code>修改为<code> .html</code> ，再使用<code>Vscode</code> 编辑器打开</li>
+<li>注意：设置操作系统 &quot;文件扩展名&quot; 为可见</li>
+</ul>
+<p><strong>方法二：</strong></p>
+<ul>
+<li>创建一个空文件夹，直接使用 Vscode 打开文件夹</li>
+<li>使用快捷键 Ctrl + N 新建文件 ，保存文件格式为 .html后缀名即可</li>
+<li>或者点击新建文件按钮 或 在 Vscode 资源管理器中右键新建文件</li>
+</ul>
+</div>
+<div><p>注意</p>
+<p>我们所看到的网页有各种效果（包括图片、视频、文字 .....），但 <code>HTML 文件本身是纯文本</code></p>
+</div>
+<h3 id="_2、生成-html5-骨架-vscode" tabindex="-1"> 2、生成 HTML5 骨架（<a href="http://vscode.bianjiqi.net/" target="_blank" rel="noopener noreferrer">Vscode</a>）</h3>
+<div><p>相关信息</p>
+<p><strong>方法一：</strong></p>
+<ul>
+<li>在 .html 文件中输入<code>!</code>英文模式下，按 tab键，即可自动生成 HTML5 的骨架</li>
+<li>注：如果没有生成，看网页的格式是否正确或保存</li>
+</ul>
+<p><strong>方法二：</strong></p>
+<ul>
+<li>在 .html 文件中输入<code>html:5</code>，按 enter键，同样可以生成 HTML5 的骨架</li>
+</ul>
+</div>
+<div><pre><code>  <span><span>&lt;!</span><span>DOCTYPE</span> <span>html</span><span>></span></span>
+  <span><span><span>&lt;</span>html</span> <span>lang</span><span><span>=</span><span>"</span>en<span>"</span></span><span>></span></span>
+  <span><span><span>&lt;</span>head</span><span>></span></span>
+    <span><span><span>&lt;</span>meta</span> <span>charset</span><span><span>=</span><span>"</span>UTF-8<span>"</span></span><span>></span></span>
+    <span><span><span>&lt;</span>meta</span> <span>http-equiv</span><span><span>=</span><span>"</span>X-UA-Compatible<span>"</span></span> <span>content</span><span><span>=</span><span>"</span>IE=edge<span>"</span></span><span>></span></span>
+    <span><span><span>&lt;</span>meta</span> <span>name</span><span><span>=</span><span>"</span>viewport<span>"</span></span> <span>content</span><span><span>=</span><span>"</span>width=device-width, initial-scale=1.0<span>"</span></span><span>></span></span>
+    <span><span><span>&lt;</span>title</span><span>></span></span>Document<span><span><span>&lt;/</span>title</span><span>></span></span>
+  <span><span><span>&lt;/</span>head</span><span>></span></span>
+  <span><span><span>&lt;</span>body</span><span>></span></span>
+    
+  <span><span><span>&lt;/</span>body</span><span>></span></span>
+  <span><span><span>&lt;/</span>html</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h3 id="_3、预览网页的方式" tabindex="-1"> 3、预览网页的方式</h3>
+<div><p>相关信息</p>
+<p><strong>方法一：</strong></p>
+<ul>
+<li>直接文件夹中双击网页图标，即可查看</li>
+<li>适合开发者 Chrome 浏览器，记得将 Chrome 浏览器设置为默认浏览器</li>
+<li>修改网页内容后，在浏览器中手动刷新后，即可更新内容</li>
+</ul>
+<p><strong>方法二：</strong></p>
+<ul>
+<li>在 Vscode 中安装 Live Server插件（实时热更新）修改内容后，保存网页将自动刷新</li>
+<li>安装完成后，在当前 HTML 文件中，按快捷键 Ctrl+Shift+P 选择 Open Witch Live Server 即可打开</li>
+<li>使用快捷键注意：网页必须存放在文件夹中，并且 Vscode 已经打开这个文件夹</li>
+<li>开发时可以使用分屏模式，一边开发、一边呈现效果，所见即所得。电脑屏幕效果如下：</li>
+</ul>
+<p><img src="/core-foundation/basic/html/assets/Snipaste_2022-08-11_21-51-01.png" alt="Snipaste_2022-08-11_21-51-01"></p>
+<p><strong>方法三：</strong></p>
+<ul>
+<li>全局安装：</li>
+</ul>
+<div><pre><code>npm run live-server -g
+</code></pre><div aria-hidden="true"><div></div></div></div><ul>
+<li>启动命令：</li>
+</ul>
+<div><pre><code>live-server
+</code></pre><div aria-hidden="true"><div></div></div></div></div>
+<h3 id="_4、常用浏览器" tabindex="-1"> 4、常用浏览器</h3>
+<div><p>TIP</p>
+<p>浏览器是网页显示、运行的平台。常用浏览器有 IE、火狐（Firefox）谷歌（Google）、Safari（苹果官方）、Opera 、Edge（微软） 等</p>
+<p>全球浏览器市场份额：<a href="https://gs.statcounter.com/browser-market-share" target="_blank" rel="noopener noreferrer">https://gs.statcounter.com/browser-market-share</a></p>
+</div>
+<h3 id="_5、浏览器内核" tabindex="-1"> 5、浏览器内核</h3>
+<div><p>TIP</p>
+<p>浏览器内核（渲染引擎）：</p>
+<p>负责读取网页内容，整理信息，计算网页的显示方式并显示页面</p>
+</div>
+<table>
+<thead>
+<tr>
+<th>浏览器</th>
+<th>内核</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>IE</td>
+<td>Trident</td>
+<td>IE 浏览器内核</td>
+</tr>
+<tr>
+<td>Edge</td>
+<td>WebKit</td>
+<td>微软 Microsoft Edge（简称 ME 浏览器）</td>
+</tr>
+<tr>
+<td>Chrome/Opera</td>
+<td>Blink</td>
+<td>由 Google 和 Opera Software 共同研发，Blink 其实是 WebKit 的分支，以前Google 是 WebKit 内核、现在是 Blink</td>
+</tr>
+<tr>
+<td>Firefox</td>
+<td>Gecko</td>
+<td>火狐浏览器内核</td>
+</tr>
+<tr>
+<td>Safari</td>
+<td>WebKit</td>
+<td>苹果浏览器内核</td>
+</tr>
+<tr>
+<td>360、猎豹、2345 浏览器</td>
+<td>Trident+Blink</td>
+<td>双内核</td>
+</tr>
+<tr>
+<td>UC、搜狗、遨游、QQ 浏览器</td>
+<td>Trident+Webkit</td>
+<td>双内核</td>
+</tr>
+<tr>
+<td>百度（已关闭）、世界之窗浏览器</td>
+<td>Trident</td>
+<td>IE 浏览器内核</td>
+</tr>
+</tbody>
+</table>
+<h2 id="二、认识-html5-骨架" tabindex="-1"> 二、认识 HTML5 骨架</h2>
+<div><pre><code>  <span>&lt;!--文档类型声明DTD--></span>
+  <span><span>&lt;!</span><span>DOCTYPE</span> <span>html</span><span>></span></span>
+  <span>&lt;!--&lt;html>&lt;/html> 标签对--></span>
+  <span><span><span>&lt;</span>html</span> <span>lang</span><span><span>=</span><span>"</span>en<span>"</span></span><span>></span></span>
+    <span>&lt;!--&lt;head>&lt;/head> 标签对--></span>
+    <span><span><span>&lt;</span>head</span><span>></span></span>
+      <span><span><span>&lt;</span>meta</span> <span>charset</span><span><span>=</span><span>"</span>UTF-8<span>"</span></span> <span>/></span></span>
+      <span><span><span>&lt;</span>meta</span> <span>http-equiv</span><span><span>=</span><span>"</span>X-UA-Compatible<span>"</span></span> <span>content</span><span><span>=</span><span>"</span>IE=edge<span>"</span></span> <span>/></span></span>
+      <span><span><span>&lt;</span>meta</span> <span>name</span><span><span>=</span><span>"</span>viewport<span>"</span></span> <span>content</span><span><span>=</span><span>"</span>width=device-width, initial-scale=1.0<span>"</span></span> <span>/></span></span>
+      <span><span><span>&lt;</span>title</span><span>></span></span>Document<span><span><span>&lt;/</span>title</span><span>></span></span>
+    <span><span><span>&lt;/</span>head</span><span>></span></span>
+    <span>&lt;!--&lt;body>&lt;/body>标签对--></span>
+    <span><span><span>&lt;</span>body</span><span>></span></span><span><span><span>&lt;/</span>body</span><span>></span></span>
+  <span><span><span>&lt;/</span>html</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h3 id="_1、文档类型声明-dtd" tabindex="-1"> 1、文档类型声明 DTD</h3>
+<div><p>提示</p>
+<p><strong>定义和用法</strong></p>
+<ul>
+<li><code>&lt;!DOCTYPE&gt;</code> 声明必须是 HTML 文档的第一行，位于<code>&lt;html&gt;</code> 标签之前。`</li>
+<li><code>&lt;!DOCTYPE&gt;</code> 声明不是 HTML 标签，它是指示 web 浏览器关于页面使用哪个 HTML 版本进行编写的指令。</li>
+<li>在 HTML 4.01 中，<code>&lt;!DOCTYPE&gt;</code> 声明引用 DTD，因为 HTML 4.01 基于 SGML。DTD 规定了标记语言的规则，这样浏览器才能正确地呈现内容。</li>
+</ul>
+<p><strong>SGML（Standard Generalized Markup Language）</strong></p>
+<ul>
+<li>即标准通用标记语言) SGML 是国际上定义电子文档和内容描述的标准。</li>
+<li>HTML5 不基于 SGML，所以不需要引用 DTD</li>
+</ul>
+</div>
+<h3 id="_2、w3c-组织" tabindex="-1"> 2、W3C 组织</h3>
+<div><p>提示</p>
+<ul>
+<li>W3C 指万维网联盟（World Wide Web Consortium）是万维网的主要国际标准组织</li>
+<li>W3C 创建于 1994 年 10 月主要负责制定 WEB 标准</li>
+<li>W3C 由 Tim Berners-Lee（蒂姆·伯纳斯·李） 创建 ，被誉为 &quot;互联网之父&quot;</li>
+<li>W3C 是一个会员组织</li>
+<li>W3C 的工作是对 web 进行标准化</li>
+<li>W3C 创建并维护 WWW 标准</li>
+<li>W3C 标准也被称为 W3C 规范</li>
+<li>主要是 HTML 和 CSS</li>
+</ul>
+<p><strong>W3C 组织官网：<a href="https://www.w3.org/" target="_blank" rel="noopener noreferrer">https://www.w3.org/</a></strong></p>
+<ul>
+<li>JavaScript 由 Brendan Eich 于 1995 年发明，并于 1997 年成为 ECMA 标准。</li>
+</ul>
+</div>
+<h3 id="_3、网页组成" tabindex="-1"> 3、网页组成</h3>
+<div><p>相关信息</p>
+<p><strong>网页主要由三部分组成：</strong></p>
+<p><code>结构（Structure）、表现（Presentation）和行为（Behavior）</code></p>
+</div>
+<table>
+<thead>
+<tr>
+<th>标准</th>
+<th>简介</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>结构</td>
+<td>用于对网页元素进行整理和分类，即当下学习的 HTML</td>
+<td>网页的骨骼</td>
+</tr>
+<tr>
+<td>表现</td>
+<td>表现用户设置网页元素的排版、颜色、大小修饰等外观样式，即 CSS</td>
+<td>网页的皮肤</td>
+</tr>
+<tr>
+<td>行为</td>
+<td>行为是指网页模型的定义、交互等编写，即要学习的 JavaScript</td>
+<td>网页的神经</td>
+</tr>
+</tbody>
+</table>
+<div><p>相关信息</p>
+<p><strong>Web 标准提出的最佳体验方案：</strong></p>
+<ul>
+<li>结构、样式、行为相分离</li>
+<li>即：结构写在 HTML 文件中，表现写在 CSS 文件中，行为写在 JavaScript 文件中</li>
+</ul>
+</div>
+<h3 id="_4、html-标签" tabindex="-1"> 4、html 标签</h3>
+<div><pre><code>  <span>&lt;!--文档类型声明--></span>
+  <span><span>&lt;!</span><span>DOCTYPE</span> <span>html</span><span>></span></span>
+  <span>&lt;!--
+      &lt;html>&lt;/html>标签
+      lang 表示网页的语言，en表示英语，zh表示中文 ,不修改也行
+      什么时候修改呢：如果网站有多国语言时修改，中文版、英语版、日语版、法语版等等，具体案例可参考 小米官网源码
+  --></span>
+  <span><span><span>&lt;</span>html</span> <span>lang</span><span><span>=</span><span>"</span>en<span>"</span></span><span>></span></span>
+    <span>&lt;!-- &lt;head>&lt;/head>标签对，是网页的配置，不要认为是网页的头部 --></span>
+    <span><span><span>&lt;</span>head</span><span>></span></span> <span><span><span>&lt;/</span>head</span><span>></span></span>
+    <span>&lt;!-- &lt;body>&lt;/body>标签对中书写网页的内容，包括网页的头部、主要内容、页脚等各个部分 --></span>
+    <span><span><span>&lt;</span>body</span><span>></span></span><span><span><span>&lt;/</span>body</span><span>></span></span>
+  <span><span><span>&lt;/</span>html</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h3 id="_5、字符集" tabindex="-1"> 5、字符集</h3>
+<div><p>相关信息</p>
+<ul>
+<li>meta 元标签，表示网页的基础配置</li>
+<li>charset 字符集</li>
+<li>UTF-8 是一种字符集</li>
+</ul>
+<div><pre><code>  &lt;meta charset="UTF-8" /
+</code></pre><div aria-hidden="true"><div></div></div></div><ul>
+<li>在中国常见的字符集有两种 UTF-8 和 gb2312</li>
+</ul>
+</div>
+<h3 id="_6、网页三要素" tabindex="-1"> 6、网页三要素</h3>
+<div><p>相关信息</p>
+<ul>
+<li>title：网页的标题（30 字以内）</li>
+<li>文字会显示在浏览器的标题栏上</li>
+<li>title 也是搜索引擎收录网站时显示的标题，为了吸引用户点击，合理的标题设置有利于 SEO 优化</li>
+<li>keywords：网页的关键词（关键词之间用英文状态下的逗号 &quot;,&quot; 分隔）</li>
+<li>description：网页的描述（150 字以内）</li>
+</ul>
+</div>
+<div><pre><code>  <span><span>&lt;!</span><span>DOCTYPE</span> <span>html</span><span>></span></span>
+  <span><span><span>&lt;</span>html</span> <span>lang</span><span><span>=</span><span>"</span>en<span>"</span></span><span>></span></span>
+    <span><span><span>&lt;</span>head</span><span>></span></span>
+      <span><span><span>&lt;</span>meta</span> <span>charset</span><span><span>=</span><span>"</span>UTF-8<span>"</span></span> <span>/></span></span>
+      <span><span><span>&lt;</span>title</span><span>></span></span>艾编程-为每个互联网人提供高质量的终身学习平台<span><span><span>&lt;/</span>title</span><span>></span></span>
+      <span><span><span>&lt;</span>meta</span> <span>name</span><span><span>=</span><span>"</span>Keywords<span>"</span></span> <span>content</span><span><span>=</span><span>"</span>艾编程,WEB前端,Java架构师,Python课程<span>"</span></span> <span>/></span></span>
+      <span><span><span>&lt;</span>meta</span>
+        <span>name</span><span><span>=</span><span>"</span>description<span>"</span></span>
+        <span>content</span><span><span>=</span><span>"</span>艾编程连接了国内外一线互联网公司整合一线师资和企业项目研发解决方案，面向互联网企业开发者提供Web前端、Java、Python、大数据、人工智能等技术在实际企业应用中的项目研发解决方案体系化在线课程。<span>"</span></span>
+      <span>/></span></span>
+    <span><span><span>&lt;/</span>head</span><span>></span></span>
+    <span><span><span>&lt;</span>body</span><span>></span></span><span><span><span>&lt;/</span>body</span><span>></span></span>
+  <span><span><span>&lt;/</span>html</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h4 id="seo-优化" tabindex="-1"> SEO 优化</h4>
+<div><p>相关信息</p>
+<p>SEO（Search Engine Optimization）即：搜索引擎优化</p>
+<p>利用搜索引擎的规则提高网站在有关搜索引擎内的自然排名。目的是让其在行业内占据领先地位，获得品牌收益。</p>
+</div>
+<h3 id="_7、vscode-中-html-模板代码解读" tabindex="-1"> 7、VSCode 中 HTML 模板代码解读</h3>
+<div><p>提示</p>
+<p><strong>meta 标签及属性的含义</strong></p>
+<div><pre><code><span>&lt;!--IE8及以上的版本按照最新的标准去渲染--></span>
+ <span><span><span>&lt;</span>meta</span> <span>http-equiv</span><span><span>=</span><span>"</span>X-UA-Compatible<span>"</span></span> <span>content</span><span><span>=</span><span>"</span>IE=edge<span>"</span></span> <span>/></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div></div></div><p><strong><code>X-UA-Compatible</code> 是什么？</strong></p>
+<ul>
+<li>X-UA-Compatible 是 IE8 的一个专有<code>&lt;meta&gt;</code>属性，它告诉 IE8 采用何种 IE 版本去渲染网页，在 html 的<code>&lt;head&gt;</code>标签中使用，IE8 以下版本不识别</li>
+<li>Edge 模式告诉 IE 以最高级模式渲染文档，也就是任何 IE 版本都以当前版本所支持的最高级标准模式渲染，避免版本升级造成的影响。</li>
+<li>简单的说，就是什么版本 IE 就用什么版本的标准模式渲染。</li>
+</ul>
+<p><strong>最佳的兼容模式方案：</strong></p>
+<div><pre><code><span><span><span>&lt;</span>meta</span> <span>http-equiv</span><span><span>=</span><span>"</span>X-UA-Compatible<span>"</span></span> <span>content</span><span><span>=</span><span>"</span>IE=edge,chrome=1<span>"</span></span> <span>/></span></span>
+</code></pre><div aria-hidden="true"><div></div></div></div><ul>
+<li>添加”chrome=1“ 将允许站点在使用了谷歌浏览器内嵌框架（Chrome Frame）的客户端渲染，对于没有使用的，则没有任何影响。</li>
+<li>百度目前也是使用该模式</li>
+</ul>
+<p><code>viewport</code><strong>主要用作移动端适配</strong></p>
+<ul>
+<li>width：用来设置 layout viewport 的宽度</li>
+<li>device-width ：设置成设备的实际宽度</li>
+<li>initial-scale=1.0 ：防止浏览器对页面进行缩放 1:1 显示，即不缩放</li>
+</ul>
+<div><pre><code> <span><span><span>&lt;</span>meta</span> <span>name</span><span><span>=</span><span>"</span>viewport<span>"</span></span> <span>content</span><span><span>=</span><span>"</span>width=device-width, initial-scale=1.0<span>"</span></span> <span>/></span></span>
+</code></pre><div aria-hidden="true"><div></div></div></div></div>
+<p><strong>完整解读</strong></p>
+<div><pre><code>  <span>&lt;!--声明当前文档类型为 html5标准--></span>
+  <span><span>&lt;!</span><span>DOCTYPE</span> <span>html</span><span>></span></span>
+  <span>&lt;!--声明当前页面的语言类型--></span>
+  <span><span><span>&lt;</span>html</span> <span>lang</span><span><span>=</span><span>"</span>en<span>"</span></span><span>></span></span>
+    <span><span><span>&lt;</span>head</span><span>></span></span>
+      <span>&lt;!--网页的编码集--></span>
+      <span><span><span>&lt;</span>meta</span> <span>charset</span><span><span>=</span><span>"</span>UTF-8<span>"</span></span> <span>/></span></span>
+      <span>&lt;!--IE8及以上的版本按照最新的标准去渲染--></span>
+      <span><span><span>&lt;</span>meta</span> <span>http-equiv</span><span><span>=</span><span>"</span>X-UA-Compatible<span>"</span></span> <span>content</span><span><span>=</span><span>"</span>IE=edge<span>"</span></span> <span>/></span></span>
+      <span>&lt;!--用户移动端适配--></span>
+      <span><span><span>&lt;</span>meta</span> <span>name</span><span><span>=</span><span>"</span>viewport<span>"</span></span> <span>content</span><span><span>=</span><span>"</span>width=device-width, initial-scale=1.0<span>"</span></span> <span>/></span></span>
+      <span>&lt;!--网页标题--></span>
+      <span><span><span>&lt;</span>title</span><span>></span></span>艾编程<span><span><span>&lt;/</span>title</span><span>></span></span>
+      <span>&lt;!--网页关键词--></span>
+      <span><span><span>&lt;</span>meta</span> <span>name</span><span><span>=</span><span>"</span>Keywords<span>"</span></span> <span>content</span><span><span>=</span><span>"</span>艾编程,WEB前端,Java架构师,Python课程<span>"</span></span> <span>/></span></span>
+      <span>&lt;!--网页描述--></span>
+      <span><span><span>&lt;</span>meta</span> <span>name</span><span><span>=</span><span>"</span>description<span>"</span></span> <span>content</span><span><span>=</span><span>"</span>为每个互联网人提供高质量的终身学习平台<span>"</span></span> <span>/></span></span>
+    <span><span><span>&lt;/</span>head</span><span>></span></span>
+    <span><span><span>&lt;</span>body</span><span>></span></span><span><span><span>&lt;/</span>body</span><span>></span></span>
+  <span><span><span>&lt;/</span>html</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h2 id="三、重新认识标签" tabindex="-1"> 三、重新认识标签</h2>
+<h3 id="_1、什么是-html" tabindex="-1"> 1、什么是 HTML？</h3>
+<div><p>相关信息</p>
+<p><strong>HTML 是用来描述网页的一种语言</strong></p>
+<ul>
+<li>HTML 指的是超文本标记语言 (Hyper Text Markup Language)</li>
+<li>HTML 不是一种编程语言，而是一种标记语言 (markup language)</li>
+<li>标记语言是一套标记标签 (markup tag)</li>
+<li>HTML 使用标记标签来描述网页</li>
+</ul>
+<p><strong>注：超文本有两层含义</strong></p>
+<ul>
+<li>它可以加入图片、声音、动画、多媒体等内容（超越了文本限制）</li>
+<li>它还可以从一个文件跳转到另一个文件，与世界各地主机的文件连接（超级链接文本）</li>
+</ul>
+</div>
+<h3 id="_2、html-标签" tabindex="-1"> 2、HTML 标签</h3>
+<div><p>相关信息</p>
+<p><strong>HTML 标记标签通常被称为 HTML 标签 (HTML tag)</strong></p>
+<p>HTML 标签是由<code>尖括号</code>包围的关键词，比如 <code>&lt;html&gt;</code>
+HTML 标签通常是成对出现的，比如 <code>&lt;b&gt;&lt;/b&gt;</code>
+标签对中的第一个标签是<code>开始标签</code>，第二个标签是<code>结束标签</code>
+开始和结束标签也被称为<code>开放标签</code>和<code>闭合标签</code></p>
+</div>
+<h3 id="_3、html-文档-网页" tabindex="-1"> 3、HTML 文档 = 网页</h3>
+<div><p>相关信息</p>
+<p><strong>HTML 文档</strong></p>
+<ul>
+<li>HTML 文档 <code>描述网页</code></li>
+<li>HTML 文档 <code>包含 HTML 标签和纯文本</code></li>
+<li>HTML 文档也被称为<code>网页</code></li>
+</ul>
+<p>Web 浏览器的作用是读取 HTML 文档，并以网页的形式显示出它们。 浏览器不会显示 HTML 标签，而是使用标签来解释页面的内容</p>
+</div>
+<div><pre><code>  <span><span>&lt;!</span><span>DOCTYPE</span> <span>html</span><span>></span></span>
+  <span><span><span>&lt;</span>html</span> <span>lang</span><span><span>=</span><span>"</span>en<span>"</span></span><span>></span></span>
+    <span><span><span>&lt;</span>head</span><span>></span></span>
+      <span><span><span>&lt;</span>meta</span> <span>charset</span><span><span>=</span><span>"</span>UTF-8<span>"</span></span> <span>/></span></span>
+      <span><span><span>&lt;</span>meta</span> <span>http-equiv</span><span><span>=</span><span>"</span>X-UA-Compatible<span>"</span></span> <span>content</span><span><span>=</span><span>"</span>IE=edge<span>"</span></span> <span>/></span></span>
+      <span><span><span>&lt;</span>meta</span> <span>name</span><span><span>=</span><span>"</span>viewport<span>"</span></span> <span>content</span><span><span>=</span><span>"</span>width=device-width, initial-scale=1.0<span>"</span></span> <span>/></span></span>
+      <span><span><span>&lt;</span>title</span><span>></span></span>HTML标签 - Arry老师<span><span><span>&lt;/</span>title</span><span>></span></span>
+    <span><span><span>&lt;/</span>head</span><span>></span></span>
+    <span><span><span>&lt;</span>body</span><span>></span></span>
+      <span><span><span>&lt;</span>h1</span><span>></span></span>我是一个标题标签<span><span><span>&lt;/</span>h1</span><span>></span></span>
+
+      <span><span><span>&lt;</span>p</span><span>></span></span>我是一个段落标签<span><span><span>&lt;/</span>p</span><span>></span></span>
+    <span><span><span>&lt;/</span>body</span><span>></span></span>
+  <span><span><span>&lt;/</span>html</span><span>></span></span>
+
+  <span>&lt;!--
+
+  以上代码案例解读：
+
+  &lt;html> 与 &lt;/html> 之间的文本描述网页
+  &lt;body> 与 &lt;/body> 之间的文本是可见的页面内容
+  &lt;h1> 与 &lt;/h1> 之间的文本被显示为标题
+  &lt;p> 与 &lt;/p> 之间的文本被显示为段落
+  不同的标签有不同的功能比如：p标签表示段落，h1标签表示一级标题
+  标签可以给文字设置不同的语义
+
+  --></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h3 id="_4、单标签" tabindex="-1"> 4、单标签</h3>
+<div><p>提示</p>
+<p>有的标签不是成对出现的，而是只有起始标签，称之为<strong>单标签</strong></p>
+<div><pre><code> <span><span><span>&lt;</span>meta</span> <span>charset</span><span><span>=</span><span>"</span>UTF-8<span>"</span></span> <span>/></span></span>
+</code></pre><div aria-hidden="true"><div></div></div></div><p>在 HTML4 代中，单标签必须写一个结尾的反斜杠，HTML5 就不用写</p>
+<div><pre><code> <span><span><span>&lt;</span>meta</span> <span>charset</span><span><span>=</span><span>"</span>UTF-8<span>"</span></span> <span>/></span></span>
+</code></pre><div aria-hidden="true"><div></div></div></div><p>现在，我们就能彻底理解 &quot;超文本标记语言&quot; 的含义啦</p>
+</div>
+]]></content:encoded>
+      <enclosure url="https://brysonlin.github.io/blog/blog/core-foundation/basic/html/assets/Snipaste_2022-08-11_21-51-01.png" type="image/png"/>
+    </item>
+    <item>
+      <title>HTML5 核心标签和属性</title>
+      <link>https://brysonlin.github.io/blog/blog/core-foundation/basic/html/html-core.html</link>
+      <guid>https://brysonlin.github.io/blog/blog/core-foundation/basic/html/html-core.html</guid>
+      <source url="https://brysonlin.github.io/blog/blog/rss.xml">HTML5 核心标签和属性</source>
+      <pubDate>Sun, 14 Aug 2022 01:03:48 GMT</pubDate>
+      <content:encoded><![CDATA[<h2 id="html5-核心标签和属性" tabindex="-1"> HTML5 核心标签和属性</h2>
+<div><p>TIP</p>
+<ul>
+<li>Web 前端入门到精通必会的标签属性大全</li>
+</ul>
+</div>
+<h3 id="_1、文档声明、文档结构、功能标签" tabindex="-1"> 1、文档声明、文档结构、功能标签</h3>
+<div><p>注：</p>
+<p>HTML/HTML5 骨架相关基础标签</p>
+</div>
+<table>
+<thead>
+<tr>
+<th>分类</th>
+<th>标签名称</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>文档声明</td>
+<td>&lt;!DOCTYPE&gt;</td>
+<td>用于告诉浏览器此文档的类型是什么处于<code>&lt;html&gt;</code>标签之前。用于告诉浏览器此文档的类型是什么。目前开发中常用的声明是<code>&lt;!DOCTYPE html&gt;</code>，表示声明一个 HTML5 文档。它不属于 HTML 标签，而是一条指令</td>
+</tr>
+<tr>
+<td>文档结构标签</td>
+<td>html，head，title，body</td>
+<td>（1）html 标签：每创建一个 HTML 文件，都需要创建 html 标签对。除了声明文档类型的代码，其他的所有内容都存放在 html 标签对中；<br>（2） head 标签：定义文档的头部，用来包含网页的配置（例如网页的标题 title，网页的基础配置 meta 都放在 head 中）；<br>（3）title 标签：定义网页的标题，标题内容会显示在浏览器的标签栏上<br>（4）body 标签：定义网页的主体，例如：网页中的图片、文字等</td>
+</tr>
+<tr>
+<td>功能标签</td>
+<td>meta</td>
+<td>元标签，用来表示网页的基础配置</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_2、块级元素" tabindex="-1"> 2、块级元素</h3>
+<div><p>注:</p>
+<p>块级元素可以独占一行，默认自上而下排列，可以设置宽高。</p>
+</div>
+<table>
+<thead>
+<tr>
+<th>标签名称</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>h1 ~ h6</td>
+<td>一级标题 ~ 六级标题</td>
+</tr>
+<tr>
+<td>p</td>
+<td>段落标签，用来描述网页中的段落内容</td>
+</tr>
+<tr>
+<td>div</td>
+<td>用于页面区域的划分。它就像一个容器，用来放某一个区域的内容</td>
+</tr>
+<tr>
+<td>ul，ol</td>
+<td>定义无序列表，定义有序列表</td>
+</tr>
+<tr>
+<td>li</td>
+<td>定义列表项，与 ul 或者 ol 配合使用</td>
+</tr>
+<tr>
+<td>dt，dd</td>
+<td>定义列表中的项目， 描述列表中的项目</td>
+</tr>
+<tr>
+<td>figure</td>
+<td>定义一段独立的内容（不常用，了解即可）</td>
+</tr>
+<tr>
+<td>figcaption</td>
+<td>定义 figure 元素的标题（不常用，了解即可）</td>
+</tr>
+<tr>
+<td>form</td>
+<td>表单标签，里面包含很多搜集信息的表单元素，如输入框，复选框等</td>
+</tr>
+<tr>
+<td>table，canvas</td>
+<td>定义 HTML 表格，通过脚本（通常是 JavaScript）来绘制图形</td>
+</tr>
+<tr>
+<td>pre</td>
+<td>预格式化的文本</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_3、区块标签" tabindex="-1"> 3、区块标签</h3>
+<div><p>注：</p>
+<p>html5 新增的语义化标签</p>
+</div>
+<table>
+<thead>
+<tr>
+<th>标签名称</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>header</td>
+<td>定义页头</td>
+</tr>
+<tr>
+<td>nav</td>
+<td>定义导航</td>
+</tr>
+<tr>
+<td>main</td>
+<td>定义页面的主体区域</td>
+</tr>
+<tr>
+<td>aside</td>
+<td>可用作文章的侧栏</td>
+</tr>
+<tr>
+<td>article</td>
+<td>可用作文章的内容</td>
+</tr>
+<tr>
+<td>section</td>
+<td>可用作文档的区域块，类似于 div</td>
+</tr>
+<tr>
+<td>footer</td>
+<td>定义页脚</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_4、内联元素" tabindex="-1"> 4、内联元素</h3>
+<div><p>注：</p>
+<p>内联元素不会自占一行，与其他内联元素在同一行显示，且宽高由内容撑起。</p>
+</div>
+<table>
+<thead>
+<tr>
+<th>标签名称</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a</td>
+<td>超链接标签，用于从一张页面链接到另一张页面</td>
+</tr>
+<tr>
+<td>span</td>
+<td>用来组合文档中的行内元素，一般用来包裹文字</td>
+</tr>
+<tr>
+<td>label</td>
+<td>为 input 元素定义标注（标记）label 可设置 for 属性</td>
+</tr>
+<tr>
+<td>b，u</td>
+<td>字体加粗标签，下划线文本标签（不常用，了解即可）</td>
+</tr>
+<tr>
+<td>i，strong</td>
+<td>斜体文本标签，用于强调文本的标签字体会加粗（不常用，了解即可）</td>
+</tr>
+<tr>
+<td>em</td>
+<td>用于强调文本的标签，字体变成斜体（不常用，了解即可）</td>
+</tr>
+<tr>
+<td>mark</td>
+<td>突出显示文本的标签，字体会有背景颜色，默认的是黄色（不常用，了解即可）</td>
+</tr>
+<tr>
+<td>datalist</td>
+<td>标签/控件，需要结合 option 标签使用（不常用，了解即可）</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_5、特殊内联元素" tabindex="-1"> 5、特殊内联元素</h3>
+<div><p>注：</p>
+<p>可以设置宽高，但不独占一行</p>
+</div>
+<table>
+<thead>
+<tr>
+<th>标签名称</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>img</td>
+<td>图片标签，用于在网页中嵌入图片</td>
+</tr>
+<tr>
+<td>audio</td>
+<td>音频标签，用于在页面中引入音频</td>
+</tr>
+<tr>
+<td>video</td>
+<td>视频标签，用于在页面中引入视频</td>
+</tr>
+<tr>
+<td>input</td>
+<td>定义用户可输入数据的输入字段。例如登录页面的用户名和密码框，都是使用 input 标签</td>
+</tr>
+<tr>
+<td>select</td>
+<td>定义下拉列表</td>
+</tr>
+<tr>
+<td>option</td>
+<td>定义下拉列表项，需要与 select 配合使用（块元素，写在这里是因为它需要跟 select 标签一起使用）</td>
+</tr>
+<tr>
+<td>textarea</td>
+<td>定义多行文本框，常用于留言框、备注框等</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_6、转义字符" tabindex="-1"> 6、转义字符</h3>
+<table>
+<thead>
+<tr>
+<th>标签名</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&amp;nbsp;</code></td>
+<td>表示空格符号</td>
+</tr>
+<tr>
+<td><code>&amp;lt;</code></td>
+<td>表示小于号“&lt;”</td>
+</tr>
+<tr>
+<td><code>&amp;gt;</code></td>
+<td>表示大于号“&gt;”</td>
+</tr>
+<tr>
+<td><code>&amp;copy;</code></td>
+<td>表示版权符号“©”</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_7、表格标签" tabindex="-1"> 7、表格标签</h3>
+<table>
+<thead>
+<tr>
+<th>标签名</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>table</td>
+<td>表格标签</td>
+</tr>
+<tr>
+<td>tr</td>
+<td>表格行</td>
+</tr>
+<tr>
+<td>td</td>
+<td>表格列</td>
+</tr>
+<tr>
+<td>th</td>
+<td>标签，可替代 td 标签，用来设置表格的标题</td>
+</tr>
+<tr>
+<td>thead</td>
+<td>定义表格头部</td>
+</tr>
+<tr>
+<td>tbody</td>
+<td>定义表格主体内容</td>
+</tr>
+<tr>
+<td>tfoot</td>
+<td>定义表格尾部</td>
+</tr>
+<tr>
+<td>caption</td>
+<td>设置表格的标题</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_8、标签中的属性" tabindex="-1"> 8、标签中的属性</h3>
+<table>
+<thead>
+<tr>
+<th>属性名</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>lang</td>
+<td>html 标签的属性，用来标记网页的语言；</td>
+</tr>
+<tr>
+<td>常见属性值有：&quot;en&quot;和&quot;zh&quot;；en 代表英语, zh 代表中文</td>
+<td></td>
+</tr>
+<tr>
+<td>charset</td>
+<td>meta 标签的属性，声明页面文档使用的字符编码类型。</td>
+</tr>
+<tr>
+<td>常用的属性值有：UTF-8 和 GB2312</td>
+<td></td>
+</tr>
+<tr>
+<td>type</td>
+<td>修改无序列表与有序列表默认的前导样式（已被废弃，了解即可）1、type 属性写在无序列表中，属性值有：<br>（1）disc：默认值，实心圆样式<br>（2）circle： 空心圆样式<br>（3）square：实心方块样式<br>2、type 属性写在有序列表中，属性值有：<br>（1）1：默认值，数字编号<br>（2）A：大写英文编号<br>（3）i：小写罗马数字编号<br>（4）I：大写罗马数字编号<br>（5）a：小写英文编号</td>
+</tr>
+<tr>
+<td>start</td>
+<td>有序列表的属性，指定列表编号的起始值，能修改有序列表标签默认的前导样式（不常用，了解即可）</td>
+</tr>
+<tr>
+<td>reversed</td>
+<td>有序列表的属性，指定列表中的条目是否倒序排列的（不常用，了解即可）</td>
+</tr>
+<tr>
+<td>src</td>
+<td>（1）img 标签的属性，指定图片的路径</td>
+</tr>
+<tr>
+<td>（2）audio 标签和 video 标签也可以设置 src 属性，指定音频、视频的路径</td>
+<td></td>
+</tr>
+<tr>
+<td>alt</td>
+<td>img 标签的属性，用来对引入的图片进行文本描述</td>
+</tr>
+<tr>
+<td>width</td>
+<td>规定元素的宽度。此属性不常用，了解即可。后续学习 css，会使用 css 样式设置元素宽度</td>
+</tr>
+<tr>
+<td>height</td>
+<td>规定元素的高度。此属性不常用，了解即可。后续学习 css，会使用 css 样式设置元素高度。</td>
+</tr>
+<tr>
+<td>注意，height 或者 width 如果省略其中一个属性，则按照图片原始比例缩放图片</td>
+<td></td>
+</tr>
+<tr>
+<td>href</td>
+<td>a 标签属性，规定该链接要跳转到目标页面的地址</td>
+</tr>
+<tr>
+<td>title</td>
+<td>a 标签属性，设置鼠标悬停的文本</td>
+</tr>
+<tr>
+<td>target</td>
+<td>a 标签属性，规定在何处打开链接文档；</td>
+</tr>
+<tr>
+<td>如果属性值为 blank 或_blank，会打开新的标签页</td>
+<td></td>
+</tr>
+<tr>
+<td>controls</td>
+<td>audio/video 的属性，用于显示播放控件</td>
+</tr>
+<tr>
+<td>autoplay</td>
+<td>audio/video 的属性，设置音频/视频自动播放</td>
+</tr>
+<tr>
+<td>loop</td>
+<td>audio/video 的属性，设置音频/视频可以循环播放</td>
+</tr>
+<tr>
+<td>class</td>
+<td>所有标签都可以使用这个属性，用来定义元素的类名（后续学习 css，会有详细的讲解）</td>
+</tr>
+<tr>
+<td>action</td>
+<td>form 标签的属性，用来设置 form 表单的数据要提交到哪个地址。提交到哪个地址，后端开发会告诉我们（不常用，了解一下。提交数据常用 ajax，后面会学习到的）</td>
+</tr>
+<tr>
+<td>method</td>
+<td>form 标签的属性，用来设置表单的提交方式，常用的方式有 get 或 post（不常用，了解即可）</td>
+</tr>
+<tr>
+<td>rows</td>
+<td>textarea 标签属性，设置多行文本框有多少行</td>
+</tr>
+<tr>
+<td>cols</td>
+<td>textarea 标签属性，设置多行文本框有多少列</td>
+</tr>
+<tr>
+<td>list</td>
+<td>datalist 控件的属性，二者结合，可以与输入框绑定，为输入框设置备选项（不常用，了解即可）</td>
+</tr>
+<tr>
+<td>border</td>
+<td>边框属性，可为 table 添加边框</td>
+</tr>
+<tr>
+<td>border-collapse</td>
+<td>css 样式，通常给表格设置 border-collapse：collapse；让表格边框合并，成为单线表格;</td>
+</tr>
+<tr>
+<td>colspan</td>
+<td>表格标签的属性，实现跨列合并的效果，用来设置 td 或 th 跨列合并</td>
+</tr>
+<tr>
+<td>rowspan</td>
+<td>表格标签的属性，实现跨行合并的效果，用来设置 td 或 th 跨行合并</td>
+</tr>
+<tr>
+<td>cellspacing</td>
+<td>设置表格单元格内容与边框之间的间隙（不常用，了解即可）</td>
+</tr>
+<tr>
+<td>cellpadding</td>
+<td>设置两个单元格之间的间隙（不常用，了解即可）</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_9、input-元素中的属性" tabindex="-1"> 9、input 元素中的属性</h3>
+<table>
+<thead>
+<tr>
+<th>属性名称</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>type</td>
+<td>用来定义表单元素的类型。属性值如下：<br>（1）text：单行文本输入框<br>（2）radio：单选按钮<br>（3）checkbox：复选框<br>（4）password：密码框<br>（5）button：普通按钮，也可以直接写成 button 按钮，例如：<button>按钮标签</button><br>（6）submit：提交按钮<br>（7）reset：重置按钮<br>（8）color：颜色控件（不常用，了解即可）<br>（9）date：日期控件<br>（10）time：时间控件<br>（11）email：电子邮件输入控件<br>（12）file：文件选择控件，需要上传本地文件时，可以使用它<br>（13）number：表示数字输入控件<br>（14）range：表示拖拽条（不常用，了解即可）<br>（15）search：t 表示搜索框（不常用，了解即可）<br>（16）url：表示网址输入控件</td>
+</tr>
+<tr>
+<td>value</td>
+<td>用于为 input 元素设定值，value 值一般是给后端发送数据时使用，后续学习了相关课程就会了解</td>
+</tr>
+<tr>
+<td>name</td>
+<td>规定 input 元素的名称</td>
+</tr>
+<tr>
+<td>checked</td>
+<td>用来设置单选按钮、多选按钮的默认选中项</td>
+</tr>
+<tr>
+<td>placeholder</td>
+<td>表示提示文本，用来设置输入框的提示信息，告诉用户该输入框需要输入什么内容</td>
+</tr>
+<tr>
+<td>disabled</td>
+<td>用于禁用 input 元素，表示只读</td>
+</tr>
+<tr>
+<td>max	max</td>
+<td>表示最大值，表示数字输入控件（即 type=&quot;number&quot;的 input 元素）允许输入的最大值</td>
+</tr>
+<tr>
+<td>min	min</td>
+<td>表示最小值，最小值，表示数字输入控件（即 type=&quot;number&quot;的 input 元素）允许输入的最小值</td>
+</tr>
+<tr>
+<td>require</td>
+<td>表示必填字段，约束某项内容是必填项，比如规定”用户名“项，是必填项</td>
+</tr>
+</tbody>
+</table>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>HTML/HTML5 常用标签和属性</title>
+      <link>https://brysonlin.github.io/blog/blog/core-foundation/basic/html/html-html5-course.html</link>
+      <guid>https://brysonlin.github.io/blog/blog/core-foundation/basic/html/html-html5-course.html</guid>
+      <source url="https://brysonlin.github.io/blog/blog/rss.xml">HTML/HTML5 常用标签和属性</source>
+      <pubDate>Sun, 14 Aug 2022 01:03:48 GMT</pubDate>
+      <content:encoded><![CDATA[<h2 id="四、标题标签" tabindex="-1"> 四、标题标签</h2>
+<div><p>TIP</p>
+<p>h 系列标签表示 “标题” 含义，h 是 headline(标题) 的意思</p>
+</div>
+<h3 id="_1、h1-h6-标签" tabindex="-1"> 1、h1~h6 标签</h3>
+<table>
+<thead>
+<tr>
+<th>标签</th>
+<th>语义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>h1</td>
+<td>一级标题</td>
+</tr>
+<tr>
+<td>h2</td>
+<td>二级标题</td>
+</tr>
+<tr>
+<td>h3</td>
+<td>三级标题</td>
+</tr>
+<tr>
+<td>h4</td>
+<td>四级标题</td>
+</tr>
+<tr>
+<td>h5</td>
+<td>五级标题</td>
+</tr>
+<tr>
+<td>h6</td>
+<td>六级标题</td>
+</tr>
+</tbody>
+</table>
+<div><p>相关信息</p>
+<p><strong>关于 h 标签详细解读</strong></p>
+<ul>
+<li><code>&lt;h1&gt;&lt;/h1&gt;</code>标签的内容对于搜索引擎来说非常重要，相当于一篇文章的标题（主题）</li>
+<li>应该将当前页面重要的内容放到 <code>&lt;h1&gt;&lt;/h1&gt;</code>标签中</li>
+<li>关于h1 ~ h6 标签的使用 以百度百科 (opens new window)为标准</li>
+<li><code>&lt;h1&gt;&lt;/h1&gt;</code>标签在一个网页中只能放置一个，否则会被搜索引擎视为作弊</li>
+</ul>
+<div><pre><code> <span><span><span>&lt;</span>h1</span><span>></span></span>我是h1标题标签<span><span><span>&lt;/</span>h1</span><span>></span></span>
+ <span><span><span>&lt;</span>h2</span><span>></span></span>我是h2标题标签<span><span><span>&lt;/</span>h2</span><span>></span></span>
+ <span><span><span>&lt;</span>h3</span><span>></span></span>我是h3标题标签<span><span><span>&lt;/</span>h3</span><span>></span></span>
+ <span><span><span>&lt;</span>h4</span><span>></span></span>我是h4标题标签<span><span><span>&lt;/</span>h4</span><span>></span></span>
+ <span><span><span>&lt;</span>h5</span><span>></span></span>我是h5标题标签<span><span><span>&lt;/</span>h5</span><span>></span></span>
+ <span><span><span>&lt;</span>h6</span><span>></span></span>我是h6标题标签<span><span><span>&lt;/</span>h6</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div></div></div></div>
+<h3 id="_2、h-标签在-seo-优化中的设置技巧" tabindex="-1"> 2、h 标签在 SEO 优化中的设置技巧</h3>
+<div><p>相关信息</p>
+<p><strong>① 不同类型页面的设置</strong></p>
+<ul>
+<li><strong>首页</strong>：网站首页的 H1 通常是网站 logo，强调 alt 的内容，而 alt 属性是网站首页标题，包含核心关键词，H2 标注分类页面，H3 标注内容页面标题链接。</li>
+<li><strong>列表页（栏目页）</strong>：H1 设置为分类名称，H2 是子分类名称，H3 设置为内容页面标题链接。</li>
+<li><strong>内容页（产品详情页、文章页）</strong>：H1 设置文章标题名称，H2 标注列表名称，H3 标注相关文章。</li>
+</ul>
+<p><strong>② H 标签包含关键词</strong></p>
+<ul>
+<li>H 标签是一个强调性的标签，因此，H1 标签中，必须包含核心关键词，H2、H3 标签可以适当的包含长尾关键词</li>
+</ul>
+<p><strong>③ 页面 H 标签的数量。</strong></p>
+<ul>
+<li>一个页面上只能有 1 个 H1 标签，可以包含不等的 H2-H6 标签。从结构化的角度看，有 H3 就要有 H1、H2。</li>
+</ul>
+</div>
+<h2 id="五、段落标签" tabindex="-1"> 五、段落标签</h2>
+<div><p>关于 p 标签详细解读</p>
+<p><code>&lt;p&gt;&lt;/p&gt;</code>标签表示段落标签，p 是英语 Paragraph(段落)的意思
+任何段落都要放到 p 标签中，因为 HTML 代码中即使代码换行了，页面显示效果也不会换行，必须写在 <code>&lt;p&gt;&lt;/p&gt;</code>中
+<code>&lt;p&gt;&lt;/p&gt;</code>标签中不能嵌套 h 标签、其他 p 标签和其他块级元素
+p 标签中可可嵌套的标签有：
+<img src="/core-foundation/basic/html/assets/pppppp.2dd52f76.png" alt="pppppp.2dd52f76.png"></p>
+</div>
+<p><strong>模仿百度百科，写一个 h 标签和 p 标签的综合案例 ，以 &quot;<a href="https://baike.baidu.com/item/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/10009024?fr=aladdin" target="_blank" rel="noopener noreferrer">前端开发</a>&quot; 为例。效果如下：</strong>
+<img src="/core-foundation/basic/html/assets/image-20211120221214045.a164d24c.png" alt="image-20211120221214045.a164d24c.png"></p>
+<h2 id="六、div-标签" tabindex="-1"> 六、div 标签</h2>
+<div><p>相关信息</p>
+<p><strong>关于 div 标签详细解读</strong></p>
+<ul>
+<li><code>&lt;div&gt;&lt;/div&gt;</code>标签 是英语 division “分隔” 的缩写</li>
+<li>div 标签对是用来将相关内容组合到一起，以和其他内容分隔，使文档结构更清晰</li>
+</ul>
+<p><strong>比如：一般网页布局 头部，内容区，底部 都会通过 div 进行分隔</strong></p>
+<ul>
+<li><code>&lt;div&gt;&lt;/div&gt;</code> 是最常见的 HTML 标签，因为它会结合 CSS 来使用，实现网页的布局，这种布局形式叫做 DIV +CSS</li>
+<li><code>&lt;div&gt;&lt;/div&gt;</code> 像一个容器，什么都可以容纳，因此工程师们习惯称呼 div 为 盒子</li>
+</ul>
+<p><strong>事例如下：通过 Google 开发者工具查看网页的 DIV 布局</strong></p>
+<p><img src="/core-foundation/basic/html/assets/image-20211120233431632.ca4f8099.png" alt="image-20211120233431632.ca4f8099.png"></p>
+</div>
+<p><strong>编写练习案例效果：</strong></p>
+<p><img src="/core-foundation/basic/html/assets/image-20211120234301486.0cca998e.png" alt="image-20211120234301486.0cca998e.png"></p>
+<h2 id="七、html5-特性" tabindex="-1"> 七、HTML5 特性</h2>
+<h3 id="_1、空白折叠现象" tabindex="-1"> 1、空白折叠现象</h3>
+<div><p>提示</p>
+<ul>
+<li>文字和文字之间的多个空格、换行会被折叠成一个空格</li>
+<li>标签 内壁 和 文字之间的空格会被忽略</li>
+</ul>
+</div>
+<div><pre><code>  <span><span><span>&lt;</span>body</span><span>></span></span>
+    <span><span><span>&lt;</span>h1</span><span>></span></span>HTML5特性：空白折叠现象<span><span><span>&lt;/</span>h1</span><span>></span></span>
+
+    <span><span><span>&lt;</span>h2</span><span>></span></span>文字和文字之间的多个空格、换行会被折叠成一个空格<span><span><span>&lt;/</span>h2</span><span>></span></span>
+    <span><span><span>&lt;</span>p</span><span>></span></span>文本内容 文本内容<span><span><span>&lt;/</span>p</span><span>></span></span>
+
+    <span><span><span>&lt;</span>h2</span><span>></span></span>标签 内壁 和 文字之间的空格会被忽略<span><span><span>&lt;/</span>h2</span><span>></span></span>
+    <span><span><span>&lt;</span>p</span><span>></span></span>文本内容文本<span><span><span>&lt;/</span>p</span><span>></span></span>
+  <span><span><span>&lt;/</span>body</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><img src="/core-foundation/basic/html/assets/image-20211120235244134.50c6ac2d.png" alt="image-20211120235244134.50c6ac2d.png"></p>
+<h3 id="_2、常用转义符" tabindex="-1"> 2、常用转义符</h3>
+<table>
+<thead>
+<tr>
+<th>显示结果</th>
+<th>描述</th>
+<th>实体名称</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>空格</td>
+<td></td>
+<td> </td>
+</tr>
+<tr>
+<td>&lt;</td>
+<td>小于号</td>
+<td>&lt;</td>
+</tr>
+<tr>
+<td>&gt;</td>
+<td>大于号</td>
+<td>&gt;</td>
+</tr>
+<tr>
+<td>&amp;</td>
+<td>&amp;符号</td>
+<td>&amp;</td>
+</tr>
+<tr>
+<td>&quot;</td>
+<td>双引号</td>
+<td>&quot;</td>
+</tr>
+<tr>
+<td>©</td>
+<td>版权</td>
+<td>©</td>
+</tr>
+<tr>
+<td>®</td>
+<td>已注册商标</td>
+<td>®</td>
+</tr>
+</tbody>
+</table>
+<div><pre><code>  <span><span><span>&lt;</span>body</span><span>></span></span>
+    <span><span><span>&lt;</span>h1</span><span>></span></span>HTML常用转义符<span><span><span>&lt;/</span>h1</span><span>></span></span>
+
+    <span><span><span>&lt;</span>p</span><span>></span></span>空格：<span title="&nbsp;">&amp;nbsp;</span><span title="&nbsp;">&amp;nbsp;</span><span title="&nbsp;">&amp;nbsp;</span> 这是三个空格<span><span><span>&lt;/</span>p</span><span>></span></span>
+    <span><span><span>&lt;</span>p</span><span>></span></span>大于号：<span title="&gt;">&amp;gt;</span><span><span><span>&lt;/</span>p</span><span>></span></span>
+    <span><span><span>&lt;</span>p</span><span>></span></span>小于号：<span title="&lt;">&amp;lt;</span><span><span><span>&lt;/</span>p</span><span>></span></span>
+    <span><span><span>&lt;</span>p</span><span>></span></span>&amp;符号：<span title="&amp;">&amp;amp;</span><span><span><span>&lt;/</span>p</span><span>></span></span>
+    <span><span><span>&lt;</span>p</span><span>></span></span>“双引号：<span title="&quot;">&amp;quot;</span><span><span><span>&lt;/</span>p</span><span>></span></span>
+    <span><span><span>&lt;</span>p</span><span>></span></span>版权符号：<span title="&copy;">&amp;copy;</span><span><span><span>&lt;/</span>p</span><span>></span></span>
+    <span><span><span>&lt;</span>p</span><span>></span></span>已注册商标：<span title="&reg;">&amp;reg;</span><span><span><span>&lt;/</span>p</span><span>></span></span>
+
+    <span><span><span>&lt;</span>p</span><span>></span></span>在网页中直接显示原标签:<span><span><span>&lt;/</span>p</span><span>></span></span>
+
+    显示p标签 <span title="&lt;">&amp;lt;</span>p><span title="&lt;">&amp;lt;</span>/p> <span><span><span>&lt;</span>br</span> <span>/></span></span><span><span><span>&lt;</span>br</span> <span>/></span></span>
+
+    显示div标签：<span title="&lt;">&amp;lt;</span>div<span title="&gt;">&amp;gt;</span><span title="&lt;">&amp;lt;</span>/div<span title="&gt;">&amp;gt;</span>
+  <span><span><span>&lt;/</span>body</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><img src="/core-foundation/basic/html/assets/image-20211121001254290.3557e8f1.png" alt="image-20211121001254290.3557e8f1.png"></p>
+<h3 id="_3、html-的注释" tabindex="-1"> 3、HTML 的注释</h3>
+<div><p>提示</p>
+<p><strong>对于 程序开发人员最讨厌的两件事：</strong></p>
+<ul>
+<li>
+<p>讨厌自己加注释</p>
+</li>
+<li>
+<p>讨厌别人的代码不加注释</p>
+</li>
+<li>
+<p>添加注释的重要性：</p>
+</li>
+<li>
+<p>提高代码的可阅读性，方便自己阅读或他人阅读</p>
+</li>
+<li>
+<p>增强代码的可维护性</p>
+</li>
+</ul>
+<p><strong>注：</strong></p>
+<ul>
+<li>注释在网页中是不显示的，只有自己能看到</li>
+</ul>
+<p><strong>HTML 注释的语法：</strong></p>
+<div><pre><code><span>&lt;!--注释内容--></span>
+</code></pre><div aria-hidden="true"><div></div></div></div><p>在 Vscode 中，可以使用快捷键 Ctrl + / 添加</p>
+</div>
+<h2 id="八、列表标签" tabindex="-1"> 八、列表标签</h2>
+<p>HTML5 中提供了三种列表标签</p>
+<table>
+<thead>
+<tr>
+<th>标签</th>
+<th>语义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><ul></ul></td>
+<td>无序列表 （没有刻意的顺序）</td>
+</tr>
+<tr>
+<td><ol></ol></td>
+<td>有序列表</td>
+</tr>
+<tr>
+<td><dl></dl></td>
+<td>定义列表</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_1、无序列表-基础语法" tabindex="-1"> 1、无序列表 - 基础语法</h3>
+<div><p>语法</p>
+<ul>
+<li>无序列表使用 <code>&lt;ul&gt;&lt;/ul&gt;</code>标签，是英文单词unordered list（不排序列表） 缩写</li>
+<li>每个列表项都是 <code>&lt;li&gt;&lt;/li&gt;</code>标签，是英文单词 list item（列表项目）缩写</li>
+<li>无序列表是一个父子组合标签，上阵父子兵，不能单独出现</li>
+<li><code>&lt;ul&gt;</code> 父标签，li 子标签</li>
+</ul>
+</div>
+<div><pre><code>  <span><span><span>&lt;</span>h1</span><span>></span></span>无序列表<span><span><span>&lt;/</span>h1</span><span>></span></span>
+  <span><span><span>&lt;</span>ul</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>小炒肉<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>小龙虾<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>剁椒鱼头<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>酸辣白菜<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>7分熟牛排<span><span><span>&lt;/</span>li</span><span>></span></span>
+  <span><span><span>&lt;/</span>ul</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><div><p>注意</p>
+<ul>
+<li>ul ，li 标签是嵌套形式，li 标签必须要缩进（一个 Tab）</li>
+<li>li 标签不能单独使用</li>
+<li>ul 的子标签只能是 li</li>
+<li>li 标签中是可以放任何标签的</li>
+</ul>
+</div>
+<h3 id="_2、无序列表-列表嵌套" tabindex="-1"> 2、无序列表 - 列表嵌套</h3>
+<div><pre><code>  <span><span><span>&lt;</span>h1</span><span>></span></span>无序列表-嵌套<span><span><span>&lt;/</span>h1</span><span>></span></span>
+
+  <span><span><span>&lt;</span>ul</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>
+      <span><span><span>&lt;</span>h2</span><span>></span></span>北京市<span><span><span>&lt;/</span>h2</span><span>></span></span>
+      <span><span><span>&lt;</span>ul</span><span>></span></span>
+        <span><span><span>&lt;</span>li</span><span>></span></span>海淀区<span><span><span>&lt;/</span>li</span><span>></span></span>
+        <span><span><span>&lt;</span>li</span><span>></span></span>东城区<span><span><span>&lt;/</span>li</span><span>></span></span>
+        <span><span><span>&lt;</span>li</span><span>></span></span>朝阳区<span><span><span>&lt;/</span>li</span><span>></span></span>
+        <span><span><span>&lt;</span>li</span><span>></span></span>石景山区<span><span><span>&lt;/</span>li</span><span>></span></span>
+      <span><span><span>&lt;/</span>ul</span><span>></span></span>
+    <span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>
+      <span><span><span>&lt;</span>h2</span><span>></span></span>上海市<span><span><span>&lt;/</span>h2</span><span>></span></span>
+      <span><span><span>&lt;</span>ul</span><span>></span></span>
+        <span><span><span>&lt;</span>li</span><span>></span></span>黄浦区<span><span><span>&lt;/</span>li</span><span>></span></span>
+        <span><span><span>&lt;</span>li</span><span>></span></span>浦东新区<span><span><span>&lt;/</span>li</span><span>></span></span>
+        <span><span><span>&lt;</span>li</span><span>></span></span>徐汇区<span><span><span>&lt;/</span>li</span><span>></span></span>
+        <span><span><span>&lt;</span>li</span><span>></span></span>静安区<span><span><span>&lt;/</span>li</span><span>></span></span>
+      <span><span><span>&lt;/</span>ul</span><span>></span></span>
+    <span><span><span>&lt;/</span>li</span><span>></span></span>
+  <span><span><span>&lt;/</span>ul</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p>界面显示</p>
+<p><img src="/core-foundation/basic/html/assets/Snipaste_2022-08-12_19-46-23.png" alt="Snipaste_2022-08-12_19-46-23.png"></p>
+<h3 id="_3、无序列表的-type-属性" tabindex="-1"> 3、无序列表的 type 属性</h3>
+<div><p>相关信息</p>
+<p><strong>type 属性</strong></p>
+<ul>
+<li>无序列表有 type 属性，可以定义前导符号的样式，但在 HTML5 中已经被废弃，建议使用 CSS 替代</li>
+<li>只作为学习和了解即可</li>
+</ul>
+</div>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>type</td>
+<td>disc	默认值，</td>
+<td>实心圆</td>
+</tr>
+<tr>
+<td>type</td>
+<td>square</td>
+<td>实心正方形</td>
+</tr>
+<tr>
+<td>type</td>
+<td>circle</td>
+<td>空心圆</td>
+</tr>
+</tbody>
+</table>
+<div><p>注意</p>
+<p><strong>注意:</strong></p>
+<p>-在 HTML 4 中的 ul 属性已废弃，HTML5 已不支持该属性，因此我们使用 CSS 代替来定义不同类型的无序列表如下：</p>
+</div>
+<div><pre><code>  <span><span><span>&lt;</span>h1</span><span>></span></span>无序列表标签<span><span><span>&lt;/</span>h1</span><span>></span></span>
+  <span><span><span>&lt;</span>p</span><span>></span></span>ul的type属性在HTML5中已经废弃<span><span><span>&lt;/</span>p</span><span>></span></span>
+
+  <span><span><span>&lt;</span>h2</span><span>></span></span>type="square" 实心正方形<span><span><span>&lt;/</span>h2</span><span>></span></span>
+  <span><span><span>&lt;</span>ul</span> <span>type</span><span><span>=</span><span>"</span>square<span>"</span></span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>小炒肉<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>小龙虾<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>剁椒鱼头<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>酸辣白菜<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>7分熟牛排<span><span><span>&lt;/</span>li</span><span>></span></span>
+  <span><span><span>&lt;/</span>ul</span><span>></span></span>
+
+  <span><span><span>&lt;</span>h2</span><span>></span></span>type="circle" 空心圆<span><span><span>&lt;/</span>h2</span><span>></span></span>
+  <span><span><span>&lt;</span>ul</span> <span>type</span><span><span>=</span><span>"</span>circle<span>"</span></span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>小炒肉<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>小龙虾<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>剁椒鱼头<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>酸辣白菜<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>7分熟牛排<span><span><span>&lt;/</span>li</span><span>></span></span>
+  <span><span><span>&lt;/</span>ul</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p>界面显示</p>
+<p><img src="/core-foundation/basic/html/assets/image-20211121172542621-16568724944295.65a540d2.png" alt="image-20211121172542621-16568724944295.65a540d2"></p>
+<div><p>注：</p>
+<ul>
+<li>在 HTML5 中使用 CSS 代替来定义不同类型的无序列表</li>
+</ul>
+</div>
+<div><pre><code>  <span><span><span>&lt;</span>h1</span><span>></span></span>无序列表标签<span><span><span>&lt;/</span>h1</span><span>></span></span>
+  <span><span><span>&lt;</span>p</span><span>></span></span>ul的type属性在HTML5中已经废弃，使用CSS替代<span><span><span>&lt;/</span>p</span><span>></span></span>
+
+  <span><span><span>&lt;</span>h2</span><span>></span></span>style="list-style-type:disc" 实心圆<span><span><span>&lt;/</span>h2</span><span>></span></span>
+  <span><span><span>&lt;</span>ul</span> <span><span>style</span><span><span>=</span><span>"</span><span><span>list-style-type</span><span>:</span>disc</span><span>"</span></span></span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>小炒肉<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>小龙虾<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>剁椒鱼头<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>酸辣白菜<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>7分熟牛排<span><span><span>&lt;/</span>li</span><span>></span></span>
+  <span><span><span>&lt;/</span>ul</span><span>></span></span>
+
+  <span><span><span>&lt;</span>h2</span><span>></span></span>style="list-style-type:square" 实心正方形<span><span><span>&lt;/</span>h2</span><span>></span></span>
+  <span><span><span>&lt;</span>ul</span> <span><span>style</span><span><span>=</span><span>"</span><span><span>list-style-type</span><span>:</span>square</span><span>"</span></span></span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>小炒肉<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>小龙虾<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>剁椒鱼头<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>酸辣白菜<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>7分熟牛排<span><span><span>&lt;/</span>li</span><span>></span></span>
+  <span><span><span>&lt;/</span>ul</span><span>></span></span>
+
+  <span><span><span>&lt;</span>h2</span><span>></span></span>style="list-style-type:circle" 空心圆<span><span><span>&lt;/</span>h2</span><span>></span></span>
+  <span><span><span>&lt;</span>ul</span> <span><span>style</span><span><span>=</span><span>"</span><span><span>list-style-type</span><span>:</span>circle</span><span>"</span></span></span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>小炒肉<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>小龙虾<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>剁椒鱼头<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>酸辣白菜<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>7分熟牛排<span><span><span>&lt;/</span>li</span><span>></span></span>
+  <span><span><span>&lt;/</span>ul</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p>界面显示</p>
+<p><img src="/core-foundation/basic/html/assets/image-20211121172959993-16568725093787.c36c897d.png" alt="image-20211121172959993-16568725093787.c36c897d"></p>
+<h3 id="_4、无序列表在开发中的使用" tabindex="-1"> 4、无序列表在开发中的使用</h3>
+<div><p>相关信息</p>
+<ul>
+<li>导航栏</li>
+<li>各种页面 list 列表</li>
+<li>..... 基本常见网站导航、列表页都会使用 ul li 无序列表标签</li>
+</ul>
+</div>
+<p><img src="/core-foundation/basic/html/assets/image-20220704150756466.433e47d6.png" alt="image-20220704150756466.433e47d6"></p>
+<h3 id="_5、有序列表-基础语法" tabindex="-1"> 5、有序列表 - 基础语法</h3>
+<blockquote>
+<p>有刻意顺序的列表就叫做 有序列表</p>
+</blockquote>
+<p><img src="/core-foundation/basic/html/assets/image-20211121174020363-16568724127571.cc33102b.png" alt="image-20211121174020363-16568724127571.cc33102b"></p>
+<div><p>提示</p>
+<p><strong>关于有序列表</strong></p>
+<p>有序列表使用 <code>&lt;ol&gt;&lt;/ol&gt;</code>标签，每个列表项都是<code>&lt;li&gt;&lt;/li&gt;</code>标签
+<code>&lt;ol&gt;</code>标签是英文 ordered list（排序列表） 缩写
+ol 的特性与 ul li 同理</p>
+</div>
+<div><pre><code>  <span><span><span>&lt;</span>h1</span><span>></span></span>编程语言排行榜<span><span><span>&lt;/</span>h1</span><span>></span></span>
+  <span><span><span>&lt;</span>ol</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>JavaScript<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>Python<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>C/C++<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>Java<span><span><span>&lt;/</span>li</span><span>></span></span>
+  <span><span><span>&lt;/</span>ol</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><img src="/core-foundation/basic/html/assets/image-20211121174947822-16568725304449.a7841f6a.png" alt="image-20211121174947822-16568725304449.a7841f6a"></p>
+<h3 id="_6、有序列表-ol-的-type-属性" tabindex="-1"> 6、有序列表 ol 的 type 属性</h3>
+<div><p>提示</p>
+<p>ol 标签可以设置 type 属性，用来设置编号的类型</p>
+</div>
+<table>
+<thead>
+<tr>
+<th>type 属性值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>数字编号（默认值）</td>
+</tr>
+<tr>
+<td>A</td>
+<td>大写英文字母编号</td>
+</tr>
+<tr>
+<td>a</td>
+<td>小写英文字母编号</td>
+</tr>
+<tr>
+<td>I</td>
+<td>大写罗马数字编号</td>
+</tr>
+<tr>
+<td>i</td>
+<td>小写罗马数字编号</td>
+</tr>
+</tbody>
+</table>
+<div><pre><code>  <span><span><span>&lt;</span>h1</span><span>></span></span>编程语言排行榜<span><span><span>&lt;/</span>h1</span><span>></span></span>
+  <span><span><span>&lt;</span>p</span><span>></span></span>ol type属性值<span><span><span>&lt;/</span>p</span><span>></span></span>
+
+  <span><span><span>&lt;</span>ol</span> <span>type</span><span><span>=</span><span>"</span>1<span>"</span></span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>JavaScript<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>Python<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>C/C++<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>Java<span><span><span>&lt;/</span>li</span><span>></span></span>
+  <span><span><span>&lt;/</span>ol</span><span>></span></span>
+
+  <span><span><span>&lt;</span>ol</span> <span>type</span><span><span>=</span><span>"</span>A<span>"</span></span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>JavaScript<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>Python<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>C/C++<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>Java<span><span><span>&lt;/</span>li</span><span>></span></span>
+  <span><span><span>&lt;/</span>ol</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><img src="/core-foundation/basic/html/assets/image-20211121185255670-165687317743611.0943272c.png" alt="image-20211121185255670-165687317743611.0943272c"></p>
+<h3 id="_7、有序列表-ol-的-start-属性" tabindex="-1"> 7、有序列表 ol 的 start 属性</h3>
+<div><p>start 属性</p>
+<ul>
+<li>start属性值必须是一个整数，制定了列表编号的起始值</li>
+<li>此属性的值阿拉伯数字，即使 ol 指定了 type 属性值</li>
+</ul>
+</div>
+<div><pre><code>  <span><span><span>&lt;</span>h1</span><span>></span></span>编程语言排行榜<span><span><span>&lt;/</span>h1</span><span>></span></span>
+  <span><span><span>&lt;</span>p</span><span>></span></span>ol type属性值 和 start属性值<span><span><span>&lt;/</span>p</span><span>></span></span>
+
+  <span><span><span>&lt;</span>ol</span> <span>type</span><span><span>=</span><span>"</span>1<span>"</span></span> <span>start</span><span><span>=</span><span>"</span>3<span>"</span></span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>JavaScript<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>Python<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>C/C++<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>Java<span><span><span>&lt;/</span>li</span><span>></span></span>
+  <span><span><span>&lt;/</span>ol</span><span>></span></span>
+
+  <span><span><span>&lt;</span>ol</span> <span>type</span><span><span>=</span><span>"</span>A<span>"</span></span> <span>start</span><span><span>=</span><span>"</span>2<span>"</span></span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>JavaScript<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>Python<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>C/C++<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>Java<span><span><span>&lt;/</span>li</span><span>></span></span>
+  <span><span><span>&lt;/</span>ol</span><span>></span></span>
+
+  <span><span><span>&lt;</span>ol</span> <span>type</span><span><span>=</span><span>"</span>a<span>"</span></span> <span>start</span><span><span>=</span><span>"</span>6<span>"</span></span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>JavaScript<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>Python<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>C/C++<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>Java<span><span><span>&lt;/</span>li</span><span>></span></span>
+  <span><span><span>&lt;/</span>ol</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><img src="/core-foundation/basic/html/assets/image-20211121185255670-165687317743611.0943272c.png" alt="image-20211121185255670-165687317743611.0943272c"></p>
+<h3 id="_8、有序列表-ol-的-reversed-属性" tabindex="-1"> 8、有序列表 ol 的 reversed 属性</h3>
+<div><p>reversed 属性</p>
+<ul>
+<li>reversed 属性是 HTML5 中的新属性</li>
+<li>reversed 属性是一个布尔属性</li>
+<li>reversed 属性指定列表中的条目是否是倒序排列的</li>
+<li>reversed 属性不需要值，只需要写 reversed 单词即可</li>
+</ul>
+</div>
+<div><pre><code>  <span><span><span>&lt;</span>h1</span><span>></span></span>有序列表 ol的reversed属性（倒序排列）<span><span><span>&lt;/</span>h1</span><span>></span></span>
+  <span><span><span>&lt;</span>ol</span> <span>type</span><span><span>=</span><span>"</span>1<span>"</span></span> <span>reversed</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>JavaScript<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>Python<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>C/C++<span><span><span>&lt;/</span>li</span><span>></span></span>
+    <span><span><span>&lt;</span>li</span><span>></span></span>Java<span><span><span>&lt;/</span>li</span><span>></span></span>
+  <span><span><span>&lt;/</span>ol</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h3 id="_9、定义列表9、定义列表" tabindex="-1"> 9、定义列表9、定义列表</h3>
+<div><p>需要逐条给出定义描述的列表，就是定义列表</p>
+<ul>
+<li>定义列表使用 <code>&lt;dl&gt;&lt;/dl&gt;</code>标签，是英文单词definition list（定义列表） 缩写</li>
+<li><code>&lt;dt&gt;&lt;/dt&gt;</code>标签，是英文单词 data term（数据项）缩写</li>
+<li><code>&lt;dd&gt;&lt;/dd&gt;</code>标签，是英文单词 data definition (数据定义)缩写</li>
+<li>dd 标签内容是对dt 标签的解释说明</li>
+<li>案例以小米官网首页 底部</li>
+</ul>
+</div>
+<p><img src="/core-foundation/basic/html/assets/image-20211121204849666-165687320818613.4f3372c4.png" alt="image-20211121204849666-165687320818613.4f3372c4"></p>
+<blockquote>
+<p><code>&lt;dl&gt;</code>是定义列表标签，内容交替出现 <code>&lt;dt&gt;、&lt;dd&gt;</code>标签</p>
+</blockquote>
+<div><pre><code>  <span><span><span>&lt;</span>h1</span><span>></span></span>定义列表 - dt dd标签交替出现<span><span><span>&lt;/</span>h1</span><span>></span></span>
+  <span><span><span>&lt;</span>dl</span><span>></span></span>
+    <span><span><span>&lt;</span>dt</span><span>></span></span>服务支持<span><span><span>&lt;/</span>dt</span><span>></span></span>
+    <span><span><span>&lt;</span>dd</span><span>></span></span>售后政策<span><span><span>&lt;/</span>dd</span><span>></span></span>
+    <span><span><span>&lt;</span>dd</span><span>></span></span>关注我们<span><span><span>&lt;/</span>dd</span><span>></span></span>
+    <span><span><span>&lt;</span>dd</span><span>></span></span>自助服务<span><span><span>&lt;/</span>dd</span><span>></span></span>
+
+    <span><span><span>&lt;</span>dt</span><span>></span></span>关注我们<span><span><span>&lt;/</span>dt</span><span>></span></span>
+    <span><span><span>&lt;</span>dd</span><span>></span></span>新浪微博<span><span><span>&lt;/</span>dd</span><span>></span></span>
+    <span><span><span>&lt;</span>dd</span><span>></span></span>官方微信<span><span><span>&lt;/</span>dd</span><span>></span></span>
+    <span><span><span>&lt;</span>dd</span><span>></span></span>关于我们<span><span><span>&lt;/</span>dd</span><span>></span></span>
+  <span><span><span>&lt;/</span>dl</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><blockquote>
+<p>也允许 dt 和 dd 不交替出现，而是分别处于不同定义列表 dl 中
+这么写，可以有更多的 dl ，可以更好的服务 css 样式</p>
+</blockquote>
+<div><pre><code>  <span><span><span>&lt;</span>h1</span><span>></span></span>定义列表 dt dd 不交替出现<span><span><span>&lt;/</span>h1</span><span>></span></span>
+
+  <span><span><span>&lt;</span>dl</span><span>></span></span>
+    <span><span><span>&lt;</span>dt</span><span>></span></span>服务支持<span><span><span>&lt;/</span>dt</span><span>></span></span>
+    <span><span><span>&lt;</span>dd</span><span>></span></span>售后政策<span><span><span>&lt;/</span>dd</span><span>></span></span>
+    <span><span><span>&lt;</span>dd</span><span>></span></span>关注我们<span><span><span>&lt;/</span>dd</span><span>></span></span>
+    <span><span><span>&lt;</span>dd</span><span>></span></span>自助服务<span><span><span>&lt;/</span>dd</span><span>></span></span>
+  <span><span><span>&lt;/</span>dl</span><span>></span></span>
+
+  <span><span><span>&lt;</span>dl</span><span>></span></span>
+    <span><span><span>&lt;</span>dt</span><span>></span></span>关注我们<span><span><span>&lt;/</span>dt</span><span>></span></span>
+    <span><span><span>&lt;</span>dd</span><span>></span></span>新浪微博<span><span><span>&lt;/</span>dd</span><span>></span></span>
+    <span><span><span>&lt;</span>dd</span><span>></span></span>官方微信<span><span><span>&lt;/</span>dd</span><span>></span></span>
+    <span><span><span>&lt;</span>dd</span><span>></span></span>关于我们<span><span><span>&lt;/</span>dd</span><span>></span></span>
+  <span><span><span>&lt;/</span>dl</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h2 id="九、多媒体标签" tabindex="-1"> 九、多媒体标签</h2>
+<h3 id="_1、图片标签-img" tabindex="-1"> 1、图片标签 img</h3>
+<div><p>相关信息</p>
+<p><strong>（1）语法和基础</strong></p>
+<p><code>&lt;img&gt;</code>标签用来在网页中插入图片</p>
+<div><pre><code><span><span><span>&lt;</span>img</span> <span>src</span><span><span>=</span><span>"</span>images/logo.png<span>"</span></span> <span>/></span></span>
+</code></pre><div aria-hidden="true"><div></div></div></div><ul>
+<li>img 是 英语单词image（图片）的缩写</li>
+<li>src 是 英语单词source（来源）的缩写</li>
+<li>&quot;&quot; 中是 图片的 存储目录和完整的文件名</li>
+</ul>
+<p><strong>注：</strong></p>
+<ul>
+<li>图片必须存放在项目文件夹中，如：images 中</li>
+<li>图片只是引入到网页中，本质上没有被插入到网页中</li>
+</ul>
+<p><strong>（2）img 标签的 alt 属性</strong></p>
+<ul>
+<li>alt 属性是英语 alternate（代替者）缩写，对图像的文本描述，不强制</li>
+<li>若由于某种原因无法加载图像，浏览器会在页面上显示 alt 属性中的备用文本</li>
+<li>供视力不方便的用户使用的网页朗读器，也会朗读 alt 中的文本</li>
+<li>对于搜索引擎优化友好，告诉搜索引擎图片的含义，利于搜索引擎爬虫抓取</li>
+</ul>
+<div><pre><code> <span><span><span>&lt;</span>img</span> <span>src</span><span><span>=</span><span>"</span>images/logo.png<span>"</span></span> <span>alt</span><span><span>=</span><span>"</span>艾编程Logo<span>"</span></span> <span>/></span></span>
+</code></pre><div aria-hidden="true"><div></div></div></div><p><strong>（3）img 标签的 width、height 属性</strong></p>
+<ul>
+<li>width、height 属性设置图片宽度和高度，单位是 PX（像素），可不写</li>
+<li>如果省略其中一个属性，则表示按原始比例缩放图片</li>
+</ul>
+<div><pre><code> <span><span><span>&lt;</span>img</span> <span>src</span><span><span>=</span><span>"</span>images/logo.png<span>"</span></span> <span>alt</span><span><span>=</span><span>"</span>艾编程Logo<span>"</span></span> <span>width</span><span><span>=</span><span>"</span>200<span>"</span></span> <span>/></span></span>
+</code></pre><div aria-hidden="true"><div></div></div></div><p><strong>（4）图片标签规范</strong></p>
+<ul>
+<li>PC 端 img 图片必须填写 src、width、height、alt 属性，统称图片标签的四要素</li>
+<li>移动端必须填写 alt 属性</li>
+<li>alt 不能为无意义字符，需要能表现出图片的含义，如图片为道具图，则应该为道具的名称</li>
+</ul>
+</div>
+<h3 id="_2、网页上支持的图片格式" tabindex="-1"> 2、网页上支持的图片格式</h3>
+<table>
+<thead>
+<tr>
+<th>支持格式</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>.bmp	Windows</td>
+<td>画图软件默认保存的格式，位图</td>
+</tr>
+<tr>
+<td>.jpeg（.jpg）</td>
+<td>有损压缩图片，通常用于照片显示</td>
+</tr>
+<tr>
+<td>.png</td>
+<td>便携式网络图像，用于 logo，背景图形等。支持透明和半透明</td>
+</tr>
+<tr>
+<td>.gif</td>
+<td>动画 ，如：表情包</td>
+</tr>
+<tr>
+<td>.svg</td>
+<td>矢量图片</td>
+</tr>
+<tr>
+<td>.webp</td>
+<td>最新的压缩算法，非常优秀的图片格式</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>实战演练 ......</p>
+</blockquote>
+<h3 id="_3、相对路径和绝对路径" tabindex="-1"> 3、相对路径和绝对路径</h3>
+<div><p>提示</p>
+<p><strong>相对路径</strong></p>
+<ul>
+<li>从当前网页出发，要找到图片的路径就叫 相对路径</li>
+</ul>
+<div><pre><code> <span><span><span>&lt;</span>img</span> <span>src</span><span><span>=</span><span>"</span>images/logo.png<span>"</span></span> <span>/></span></span>
+ <span><span><span>&lt;</span>img</span> <span>src</span><span><span>=</span><span>"</span>../images/logo.png<span>"</span></span> <span>/></span></span>
+ <span><span><span>&lt;</span>img</span> <span>src</span><span><span>=</span><span>"</span>../../images/logo.png<span>"</span></span> <span>/></span></span>
+ .....
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div></div></div><ul>
+<li>../ 表示回退上一级目录</li>
+<li>./ 表示当前目录</li>
+<li>通过 cmd命名行 dir命令可查
+<img src="/core-foundation/basic/html/assets/image-20211121213542488-165687323244615.2cdf69a7.png" alt="image-20211121213542488-165687323244615.2cdf69a7"></li>
+</ul>
+<p><strong>绝对路径</strong></p>
+<ul>
+<li>描述文件或文件夹的精准完整地址</li>
+</ul>
+<div><pre><code> <span><span><span>&lt;</span>img</span> <span>src</span><span><span>=</span><span>"</span>D:\web\icoding-web\images\logo.png<span>"</span></span> <span>/></span></span>
+ <span><span><span>&lt;</span>img</span>
+   <span>src</span><span><span>=</span><span>"</span>https://www.icodingedu.com/files/system/2019/09-25/22132557f330499313.png<span>"</span></span>
+ <span>/></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div></div></div></div>
+<h3 id="_4、超级链接-a-标签" tabindex="-1"> 4、超级链接 - a 标签</h3>
+<p>（1）语法和基础</p>
+<div><p>超级链接是网页与网页之间链接跳转的方法</p>
+<ul>
+<li><code>&lt;a&gt;&lt;/a&gt;</code>标签是英语 anchor 锚的首字母</li>
+<li>href 属性是英语 hypertext reference （超文本引用）缩写</li>
+</ul>
+<div><pre><code> <span><span><span>&lt;</span>a</span> <span>href</span><span><span>=</span><span>"</span>https://www.baidu.com<span>"</span></span><span>></span></span>百度一下，你就知道<span><span><span>&lt;/</span>a</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div></div></div></div>
+<p>（2）a 标签的 href 属性</p>
+<div><p>href 属性支持相对路径和绝对路径</p>
+<div><pre><code> <span><span><span>&lt;</span>a</span> <span>href</span><span><span>=</span><span>"</span>./index.html<span>"</span></span><span>></span></span>进入首页<span><span><span>&lt;/</span>a</span><span>></span></span>
+ <span><span><span>&lt;</span>a</span> <span>href</span><span><span>=</span><span>"</span>../index.html<span>"</span></span><span>></span></span>进入首页<span><span><span>&lt;/</span>a</span><span>></span></span>
+ <span><span><span>&lt;</span>a</span> <span>href</span><span><span>=</span><span>"</span>D:\web\icoding-web\index.html<span>"</span></span><span>></span></span>进入首页<span><span><span>&lt;/</span>a</span><span>></span></span>
+ <span><span><span>&lt;</span>a</span> <span>href</span><span><span>=</span><span>"</span>https://www.icodingedu.com<span>"</span></span><span>></span></span>艾编程<span><span><span>&lt;/</span>a</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div></div></div></div>
+<p>（3）a 标签的 title 属性</p>
+<div><p>相关信息</p>
+<p><strong>a 标签的 title 属性用户设置鼠标的悬停文本</strong></p>
+<div><pre><code> <span><span><span>&lt;</span>a</span> <span>href</span><span><span>=</span><span>"</span>https://www.baidu.com<span>"</span></span> <span>title</span><span><span>=</span><span>"</span>点击，进入百度官网<span>"</span></span><span>></span></span>百度一下，你就知道<span><span><span>&lt;/</span>a</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div></div></div></div>
+<p>（4）a 标签的 target 属性</p>
+<div><p>TIP</p>
+<table>
+<thead>
+<tr>
+<th>target 属性值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>_blank/blank</td>
+<td>在新窗口中打开网页</td>
+</tr>
+<tr>
+<td>_self 默认</td>
+<td>当前页面跳转</td>
+</tr>
+</tbody>
+</table>
+<p><strong>注：HTML4 中 blank 之前有个下划线 _blank 都可使用</strong></p>
+<div><pre><code> <span><span><span>&lt;</span>h1</span><span>></span></span>超级链接 - a标签<span><span><span>&lt;/</span>h1</span><span>></span></span>
+  <span><span><span>&lt;</span>a</span> <span>href</span><span><span>=</span><span>"</span>https://www.baidu.com<span>"</span></span><span>></span></span>百度一下，你就知道<span><span><span>&lt;/</span>a</span><span>></span></span>
+  <span><span><span>&lt;</span>h2</span><span>></span></span>a 标签的 target 属性<span><span><span>&lt;/</span>h2</span><span>></span></span>
+  <span><span><span>&lt;</span>a</span> <span>href</span><span><span>=</span><span>"</span>https://www.baidu.com<span>"</span></span> <span>target</span><span><span>=</span><span>"</span>blank<span>"</span></span><span>></span></span>_blank：新窗口打开<span><span><span>&lt;/</span>a</span> <span>></span></span><span><span><span>&lt;</span>br</span> <span>/></span></span><span><span><span>&lt;</span>br</span> <span>/></span></span>
+  <span><span><span>&lt;</span>a</span> <span>href</span><span><span>=</span><span>"</span>https://www.baidu.com<span>"</span></span> <span>target</span><span><span>=</span><span>"</span>_self<span>"</span></span><span>></span></span>_self：默认，当前页面跳转<span><span><span>&lt;/</span>a</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div></div></div><p>给图片添加超级链接：点击图片标签跳转连接</p>
+<div><pre><code> <span><span><span>&lt;</span>a</span> <span>href</span><span><span>=</span><span>"</span>https://www.baidu.com<span>"</span></span> <span>target</span><span><span>=</span><span>"</span>blank<span>"</span></span><span>></span></span>
+   <span><span><span>&lt;</span>img</span> <span>src</span><span><span>=</span><span>"</span>images/logo.png<span>"</span></span> <span>/></span></span>
+ <span><span><span>&lt;/</span>a</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div></div>
+<p>（5）页面锚点</p>
+<div><p>TIP</p>
+<ul>
+<li>对于很长的页面，可以对应的标签添加 id属性，将它变成页面的 &quot;锚点&quot;</li>
+<li>当点击锚点连接时，浏览器地址栏就会出现 #id属性名称 页面就会自动滚动到锚点处</li>
+<li>从其他页面页面点击带#号的链接，就可以直接定位到锚点位置</li>
+</ul>
+</div>
+<div><pre><code>  <span><span><span>&lt;</span>h1</span><span>></span></span>页面锚点链接<span><span><span>&lt;/</span>h1</span><span>></span></span>
+
+  <span><span><span>&lt;</span>p</span><span>></span></span>
+    <span><span><span>&lt;</span>a</span> <span>href</span><span><span>=</span><span>"</span>#phone<span>"</span></span><span>></span></span>小米手机<span><span><span>&lt;/</span>a</span><span>></span></span> <span title="&nbsp;">&amp;nbsp;</span><span title="&nbsp;">&amp;nbsp;</span><span title="&nbsp;">&amp;nbsp;</span>
+    <span><span><span>&lt;</span>a</span> <span>href</span><span><span>=</span><span>"</span>#zn<span>"</span></span><span>></span></span>智能穿戴<span><span><span>&lt;/</span>a</span><span>></span></span> <span title="&nbsp;">&amp;nbsp;</span><span title="&nbsp;">&amp;nbsp;</span><span title="&nbsp;">&amp;nbsp;</span>
+    <span><span><span>&lt;</span>a</span> <span>href</span><span><span>=</span><span>"</span>#jd<span>"</span></span><span>></span></span>家电<span><span><span>&lt;/</span>a</span><span>></span></span> <span title="&nbsp;">&amp;nbsp;</span><span title="&nbsp;">&amp;nbsp;</span><span title="&nbsp;">&amp;nbsp;</span>
+    <span><span><span>&lt;</span>a</span> <span>href</span><span><span>=</span><span>"</span>#sh<span>"</span></span><span>></span></span>生活电器<span><span><span>&lt;/</span>a</span><span>></span></span> <span title="&nbsp;">&amp;nbsp;</span><span title="&nbsp;">&amp;nbsp;</span><span title="&nbsp;">&amp;nbsp;</span>
+    <span><span><span>&lt;</span>a</span> <span>href</span><span><span>=</span><span>"</span>#cf<span>"</span></span><span>></span></span>厨房电器<span><span><span>&lt;/</span>a</span><span>></span></span> <span title="&nbsp;">&amp;nbsp;</span><span title="&nbsp;">&amp;nbsp;</span><span title="&nbsp;">&amp;nbsp;</span>
+    <span><span><span>&lt;</span>a</span> <span>href</span><span><span>=</span><span>"</span>#jj<span>"</span></span><span>></span></span>智能家居<span><span><span>&lt;/</span>a</span><span>></span></span> <span title="&nbsp;">&amp;nbsp;</span><span title="&nbsp;">&amp;nbsp;</span><span title="&nbsp;">&amp;nbsp;</span>
+    <span><span><span>&lt;</span>a</span> <span>href</span><span><span>=</span><span>"</span>#cx<span>"</span></span><span>></span></span>出行搭配<span><span><span>&lt;/</span>a</span><span>></span></span> <span title="&nbsp;">&amp;nbsp;</span><span title="&nbsp;">&amp;nbsp;</span><span title="&nbsp;">&amp;nbsp;</span>
+    <span><span><span>&lt;</span>a</span> <span>href</span><span><span>=</span><span>"</span>#bh<span>"</span></span><span>></span></span>日用百货<span><span><span>&lt;/</span>a</span><span>></span></span>
+  <span><span><span>&lt;/</span>p</span><span>></span></span>
+
+  <span><span><span>&lt;</span>h2</span> <span>id</span><span><span>=</span><span>"</span>phone<span>"</span></span><span>></span></span>小米手机<span><span><span>&lt;/</span>h2</span><span>></span></span>
+  <span><span><span>&lt;</span>img</span> <span>src</span><span><span>=</span><span>"</span>images/1.webp<span>"</span></span> <span>alt</span><span><span>=</span><span>"</span><span>"</span></span> <span>/></span></span>
+
+  <span><span><span>&lt;</span>h2</span> <span>id</span><span><span>=</span><span>"</span>zn<span>"</span></span><span>></span></span>智能穿戴<span><span><span>&lt;/</span>h2</span><span>></span></span>
+  <span><span><span>&lt;</span>img</span> <span>src</span><span><span>=</span><span>"</span>images/2.webp<span>"</span></span> <span>alt</span><span><span>=</span><span>"</span><span>"</span></span> <span>/></span></span>
+
+  <span><span><span>&lt;</span>h2</span> <span>id</span><span><span>=</span><span>"</span>jd<span>"</span></span><span>></span></span>家电<span><span><span>&lt;/</span>h2</span><span>></span></span>
+  <span><span><span>&lt;</span>img</span> <span>src</span><span><span>=</span><span>"</span>images/3.webp<span>"</span></span> <span>alt</span><span><span>=</span><span>"</span><span>"</span></span> <span>/></span></span>
+
+  <span><span><span>&lt;</span>h2</span> <span>id</span><span><span>=</span><span>"</span>sh<span>"</span></span><span>></span></span>生活电器<span><span><span>&lt;/</span>h2</span><span>></span></span>
+  <span><span><span>&lt;</span>img</span> <span>src</span><span><span>=</span><span>"</span>images/4.webp<span>"</span></span> <span>alt</span><span><span>=</span><span>"</span><span>"</span></span> <span>/></span></span>
+
+  <span><span><span>&lt;</span>h2</span> <span>id</span><span><span>=</span><span>"</span>cf<span>"</span></span><span>></span></span>厨房电器<span><span><span>&lt;/</span>h2</span><span>></span></span>
+  <span><span><span>&lt;</span>img</span> <span>src</span><span><span>=</span><span>"</span>images/5.webp<span>"</span></span> <span>alt</span><span><span>=</span><span>"</span><span>"</span></span> <span>/></span></span>
+
+  <span><span><span>&lt;</span>h2</span> <span>id</span><span><span>=</span><span>"</span>jj<span>"</span></span><span>></span></span>智能家居<span><span><span>&lt;/</span>h2</span><span>></span></span>
+  <span><span><span>&lt;</span>img</span> <span>src</span><span><span>=</span><span>"</span>images/6.webp<span>"</span></span> <span>alt</span><span><span>=</span><span>"</span><span>"</span></span> <span>/></span></span>
+
+  <span><span><span>&lt;</span>h2</span> <span>id</span><span><span>=</span><span>"</span>cx<span>"</span></span><span>></span></span>出行搭配<span><span><span>&lt;/</span>h2</span><span>></span></span>
+  <span><span><span>&lt;</span>img</span> <span>src</span><span><span>=</span><span>"</span>images/7.webp<span>"</span></span> <span>alt</span><span><span>=</span><span>"</span><span>"</span></span> <span>/></span></span>
+
+  <span><span><span>&lt;</span>h2</span> <span>id</span><span><span>=</span><span>"</span>bh<span>"</span></span><span>></span></span>日用百货<span><span><span>&lt;/</span>h2</span><span>></span></span>
+  <span><span><span>&lt;</span>img</span> <span>src</span><span><span>=</span><span>"</span>images/8.webp<span>"</span></span> <span>alt</span><span><span>=</span><span>"</span><span>"</span></span> <span>/></span></span>
+
+  <span><span><span>&lt;</span>p</span><span>></span></span>
+    <span><span><span>&lt;</span>a</span> <span>href</span><span><span>=</span><span>"</span>#top<span>"</span></span><span>></span></span>回到顶部<span><span><span>&lt;/</span>a</span><span>></span></span>
+  <span><span><span>&lt;/</span>p</span><span>></span></span>
+
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><img src="/core-foundation/basic/html/assets/image-20211121224128869-165687325399317.b6ed1c25.png" alt="image-20211121224128869-165687325399317.b6ed1c25"></p>
+<div><p>注：</p>
+<ul>
+<li>
+<p>在 HTML5 中 直接使用 #top即可回到顶部，不用定义 id=&quot;top&quot;</p>
+</li>
+<li>
+<p></p>
+</li>
+</ul>
+</div>
+<p>（6）特殊链接（下载、邮件、电话）</p>
+<div><p>注意</p>
+<p><strong>下载链接</strong></p>
+<ul>
+<li>指向 exe、zip、rar、word、excel 等文件格式的链接，将自动成为下载链接</li>
+</ul>
+</div>
+<div><pre><code>  <span><span><span>&lt;</span>h1</span><span>></span></span>特殊链接<span><span><span>&lt;/</span>h1</span><span>></span></span>
+
+  <span><span><span>&lt;</span>h2</span><span>></span></span>下载链接<span><span><span>&lt;/</span>h2</span><span>></span></span>
+
+  <span><span><span>&lt;</span>a</span> <span>href</span><span><span>=</span><span>"</span>doc/1.zip<span>"</span></span><span>></span></span>web前端学习资料zip下载地址<span><span><span>&lt;/</span>a</span><span>></span></span>
+
+  <span><span><span>&lt;</span>br</span> <span>/></span></span><span><span><span>&lt;</span>br</span> <span>/></span></span>
+
+  <span><span><span>&lt;</span>a</span> <span>href</span><span><span>=</span><span>"</span>doc/1.doc<span>"</span></span><span>></span></span>学习资料doc文档<span><span><span>&lt;/</span>a</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><img src="/core-foundation/basic/html/assets/image-20211121225420879-165687328187819.7d2f8d37.png" alt="image-20211121225420879-165687328187819.7d2f8d37"></p>
+<div><p>提示</p>
+<p><strong>邮件链接</strong></p>
+<ul>
+<li>mailto: 前缀的链接 即 邮件链接</li>
+<li>系统将自动打开 email 相关软件，即可发送邮件</li>
+</ul>
+<div><pre><code> <span><span><span>&lt;</span>a</span> <span>href</span><span><span>=</span><span>"</span>mailto:arry@icodingedu.com<span>"</span></span><span>></span></span>给arry老师发邮件<span><span><span>&lt;/</span>a</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div></div></div><p><strong>电话链接</strong></p>
+<ul>
+<li>tel:前缀的链接 即 电话链接</li>
+<li>系统将自动打开手机拨号键</li>
+</ul>
+<div><pre><code> <span><span><span>&lt;</span>a</span> <span>href</span><span><span>=</span><span>"</span>tel:18966666666<span>"</span></span><span>></span></span>给arry老师打电话<span><span><span>&lt;/</span>a</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div></div></div></div>
+<h3 id="_5、音频和视频" tabindex="-1"> 5、音频和视频</h3>
+<div><p>TIP</p>
+<ul>
+<li>早年在网页中插入音视频需要使用 Flash 技术，当下基本已经淘汰</li>
+<li>可直接使用 HTML5 标签轻松在网页中像插入图片一样插入音频和视频即可</li>
+</ul>
+</div>
+<p>（1）音频标签</p>
+<div><p>TIP</p>
+<ul>
+<li><code>&lt;audio&gt;</code>标签可直接在网页中插入音频，并自动生成默认的编辑器</li>
+<li>controls 属性 ，显示播放空间</li>
+<li>src 音频路径</li>
+<li>标签对中对不兼容 audio 标签的浏览器所显示的文字</li>
+<li>浏览器中常用的音频格式：mp3 和 ogg 格式</li>
+</ul>
+<div><pre><code> <span><span><span>&lt;</span>audio</span> <span>controls</span> <span>src</span><span><span>=</span><span>"</span>mp3/不错哟.mp3<span>"</span></span><span>></span></span>
+   亲爱的，您的浏览器不支持audio标签，请升级您的浏览器哟 ^_^
+ <span><span><span>&lt;/</span>audio</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div><p><img src="/core-foundation/basic/html/assets/image-20211121231307959-165687330190921.9cfc6845.png" alt="image-20211121231307959-165687330190921.9cfc6845"></p>
+<p><strong>音频标签部分属性：</strong></p>
+<ul>
+<li>autoplay 音频自动播放，不会等待整个音频文件下载完成</li>
+<li>loop 循环播放音频</li>
+</ul>
+</div>
+<p>（2）音频标签 audio 的子标签</p>
+<div><p>TIP</p>
+<p>source 标签为媒体元素定义媒体资源，该标签允许定义多个格式的音视频文件，供浏览器选择自己支持的媒体类型进行播放</p>
+<table>
+<thead>
+<tr>
+<th>Format</th>
+<th>MIME-type</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MP3</td>
+<td>audio/mpeg</td>
+<td>一种音频压缩技术，用来大幅度的降低音频数据量</td>
+</tr>
+<tr>
+<td>Ogg</td>
+<td>audio/ogg</td>
+<td>一种新的音频压缩格式，是完全免费、开发和没有专利限制的</td>
+</tr>
+<tr>
+<td>Wav</td>
+<td>audio/wav</td>
+<td>微软公司开发的一种声音文件格式，声音文件质量和 CD 相差无几</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>浏览器需要选择它支持格式的源文件进行播放，如果都支持则任选一个（默认选择第一个）</li>
+</ul>
+<div><pre><code><span><span><span>&lt;</span>h2</span><span>></span></span>audio 子标签 source<span><span><span>&lt;/</span>h2</span><span>></span></span>
+
+<span><span><span>&lt;</span>audio</span> <span>controls</span><span>></span></span>
+  <span><span><span>&lt;</span>source</span> <span>src</span><span><span>=</span><span>"</span>audio/不错哟.mp3<span>"</span></span> <span>type</span><span><span>=</span><span>"</span>audio/mpeg<span>"</span></span> <span>/></span></span>
+  <span><span><span>&lt;</span>source</span> <span>src</span><span><span>=</span><span>"</span>audio/不错哟.ogg<span>"</span></span> <span>type</span><span><span>=</span><span>"</span>audio/ogg<span>"</span></span> <span>/></span></span>
+  <span><span><span>&lt;</span>source</span> <span>src</span><span><span>=</span><span>"</span>audio/不错哟.wav<span>"</span></span> <span>type</span><span><span>=</span><span>"</span>audio/wav<span>"</span></span> <span>/></span></span>
+  亲爱的，您的浏览器不支持audio标签，请升级您的浏览器哟 ^_^
+<span><span><span>&lt;/</span>audio</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><img src="/core-foundation/basic/html/assets/low.png" alt="low"></p>
+</div>
+<p>（2）音频标签 audio 的子标签</p>
+<div><p>TIP</p>
+<p>source 标签为媒体元素定义媒体资源，该标签允许定义多个格式的音视频文件，供浏览器选择自己支持的媒体类型进行播放</p>
+<table>
+<thead>
+<tr>
+<th>Format</th>
+<th>MIME-type</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MP3</td>
+<td>audio/mpeg</td>
+<td>一种音频压缩技术，用来大幅度的降低音频数据量</td>
+</tr>
+<tr>
+<td>Ogg</td>
+<td>audio/ogg</td>
+<td>一种新的音频压缩格式，是完全免费、开发和没有专利限制的</td>
+</tr>
+<tr>
+<td>Wav</td>
+<td>audio/wav</td>
+<td>微软公司开发的一种声音文件格式，声音文件质量和 CD 相差无几</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>浏览器需要选择它支持格式的源文件进行播放，如果都支持则任选一个（默认选择第一个）</li>
+</ul>
+<div><pre><code> <span><span><span>&lt;</span>h2</span><span>></span></span>audio 子标签 source<span><span><span>&lt;/</span>h2</span><span>></span></span>
+ 
+ <span><span><span>&lt;</span>audio</span> <span>controls</span><span>></span></span>
+   <span><span><span>&lt;</span>source</span> <span>src</span><span><span>=</span><span>"</span>audio/不错哟.mp3<span>"</span></span> <span>type</span><span><span>=</span><span>"</span>audio/mpeg<span>"</span></span> <span>/></span></span>
+   <span><span><span>&lt;</span>source</span> <span>src</span><span><span>=</span><span>"</span>audio/不错哟.ogg<span>"</span></span> <span>type</span><span><span>=</span><span>"</span>audio/ogg<span>"</span></span> <span>/></span></span>
+   <span><span><span>&lt;</span>source</span> <span>src</span><span><span>=</span><span>"</span>audio/不错哟.wav<span>"</span></span> <span>type</span><span><span>=</span><span>"</span>audio/wav<span>"</span></span> <span>/></span></span>
+   亲爱的，您的浏览器不支持audio标签，请升级您的浏览器哟 ^_^
+ <span><span><span>&lt;/</span>audio</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><img src="/core-foundation/basic/html/assets/1234.png" alt="1234"></p>
+</div>
+<p>（3）视频标签 video 的子标签</p>
+<div><p>TIP</p>
+<table>
+<thead>
+<tr>
+<th>Format</th>
+<th>MIME-type</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>mp4</td>
+<td>video/mp4</td>
+<td>MP4 = MPEG 4 文件使用 H264 视频编解码器和 AAC 音频编解码器</td>
+</tr>
+<tr>
+<td>webm</td>
+<td>video/webm</td>
+<td>WebM 文件使用 VP8 视频编解码器和 Vorbis 音频编解码器</td>
+</tr>
+<tr>
+<td>avi</td>
+<td>video/avi</td>
+<td>avi 文件支持 256 色和 RLE 压缩，他对视频文件采用了一种有损压缩方式</td>
+</tr>
+<tr>
+<td>ogv</td>
+<td>video/ogv</td>
+<td>Ogg 文件使用 Theora 视频编解码器和 Vorbis 音频编解码器</td>
+</tr>
+</tbody>
+</table>
+<p><strong>浏览器需要选择它支持格式的源文件进行播放，如果都支持则任选一个（默认选择第一个）</strong></p>
+<div><pre><code><span><span><span>&lt;</span>h2</span><span>></span></span>video 子标签 source<span><span><span>&lt;/</span>h2</span><span>></span></span>
+
+<span><span><span>&lt;</span>video</span> <span>controls</span> <span>width</span><span><span>=</span><span>"</span>500<span>"</span></span><span>></span></span>
+  <span><span><span>&lt;</span>source</span> <span>src</span><span><span>=</span><span>"</span>video/1.mp4<span>"</span></span> <span>type</span><span><span>=</span><span>"</span>video/mp4<span>"</span></span> <span>/></span></span>
+  <span><span><span>&lt;</span>source</span> <span>src</span><span><span>=</span><span>"</span>video/1.webm<span>"</span></span> <span>type</span><span><span>=</span><span>"</span>video/webm<span>"</span></span> <span>/></span></span>
+  <span><span><span>&lt;</span>source</span> <span>src</span><span><span>=</span><span>"</span>video/1.ogv<span>"</span></span> <span>type</span><span><span>=</span><span>"</span>video/ogv<span>"</span></span> <span>/></span></span>
+  <span><span><span>&lt;</span>source</span> <span>src</span><span><span>=</span><span>"</span>video/1.avi<span>"</span></span> <span>type</span><span><span>=</span><span>"</span>video/avi<span>"</span></span> <span>/></span></span>
+  亲爱的，您的浏览器不支持video标签，请升级您的浏览器哟 ^_^
+<span><span><span>&lt;/</span>video</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><img src="/core-foundation/basic/html/assets/image-20211122001122438-165687333470325.d4bc647b.png" alt="image-20211122001122438-165687333470325.d4bc647b">&gt;</p>
+</div>
+<h2 id="十、语义化标签" tabindex="-1"> 十、语义化标签</h2>
+<h3 id="_1、html-文本格式化标签" tabindex="-1"> 1、HTML 文本格式化标签</h3>
+<p>（1）span 标签</p>
+<div><p>TIP</p>
+<ul>
+<li><code>&lt;span&gt;</code>标签是文本中的区块标签，没有任何显示的效果，可以结合 css 来定位区块的样式</li>
+<li>需要被特殊标记的元素也会使用 span 标签</li>
+</ul>
+</div>
+<div><pre><code>  <span><span><span>&lt;</span>h1</span><span>></span></span>语义化标签<span><span><span>&lt;/</span>h1</span><span>></span></span>
+
+  <span><span><span>&lt;</span>h2</span><span>></span></span>span 标签<span><span><span>&lt;/</span>h2</span><span>></span></span>
+
+  <span><span><span>&lt;</span>p</span><span>></span></span>
+    商品价格：
+    <span><span><span>&lt;</span>span</span><span>></span></span>368<span><span><span>&lt;/</span>span</span><span>></span></span>元，优惠价：<span><span><span>&lt;</span>span</span><span>></span></span>298<span><span><span>&lt;/</span>span</span><span>></span></span>元
+  <span><span><span>&lt;/</span>p</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p>（2）文本格式化标签</p>
+<table>
+<thead>
+<tr>
+<th>标签</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;b&gt;{.html}</code></td>
+<td>定义粗体文本 （已被 CSS 替代）</td>
+</tr>
+<tr>
+<td><code>&lt;em&gt;</code></td>
+<td>定义着重文字 （被强调的文本）</td>
+</tr>
+<tr>
+<td><code>&lt;i&gt;</code></td>
+<td>定义斜体字（已被 CSS 替代）</td>
+</tr>
+<tr>
+<td><code>&lt;u&gt;</code></td>
+<td>定义文字的下划线（已被 CSS 替代）</td>
+</tr>
+<tr>
+<td><code>&lt;strong&gt;</code></td>
+<td>定义加重语气，表示特别重要的文字</td>
+</tr>
+<tr>
+<td><code>&lt;sub&gt;</code></td>
+<td>定义下标字</td>
+</tr>
+<tr>
+<td><code>&lt;sup&gt;</code></td>
+<td>定义上标字</td>
+</tr>
+<tr>
+<td><code>&lt;del&gt;</code></td>
+<td>定义删除字</td>
+</tr>
+<tr>
+<td><code>&lt;pre&gt;</code></td>
+<td>定义预格式文本。被包围在 pre 标签 元素中的文本通常会保留空格和换行符。而文本也会呈现为等宽字体。 pre 标签的一个常见应用就是用来表示计算机的源代码。</td>
+</tr>
+<tr>
+<td><code>&lt;mark&gt;</code></td>
+<td>一段需要被高亮的文本（HTML5 新标签）</td>
+</tr>
+<tr>
+<td><code>&lt;figure</code>&gt;</td>
+<td>代表一段独立的内容，与说明 figcaption 标签配合使用。figure 标签规定独立的流内容（图像、图表、照片、代码等等）。</td>
+</tr>
+<tr>
+<td><code>&lt;figcaption&gt;</code></td>
+<td>一个独立的引用单元，标签为<code>&lt;figure&gt;</code> 元素定义标题</td>
+</tr>
+</tbody>
+</table>
+<div><pre><code>  <span><span><span>&lt;</span>h1</span><span>></span></span>语义化标签<span><span><span>&lt;/</span>h1</span><span>></span></span>
+
+  <span><span><span>&lt;</span>h2</span><span>></span></span>span 标签<span><span><span>&lt;/</span>h2</span><span>></span></span>
+  <span><span><span>&lt;</span>p</span><span>></span></span>
+    商品价格：
+    <span><span><span>&lt;</span>span</span><span>></span></span>368<span><span><span>&lt;/</span>span</span><span>></span></span>元，优惠价：<span><span><span>&lt;</span>span</span><span>></span></span>298<span><span><span>&lt;/</span>span</span><span>></span></span>元
+  <span><span><span>&lt;/</span>p</span><span>></span></span>
+
+  <span><span><span>&lt;</span>h2</span><span>></span></span>文本格式化标签<span><span><span>&lt;/</span>h2</span><span>></span></span>
+  b标签：<span><span><span>&lt;</span>b</span><span>></span></span>定义粗体文本<span><span><span>&lt;/</span>b</span><span>></span></span> <span><span><span>&lt;</span>br</span> <span>/></span></span><span><span><span>&lt;</span>br</span> <span>/></span></span>
+  em标签：<span><span><span>&lt;</span>em</span><span>></span></span>表示被强调的文本<span><span><span>&lt;/</span>em</span><span>></span></span> <span><span><span>&lt;</span>br</span> <span>/></span></span><span><span><span>&lt;</span>br</span> <span>/></span></span>
+  i标签：<span><span><span>&lt;</span>i</span><span>></span></span>斜体<span><span><span>&lt;/</span>i</span><span>></span></span> <span><span><span>&lt;</span>br</span> <span>/></span></span><span><span><span>&lt;</span>br</span> <span>/></span></span>
+  u标签：<span><span><span>&lt;</span>u</span><span>></span></span>定义文本下划线<span><span><span>&lt;/</span>u</span><span>></span></span> <span><span><span>&lt;</span>br</span> <span>/></span></span><span><span><span>&lt;</span>br</span> <span>/></span></span>
+  strong标签：<span><span><span>&lt;</span>strong</span><span>></span></span>定义加重语气，表示特别重要的文字<span><span><span>&lt;/</span>strong</span><span>></span></span><span><span><span>&lt;</span>br</span> <span>/></span></span><span><span><span>&lt;</span>br</span> <span>/></span></span>
+  del标签：<span><span><span>&lt;</span>del</span><span>></span></span>定义删除字 <span><span><span>&lt;/</span>del</span><span>></span></span><span><span><span>&lt;</span>br</span> <span>/></span></span><span><span><span>&lt;</span>br</span> <span>/></span></span>
+  mark标签：<span><span><span>&lt;</span>mark</span><span>></span></span>一段需要被高亮的文本<span><span><span>&lt;/</span>mark</span><span>></span></span>
+
+  <span><span><span>&lt;</span>h3</span><span>></span></span>sub 标签<span><span><span>&lt;/</span>h3</span><span>></span></span>
+  <span><span><span>&lt;</span>p</span><span>></span></span>碳在氧气中充分燃烧：C + O<span><span><span>&lt;</span>sub</span><span>></span></span>2<span><span><span>&lt;/</span>sub</span><span>></span></span> = CO<span><span><span>&lt;</span>sub</span><span>></span></span>2<span><span><span>&lt;/</span>sub</span><span>></span></span><span><span><span>&lt;/</span>p</span><span>></span></span>
+  <span><span><span>&lt;</span>p</span><span>></span></span>铁在氧气中燃烧： 3Fe + 2O<span><span><span>&lt;</span>sub</span><span>></span></span>2<span><span><span>&lt;/</span>sub</span><span>></span></span> = Fe<span><span><span>&lt;</span>sub</span><span>></span></span>3<span><span><span>&lt;/</span>sub</span><span>></span></span>O<span><span><span>&lt;</span>sub</span><span>></span></span>4<span><span><span>&lt;/</span>sub</span><span>></span></span><span><span><span>&lt;/</span>p</span><span>></span></span>
+
+  <span><span><span>&lt;</span>h3</span><span>></span></span>sup 标签<span><span><span>&lt;/</span>h3</span><span>></span></span>
+  <span><span><span>&lt;</span>p</span><span>></span></span>2<span><span><span>&lt;</span>sup</span><span>></span></span>3<span><span><span>&lt;/</span>sup</span><span>></span></span> + 3<span><span><span>&lt;</span>sup</span><span>></span></span>2<span><span><span>&lt;/</span>sup</span><span>></span></span> = 17<span><span><span>&lt;/</span>p</span><span>></span></span>
+
+  <span><span><span>&lt;</span>h3</span><span>></span></span>pre 预格式化文本<span><span><span>&lt;/</span>h3</span><span>></span></span>
+  <span><span><span>&lt;</span>pre</span><span>></span></span>
+    预格式化文本
+    
+    被包围在 pre标签 元素中的文本通常会保留空格和换行符。而文本也会呈现为等宽字体
+
+    pre 标签的一个常见应用就是用来表示计算机的源代码。
+
+  <span><span><span>&lt;/</span>pre</span><span>></span></span>
+
+  <span><span><span>&lt;</span>h3</span><span>></span></span>figure、figcaption 标签<span><span><span>&lt;/</span>h3</span><span>></span></span>
+  <span><span><span>&lt;</span>p</span><span>></span></span>
+    代表一段独立的内容，与figcaption配合使用。figure
+    标签规定独立的流内容（图像、图表、照片、代码等等）。一个独立的引用单元，标签为figure
+    元素定义标题
+  <span><span><span>&lt;/</span>p</span><span>></span></span>
+  <span><span><span>&lt;</span>p</span><span>></span></span>
+    <span><span><span>&lt;</span>figure</span><span>></span></span>
+      <span><span><span>&lt;</span>img</span> <span>src</span><span><span>=</span><span>"</span>images/6.webp<span>"</span></span> <span>alt</span><span><span>=</span><span>"</span><span>"</span></span> <span>/></span></span>
+      <span><span><span>&lt;</span>figcaption</span><span>></span></span>小米智能家居，智能门锁<span><span><span>&lt;/</span>figcaption</span><span>></span></span>
+    <span><span><span>&lt;/</span>figure</span><span>></span></span>
+
+    <span><span><span>&lt;</span>figure</span><span>></span></span>
+      <span><span><span>&lt;</span>img</span> <span>src</span><span><span>=</span><span>"</span>images/7.webp<span>"</span></span> <span>alt</span><span><span>=</span><span>"</span><span>"</span></span> <span>/></span></span>
+      <span><span><span>&lt;</span>figcaption</span><span>></span></span>小米智能家居，平衡车<span><span><span>&lt;/</span>figcaption</span><span>></span></span>
+    <span><span><span>&lt;/</span>figure</span><span>></span></span>
+  <span><span><span>&lt;/</span>p</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><img src="/core-foundation/basic/html/assets/image-20211122204318903-165687335464827.d89109fd.png" alt="image-20211122204318903-165687335464827.d89109fd"></p>
+<h3 id="_2、html5-区块标签" tabindex="-1"> 2、HTML5 区块标签</h3>
+<table>
+<thead>
+<tr>
+<th>标签</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;section&gt;</code></td>
+<td>文档的区域，语义比 div 大</td>
+</tr>
+<tr>
+<td><code>&lt;article&gt;</code></td>
+<td>文档的核心文章内容，会被搜索引擎主要抓取</td>
+</tr>
+<tr>
+<td><code>&lt;aside&gt;</code></td>
+<td>文档的非必要相关内容，比如：广告 等</td>
+</tr>
+<tr>
+<td><code>&lt;nav&gt;</code></td>
+<td>导航条</td>
+</tr>
+<tr>
+<td><code>&lt;header&gt;</code></td>
+<td>页头</td>
+</tr>
+<tr>
+<td><code>&lt;main&gt;</code></td>
+<td>网页核心部分</td>
+</tr>
+<tr>
+<td><code>&lt;footer&gt;</code></td>
+<td>页脚</td>
+</tr>
+</tbody>
+</table>
+<div><pre><code>  <span>&lt;!-- 网页的头部 --></span>
+  <span><span><span>&lt;</span>header</span><span>></span></span>
+    <span><span><span>&lt;</span>div</span><span>></span></span>
+      <span><span><span>&lt;</span>h1</span><span>></span></span>网页的logo<span><span><span>&lt;/</span>h1</span><span>></span></span>
+    <span><span><span>&lt;/</span>div</span><span>></span></span>
+    <span>&lt;!-- 导航栏 --></span>
+    <span><span><span>&lt;</span>nav</span><span>></span></span>网页的导航<span><span><span>&lt;/</span>nav</span><span>></span></span>
+  <span><span><span>&lt;/</span>header</span><span>></span></span>
+
+  <span>&lt;!-- 网页的核心 --></span>
+  <span><span><span>&lt;</span>main</span><span>></span></span>
+    <span>&lt;!-- banner广告栏 --></span>
+    <span><span><span>&lt;</span>aside</span><span>></span></span>banner广告<span><span><span>&lt;/</span>aside</span><span>></span></span>
+
+    <span>&lt;!-- 商品信息 --></span>
+    <span><span><span>&lt;</span>article</span><span>></span></span>
+      <span><span><span>&lt;</span>h2</span><span>></span></span>商品标题<span><span><span>&lt;/</span>h2</span><span>></span></span>
+      <span><span><span>&lt;</span>section</span><span>></span></span>商品信息1<span><span><span>&lt;/</span>section</span><span>></span></span>
+      <span><span><span>&lt;</span>section</span><span>></span></span>商品信息2<span><span><span>&lt;/</span>section</span><span>></span></span>
+      <span><span><span>&lt;</span>section</span><span>></span></span>商品信息3<span><span><span>&lt;/</span>section</span><span>></span></span>
+    <span><span><span>&lt;/</span>article</span><span>></span></span>
+  <span><span><span>&lt;/</span>main</span><span>></span></span>
+
+  <span>&lt;!-- 页脚 --></span>
+  <span><span><span>&lt;</span>footer</span><span>></span></span><span><span><span>&lt;/</span>footer</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h2 id="十一、表单元素" tabindex="-1"> 十一、表单元素</h2>
+<div><p>TIP</p>
+<ul>
+<li>HTML 表单用于收集不同类型的用户输入</li>
+<li>如：登录、注册、发布、提交、编辑信息 等等</li>
+<li>类似效果如下图：</li>
+</ul>
+</div>
+<p><img src="/core-foundation/basic/html/assets/image-20211122220956417-165687337494729.198ce453.png" alt="image-20211122220956417-165687337494729.198ce453"></p>
+<h3 id="_1、html-表单基本用法" tabindex="-1"> 1、HTML 表单基本用法</h3>
+<div><p>TIP</p>
+<ul>
+<li>所有的 HTML 表单都是以一个 <code>&lt;form&gt;</code>元素包裹</li>
+<li>action属性：提交表单时向何处发送表单数据</li>
+<li>method属性：规定用于发送表单数据的 HTTP 方法</li>
+</ul>
+<div><pre><code><span><span><span>&lt;</span>h1</span><span>></span></span>HTML的form表单<span><span><span>&lt;/</span>h1</span><span>></span></span>
+
+<span><span><span>&lt;</span>form</span> <span>action</span><span><span>=</span><span>"</span>/user/login<span>"</span></span> <span>method</span><span><span>=</span><span>"</span>get<span>"</span></span><span>></span></span>......<span><span><span>&lt;/</span>form</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div></div>
+<h3 id="_2、单行文本框" tabindex="-1"> 2、单行文本框</h3>
+<div><p>TIP</p>
+<table>
+<thead>
+<tr>
+<th>标签</th>
+<th>属性</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;input&gt;</code></td>
+<td>type=&quot;text&quot;</td>
+<td>单行文本框，单标签</td>
+</tr>
+<tr>
+<td><code>&lt;input&gt;</code></td>
+<td>value=&quot;艾编程&quot;</td>
+<td>文本框的值</td>
+</tr>
+<tr>
+<td><code>&lt;input&gt;</code></td>
+<td>placeholder=&quot;请输入用户名 ...&quot;</td>
+<td>提示文本，以浅灰色显示在文本框中，并不是文本框中的值</td>
+</tr>
+<tr>
+<td><code>&lt;input&gt;</code></td>
+<td>disabled</td>
+<td>表示用户不能与元素交互，即：禁用</td>
+</tr>
+</tbody>
+</table>
+<div><pre><code><span><span><span>&lt;</span>form</span> <span>action</span><span><span>=</span><span>"</span>/user<span>"</span></span> <span>method</span><span><span>=</span><span>"</span>POST<span>"</span></span><span>></span></span>
+ <span><span><span>&lt;</span>p</span><span>></span></span>用户名：<span><span><span>&lt;</span>input</span> <span>type</span><span><span>=</span><span>"</span>text<span>"</span></span> <span>/></span></span><span><span><span>&lt;/</span>p</span><span>></span></span>
+ <span><span><span>&lt;</span>p</span><span>></span></span>真实姓名：<span><span><span>&lt;</span>input</span> <span>type</span><span><span>=</span><span>"</span>text<span>"</span></span> <span>placeholder</span><span><span>=</span><span>"</span>请输入您的真实姓名 ...<span>"</span></span> <span>/></span></span><span><span><span>&lt;/</span>p</span><span>></span></span>
+ <span><span><span>&lt;</span>p</span><span>></span></span>所在城市：<span><span><span>&lt;</span>input</span> <span>type</span><span><span>=</span><span>"</span>text<span>"</span></span> <span>value</span><span><span>=</span><span>"</span>北京市海淀区<span>"</span></span> <span>disabled</span> <span>/></span></span><span><span><span>&lt;/</span>p</span><span>></span></span>
+<span><span><span>&lt;/</span>form</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div></div></div></div>
+<h3 id="_3、密码框" tabindex="-1"> 3、密码框</h3>
+<div><p>TIP</p>
+<ul>
+<li>与单行文本框类似，其属性为 type=&quot;password&quot; 显示内容为 隐藏</li>
+</ul>
+<div><pre><code> 请输入密码：<span><span><span>&lt;</span>input</span> <span>type</span><span><span>=</span><span>"</span>password<span>"</span></span> <span>/></span></span>
+</code></pre><div aria-hidden="true"><div></div></div></div></div>
+<p><img src="/core-foundation/basic/html/assets/password.png" alt="password"></p>
+<h3 id="_4、单选按钮" tabindex="-1"> 4、单选按钮</h3>
+<div><p>TIP</p>
+<table>
+<thead>
+<tr>
+<th>标签</th>
+<th>属性</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><input></td>
+<td>type=&quot;radio&quot;</td>
+<td>单选按钮</td>
+</tr>
+<tr>
+<td><input></td>
+<td>name=&quot;自定义名称&quot;</td>
+<td>设置 互斥 ，需将多个 name 属性为相同的值</td>
+</tr>
+<tr>
+<td><input></td>
+<td>value=&quot;&quot;</td>
+<td>向服务器提交的值</td>
+</tr>
+<tr>
+<td><input></td>
+<td>checked</td>
+<td>表示默认被选中</td>
+</tr>
+<tr>
+<td>性别： <input type="radio" name="sex" /> 男 <input type="radio" name="sex" /> 女</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div><pre><code><span><span><span>&lt;</span>input</span> <span>type</span><span><span>=</span><span>"</span>radio<span>"</span></span> <span>name</span><span><span>=</span><span>"</span>sex<span>"</span></span> <span>checked</span> <span>/></span></span> 保密
+</code></pre><div aria-hidden="true"><div></div></div></div><p><img src="/core-foundation/basic/html/assets/radio.png" alt="radio"></p>
+<ul>
+<li>以上代码，点击 文字时，不能选中按钮，需要使用 label标签</li>
+</ul>
+</div>
+<h3 id="_5、label-标签" tabindex="-1"> 5、label 标签</h3>
+<div><p>提示</p>
+<p><strong>用来将文字和单选按钮进行绑定</strong></p>
+<p>当用户单击文字时，等于点击了单选按钮 ，在HTML5中直接使用<code> label</code> 标签包裹 单选按钮和文字 即可</p>
+<div><pre><code>性别：
+<span><span><span>&lt;</span>label</span><span>></span></span> <span><span><span>&lt;</span>input</span> <span>type</span><span><span>=</span><span>"</span>radio<span>"</span></span> <span>name</span><span><span>=</span><span>"</span>sex<span>"</span></span> <span>/></span></span> 男 <span><span><span>&lt;/</span>label</span><span>></span></span>
+<span><span><span>&lt;</span>label</span><span>></span></span> <span><span><span>&lt;</span>input</span> <span>type</span><span><span>=</span><span>"</span>radio<span>"</span></span> <span>name</span><span><span>=</span><span>"</span>sex<span>"</span></span> <span>/></span></span> 女 <span><span><span>&lt;/</span>label</span><span>></span></span>
+<span><span><span>&lt;</span>label</span><span>></span></span> <span><span><span>&lt;</span>input</span> <span>type</span><span><span>=</span><span>"</span>radio<span>"</span></span> <span>name</span><span><span>=</span><span>"</span>sex<span>"</span></span> <span>checked</span> <span>/></span></span> 保密 <span><span><span>&lt;/</span>label</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div></div></div><p><strong>在 HTML4 中</strong></p>
+<ul>
+<li>label 标签是通过 for 属性和单选按钮的 id 属性进行绑定的</li>
+</ul>
+<div><pre><code> 所在城市：
+ <span><span><span>&lt;</span>input</span> <span>type</span><span><span>=</span><span>"</span>radio<span>"</span></span> <span>name</span><span><span>=</span><span>"</span>city<span>"</span></span> <span>id</span><span><span>=</span><span>"</span>beijing<span>"</span></span> <span>/></span></span>
+ <span><span><span>&lt;</span>label</span> <span>for</span><span><span>=</span><span>"</span>beijing<span>"</span></span><span>></span></span>北京市<span><span><span>&lt;/</span>label</span><span>></span></span>
+ 
+ <span><span><span>&lt;</span>input</span> <span>type</span><span><span>=</span><span>"</span>radio<span>"</span></span> <span>name</span><span><span>=</span><span>"</span>city<span>"</span></span> <span>id</span><span><span>=</span><span>"</span>shanghai<span>"</span></span> <span>/></span></span>
+ <span><span><span>&lt;</span>label</span> <span>for</span><span><span>=</span><span>"</span>shanghai<span>"</span></span><span>></span></span>上海市<span><span><span>&lt;/</span>label</span><span>></span></span>
+ 
+ <span><span><span>&lt;</span>input</span> <span>type</span><span><span>=</span><span>"</span>radio<span>"</span></span> <span>name</span><span><span>=</span><span>"</span>city<span>"</span></span> <span>id</span><span><span>=</span><span>"</span>shenzhen<span>"</span></span> <span>/></span></span>
+ <span><span><span>&lt;</span>label</span> <span>for</span><span><span>=</span><span>"</span>shenzhen<span>"</span></span><span>></span></span>深圳市<span><span><span>&lt;/</span>label</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><img src="/core-foundation/basic/html/assets/label.png" alt="label"></p>
+</div>
+<h3 id="_6、复选框" tabindex="-1"> 6、复选框</h3>
+<table>
+<thead>
+<tr>
+<th>标签</th>
+<th>属性</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><input></td>
+<td>type=&quot;checkbox&quot;</td>
+<td>复选框</td>
+</tr>
+<tr>
+<td><input></td>
+<td>name=&quot;自定义名称&quot;</td>
+<td>同组复选框应该设置 name 为相同值</td>
+</tr>
+<tr>
+<td><input></td>
+<td>value=&quot;&quot;</td>
+<td>向服务器提交的值</td>
+</tr>
+<tr>
+<td><input></td>
+<td>checked</td>
+<td>表示默认被选中</td>
+</tr>
+</tbody>
+</table>
+<div><pre><code>  兴趣爱好：
+  <span><span><span>&lt;</span>label</span><span>></span></span>
+    <span><span><span>&lt;</span>input</span> <span>type</span><span><span>=</span><span>"</span>checkbox<span>"</span></span> <span>name</span><span><span>=</span><span>"</span>hobby<span>"</span></span> <span>checked</span> <span>value</span><span><span>=</span><span>"</span>篮球<span>"</span></span> <span>/></span></span> 篮球
+  <span><span><span>&lt;/</span>label</span><span>></span></span>
+  <span><span><span>&lt;</span>label</span><span>></span></span> <span><span><span>&lt;</span>input</span> <span>type</span><span><span>=</span><span>"</span>checkbox<span>"</span></span> <span>name</span><span><span>=</span><span>"</span>hobby<span>"</span></span> <span>value</span><span><span>=</span><span>"</span>乒乓球<span>"</span></span> <span>/></span></span> 乒乓球 <span><span><span>&lt;/</span>label</span><span>></span></span>
+  <span><span><span>&lt;</span>label</span><span>></span></span> <span><span><span>&lt;</span>input</span> <span>type</span><span><span>=</span><span>"</span>checkbox<span>"</span></span> <span>name</span><span><span>=</span><span>"</span>hobby<span>"</span></span> <span>value</span><span><span>=</span><span>"</span>书法<span>"</span></span> <span>/></span></span> 书法 <span><span><span>&lt;/</span>label</span><span>></span></span>
+  <span><span><span>&lt;</span>label</span><span>></span></span>
+    <span><span><span>&lt;</span>input</span> <span>type</span><span><span>=</span><span>"</span>checkbox<span>"</span></span> <span>name</span><span><span>=</span><span>"</span>hobby<span>"</span></span> <span>value</span><span><span>=</span><span>"</span>跑步健身<span>"</span></span> <span>/></span></span> 跑步健身
+  <span><span><span>&lt;/</span>label</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><img src="/core-foundation/basic/html/assets/checkbox.png" alt="checkbox"></p>
+<h3 id="_7、下拉菜单" tabindex="-1"> 7、下拉菜单</h3>
+<div><p>TIP</p>
+<ul>
+<li><code>&lt;select&gt;</code>标签，即 下拉菜单</li>
+<li><code>&lt;option&gt;</code>是内部选项</li>
+</ul>
+<div><pre><code>请选择 省：
+<span><span><span>&lt;</span>select</span><span>></span></span>
+  <span><span><span>&lt;</span>option</span> <span>value</span><span><span>=</span><span>"</span>湖北省<span>"</span></span><span>></span></span>湖北省<span><span><span>&lt;/</span>option</span><span>></span></span>
+  <span><span><span>&lt;</span>option</span> <span>value</span><span><span>=</span><span>"</span>湖南省<span>"</span></span><span>></span></span>湖南省<span><span><span>&lt;/</span>option</span><span>></span></span>
+  <span><span><span>&lt;</span>option</span> <span>value</span><span><span>=</span><span>"</span>安徽省<span>"</span></span><span>></span></span>安徽省<span><span><span>&lt;/</span>option</span><span>></span></span>
+  <span><span><span>&lt;</span>option</span> <span>value</span><span><span>=</span><span>"</span>陕西省<span>"</span></span><span>></span></span>陕西省<span><span><span>&lt;/</span>option</span><span>></span></span>
+<span><span><span>&lt;/</span>select</span><span>></span></span>
+市：
+<span><span><span>&lt;</span>select</span><span>></span></span>
+  <span><span><span>&lt;</span>option</span> <span>value</span><span><span>=</span><span>"</span>西安市<span>"</span></span><span>></span></span>西安市<span><span><span>&lt;/</span>option</span><span>></span></span>
+<span><span><span>&lt;/</span>select</span><span>></span></span>
+区：
+<span><span><span>&lt;</span>select</span><span>></span></span>
+  <span><span><span>&lt;</span>option</span> <span>value</span><span><span>=</span><span>"</span>雁塔区<span>"</span></span><span>></span></span>高新区<span><span><span>&lt;/</span>option</span><span>></span></span>
+<span><span><span>&lt;/</span>select</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></div>
+<h3 id="_8、多行文本框" tabindex="-1"> 8、多行文本框</h3>
+<div><p>TIP</p>
+<ul>
+<li><code>&lt;textarea&gt;</code> 表示多行文本框</li>
+<li>有 rows和cols属性，用于定义多行文本框的行数和列数</li>
+</ul>
+<div><pre><code> 用户评论： <span><span><span>&lt;</span>textarea</span> <span>cols</span><span><span>=</span><span>"</span>100<span>"</span></span> <span>rows</span><span><span>=</span><span>"</span>10<span>"</span></span><span>></span></span><span><span><span>&lt;/</span>textarea</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div></div></div></div>
+<h3 id="_9、按钮" tabindex="-1"> 9、按钮</h3>
+<table>
+<thead>
+<tr>
+<th>标签</th>
+<th>属性</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><input></td>
+<td>type=&quot;button&quot;</td>
+<td>普通按钮，也可以简写为 <button></button></td>
+</tr>
+<tr>
+<td><input></td>
+<td>type=&quot;submit&quot;</td>
+<td>提交按钮</td>
+</tr>
+<tr>
+<td><input></td>
+<td>type=&quot;reset&quot;</td>
+<td>重置按钮</td>
+</tr>
+</tbody>
+</table>
+<div><pre><code>  <span><span><span>&lt;</span>button</span><span>></span></span>我是一个button标签，是一个普通按钮<span><span><span>&lt;/</span>button</span><span>></span></span>
+  <span><span><span>&lt;</span>input</span> <span>type</span><span><span>=</span><span>"</span>button<span>"</span></span> <span>value</span><span><span>=</span><span>"</span>我是一个普通按钮<span>"</span></span> <span>/></span></span>
+  <span><span><span>&lt;</span>input</span> <span>type</span><span><span>=</span><span>"</span>submit<span>"</span></span> <span>value</span><span><span>=</span><span>"</span>提交表单信息<span>"</span></span> <span>/></span></span>
+  <span><span><span>&lt;</span>input</span> <span>type</span><span><span>=</span><span>"</span>reset<span>"</span></span> <span>value</span><span><span>=</span><span>"</span>重 置<span>"</span></span> <span>/></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div></div></div><p>总结，常用表单控件</p>
+<table>
+<thead>
+<tr>
+<th>标签</th>
+<th>type</th>
+<th>属性</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><input></td>
+<td>text</td>
+<td>单行文本框</td>
+<td></td>
+</tr>
+<tr>
+<td><input></td>
+<td>radio</td>
+<td>单选按钮</td>
+<td></td>
+</tr>
+<tr>
+<td><input></td>
+<td>checkbox</td>
+<td>复选框</td>
+<td></td>
+</tr>
+<tr>
+<td><input></td>
+<td>password</td>
+<td>密码框</td>
+<td></td>
+</tr>
+<tr>
+<td><input></td>
+<td>button</td>
+<td>普通按钮，也可以简写为 <button></button></td>
+<td></td>
+</tr>
+<tr>
+<td><input></td>
+<td>submit</td>
+<td>提交按钮</td>
+<td></td>
+</tr>
+<tr>
+<td><input></td>
+<td>reset</td>
+<td>重置按钮</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><img src="/core-foundation/basic/html/assets/image-20211123001408783-165687345772739.9e92791a.png" alt="image-20211123001408783-165687345772739.9e92791a"></p>
+<h3 id="_10、html5-新增表单控件" tabindex="-1"> 10、HTML5 新增表单控件</h3>
+<table>
+<thead>
+<tr>
+<th>标签</th>
+<th>type</th>
+<th>属性</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><input></td>
+<td>color</td>
+<td>颜色选择控件</td>
+<td></td>
+</tr>
+<tr>
+<td><input></td>
+<td>date、time</td>
+<td>日期、时间选择控件</td>
+<td></td>
+</tr>
+<tr>
+<td><input></td>
+<td>email</td>
+<td>电子邮件输入控件</td>
+<td></td>
+</tr>
+<tr>
+<td><input></td>
+<td>file</td>
+<td>文件选择控件</td>
+<td></td>
+</tr>
+<tr>
+<td><input></td>
+<td>number</td>
+<td>数字输入控件</td>
+<td></td>
+</tr>
+<tr>
+<td><input></td>
+<td>range</td>
+<td>拖拽条控件</td>
+<td></td>
+</tr>
+<tr>
+<td><input></td>
+<td>search</td>
+<td>搜索框</td>
+<td></td>
+</tr>
+<tr>
+<td><input></td>
+<td>url</td>
+<td>网址输入控件</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>注：兼容到 IE9，手机端完全兼容</p>
+</blockquote>
+<div><pre><code>  <span><span><span>&lt;</span>h1</span><span>></span></span>HTML5新增表单控件<span><span><span>&lt;/</span>h1</span><span>></span></span>
+
+  <span><span><span>&lt;</span>form</span><span>></span></span>
+    <span><span><span>&lt;</span>p</span><span>></span></span>
+      颜色选择：
+      <span><span><span>&lt;</span>input</span> <span>type</span><span><span>=</span><span>"</span>color<span>"</span></span> <span>/></span></span>
+    <span><span><span>&lt;/</span>p</span><span>></span></span>
+    <span><span><span>&lt;</span>p</span><span>></span></span>
+      日期选择：
+      <span><span><span>&lt;</span>input</span> <span>type</span><span><span>=</span><span>"</span>date<span>"</span></span> <span>/></span></span>
+    <span><span><span>&lt;/</span>p</span><span>></span></span>
+    <span><span><span>&lt;</span>p</span><span>></span></span>
+      时间选择：
+      <span><span><span>&lt;</span>input</span> <span>type</span><span><span>=</span><span>"</span>time<span>"</span></span> <span>/></span></span>
+    <span><span><span>&lt;/</span>p</span><span>></span></span>
+    <span><span><span>&lt;</span>p</span><span>></span></span>
+      电子邮件（提交自动校验）：
+      <span><span><span>&lt;</span>input</span> <span>type</span><span><span>=</span><span>"</span>email<span>"</span></span> <span>/></span></span>
+    <span><span><span>&lt;/</span>p</span><span>></span></span>
+    <span><span><span>&lt;</span>p</span><span>></span></span>
+      必填项：
+      <span><span><span>&lt;</span>input</span> <span>type</span><span><span>=</span><span>"</span>text<span>"</span></span> <span>required</span> <span>/></span></span>
+    <span><span><span>&lt;/</span>p</span><span>></span></span>
+    <span><span><span>&lt;</span>p</span><span>></span></span>
+      数字（min最小值，max最大值）：
+      <span><span><span>&lt;</span>input</span> <span>type</span><span><span>=</span><span>"</span>number<span>"</span></span> <span>min</span><span><span>=</span><span>"</span>2<span>"</span></span> <span>max</span><span><span>=</span><span>"</span>10<span>"</span></span> <span>/></span></span>
+    <span><span><span>&lt;/</span>p</span><span>></span></span>
+    <span><span><span>&lt;</span>p</span><span>></span></span>
+      拖拽条：
+      <span><span><span>&lt;</span>input</span> <span>type</span><span><span>=</span><span>"</span>range<span>"</span></span> <span>min</span><span><span>=</span><span>"</span>10<span>"</span></span> <span>max</span><span><span>=</span><span>"</span>50<span>"</span></span> <span>/></span></span>
+    <span><span><span>&lt;/</span>p</span><span>></span></span>
+    <span><span><span>&lt;</span>p</span><span>></span></span>
+      搜索框（多一个清空按钮）：
+      <span><span><span>&lt;</span>input</span> <span>type</span><span><span>=</span><span>"</span>search<span>"</span></span> <span>/></span></span>
+    <span><span><span>&lt;/</span>p</span><span>></span></span>
+    <span><span><span>&lt;</span>p</span><span>></span></span>
+      网址：
+      <span><span><span>&lt;</span>input</span> <span>type</span><span><span>=</span><span>"</span>url<span>"</span></span> <span>/></span></span>
+    <span><span><span>&lt;/</span>p</span><span>></span></span>
+    <span><span><span>&lt;</span>p</span><span>></span></span>
+      <span><span><span>&lt;</span>input</span> <span>type</span><span><span>=</span><span>"</span>submit<span>"</span></span> <span>value</span><span><span>=</span><span>"</span>提交表单信息<span>"</span></span> <span>/></span></span>
+    <span><span><span>&lt;/</span>p</span><span>></span></span>
+  <span><span><span>&lt;/</span>form</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><div><p>datalist 控件</p>
+<ul>
+<li>为输入框提供一些备选项，当用户输入的内容与备选项文字相同时，将会显示智能提示感应</li>
+</ul>
+</div>
+<div><pre><code>  datalist 控件：
+  <span><span><span>&lt;</span>input</span> <span>type</span><span><span>=</span><span>"</span>text<span>"</span></span> <span>list</span><span><span>=</span><span>"</span>language-list<span>"</span></span> <span>/></span></span>
+  <span><span><span>&lt;</span>datalist</span> <span>id</span><span><span>=</span><span>"</span>language-list<span>"</span></span><span>></span></span>
+    <span><span><span>&lt;</span>option</span> <span>value</span><span><span>=</span><span>"</span>Java<span>"</span></span><span>></span></span>Java<span><span><span>&lt;/</span>option</span><span>></span></span>
+    <span><span><span>&lt;</span>option</span> <span>value</span><span><span>=</span><span>"</span>JavaScript<span>"</span></span><span>></span></span>JavaScript<span><span><span>&lt;/</span>option</span><span>></span></span>
+    <span><span><span>&lt;</span>option</span> <span>value</span><span><span>=</span><span>"</span>Python<span>"</span></span><span>></span></span>Python<span><span><span>&lt;/</span>option</span><span>></span></span>
+    <span><span><span>&lt;</span>option</span> <span>value</span><span><span>=</span><span>"</span>Go<span>"</span></span><span>></span></span>Go<span><span><span>&lt;/</span>option</span><span>></span></span>
+    <span><span><span>&lt;</span>option</span> <span>value</span><span><span>=</span><span>"</span>C++<span>"</span></span><span>></span></span>C++<span><span><span>&lt;/</span>option</span><span>></span></span>
+  <span><span><span>&lt;/</span>datalist</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><img src="/core-foundation/basic/html/assets/image-20211123001444728-165687347530741.b5464b55.png" alt="image-20211123001444728-165687347530741.b5464b55"></p>
+<h2 id="十二、表格" tabindex="-1"> 十二、表格</h2>
+<p><img src="/core-foundation/basic/html/assets/image-20211123172639286-165687348817143.0d969898.png" alt="image-20211123172639286-165687348817143.0d969898"></p>
+<h3 id="_1、html-表格标签" tabindex="-1"> 1、HTML 表格标签</h3>
+<table>
+<thead>
+<tr>
+<th>标签</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;table&gt;</code></td>
+<td>定义表格</td>
+</tr>
+<tr>
+<td><code>&lt;th&gt;</code></td>
+<td>定义表格的表头</td>
+</tr>
+<tr>
+<td><code>&lt;tr&gt;</code></td>
+<td>定义表格的行</td>
+</tr>
+<tr>
+<td><code>&lt;td&gt;</code></td>
+<td>定义表格单元</td>
+</tr>
+<tr>
+<td><code>&lt;caption&gt;</code></td>
+<td>定义表格标题（作为 table 的第一个子元素出现）</td>
+</tr>
+<tr>
+<td><code>&lt;thead&gt;</code></td>
+<td>定义表格的页眉</td>
+</tr>
+<tr>
+<td><code>&lt;tbody&gt;</code></td>
+<td>定义表格的主体</td>
+</tr>
+<tr>
+<td><code>&lt;tfoot&gt;</code></td>
+<td>定义表格的页脚</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_2、table-标签属性" tabindex="-1"> 2、table 标签属性</h3>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>border</td>
+<td>表格的边框</td>
+</tr>
+<tr>
+<td>width</td>
+<td>表格的宽度（HTML5 不支持）</td>
+</tr>
+<tr>
+<td>cellpadding</td>
+<td>单元边沿与其内容之间的空白（HTML5 不支持）</td>
+</tr>
+<tr>
+<td>cellspacing</td>
+<td>单元格之间的空白（HTML5 不支持</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>注：在 HTML5 中 table 标签的大部分属性已经废弃，全部用 CSS 代替了</p>
+</blockquote>
+<div><pre><code>  <span><span><span>&lt;</span>h1</span><span>></span></span>table标签<span><span><span>&lt;/</span>h1</span><span>></span></span>
+
+  <span><span><span>&lt;</span>table</span> <span>border</span><span><span>=</span><span>"</span>1<span>"</span></span> <span>width</span><span><span>=</span><span>"</span>500<span>"</span></span> <span>cellpadding</span><span><span>=</span><span>"</span>10<span>"</span></span> <span>cellspacing</span><span><span>=</span><span>"</span>0<span>"</span></span><span>></span></span>
+    <span>&lt;!-- caption标签，表格标题 --></span>
+    <span><span><span>&lt;</span>caption</span><span>></span></span>
+      同学通讯录
+    <span><span><span>&lt;/</span>caption</span><span>></span></span>
+    <span><span><span>&lt;</span>tr</span><span>></span></span>
+      <span>&lt;!-- th，表头 --></span>
+      <span><span><span>&lt;</span>th</span><span>></span></span>姓名<span><span><span>&lt;/</span>th</span><span>></span></span>
+      <span><span><span>&lt;</span>th</span><span>></span></span>性别<span><span><span>&lt;/</span>th</span><span>></span></span>
+      <span><span><span>&lt;</span>th</span><span>></span></span>年龄<span><span><span>&lt;/</span>th</span><span>></span></span>
+      <span><span><span>&lt;</span>th</span><span>></span></span>所在城市<span><span><span>&lt;/</span>th</span><span>></span></span>
+    <span><span><span>&lt;/</span>tr</span><span>></span></span>
+    <span><span><span>&lt;</span>tr</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>arry<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>男<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>18<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>北京<span><span><span>&lt;/</span>td</span><span>></span></span>
+    <span><span><span>&lt;/</span>tr</span><span>></span></span>
+    <span><span><span>&lt;</span>tr</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>豆豆<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>女<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>21<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>上海<span><span><span>&lt;/</span>td</span><span>></span></span>
+    <span><span><span>&lt;/</span>tr</span><span>></span></span>
+    <span><span><span>&lt;</span>tr</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>翠花<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>19<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>男<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>深圳<span><span><span>&lt;/</span>td</span><span>></span></span>
+    <span><span><span>&lt;/</span>tr</span><span>></span></span>
+  <span><span><span>&lt;/</span>table</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><img src="/core-foundation/basic/html/assets/image-20211123215826885-165687350528245.5c0889a5.png" alt="image-20211123215826885-165687350528245.5c0889a5"></p>
+<h3 id="_3、table-标签跨行、跨列" tabindex="-1"> 3、table 标签跨行、跨列</h3>
+<p>td 标签 或 th标签的属性</p>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>colspan</td>
+<td>number</td>
+<td>规定单元格可横跨的列数</td>
+</tr>
+<tr>
+<td>rowspan</td>
+<td>number</td>
+<td>设置单元格可纵跨的行数</td>
+</tr>
+</tbody>
+</table>
+<p>注：td 标签的其他属性在 HTML5 中已不支持，直接使用 css 即可</p>
+<p>跨列</p>
+<div><pre><code>  <span><span><span>&lt;</span>h2</span><span>></span></span>表格实战 - 跨列<span><span><span>&lt;/</span>h2</span><span>></span></span>
+
+  <span><span><span>&lt;</span>table</span> <span>border</span><span><span>=</span><span>"</span>1<span>"</span></span> <span>width</span><span><span>=</span><span>"</span>800<span>"</span></span><span>></span></span>
+    <span><span><span>&lt;</span>caption</span><span>></span></span>
+      学生个人信息登记表
+    <span><span><span>&lt;/</span>caption</span><span>></span></span>
+    <span><span><span>&lt;</span>tr</span><span>></span></span>
+      <span><span><span>&lt;</span>th</span> <span>colspan</span><span><span>=</span><span>"</span>8<span>"</span></span><span>></span></span>高新一中初三一班学生信息登记表<span><span><span>&lt;/</span>th</span><span>></span></span>
+    <span><span><span>&lt;/</span>tr</span><span>></span></span>
+    <span><span><span>&lt;</span>tr</span><span>></span></span>
+      <span><span><span>&lt;</span>th</span> <span>colspan</span><span><span>=</span><span>"</span>8<span>"</span></span><span>></span></span>学生基础信息<span><span><span>&lt;/</span>th</span><span>></span></span>
+    <span><span><span>&lt;/</span>tr</span><span>></span></span>
+    <span><span><span>&lt;</span>tr</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>姓名<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>XXX<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>国籍/地区<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>中国<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>姓名拼音<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>XXX<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>班内学号<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>20211101<span><span><span>&lt;/</span>td</span><span>></span></span>
+    <span><span><span>&lt;/</span>tr</span><span>></span></span>
+    <span><span><span>&lt;</span>tr</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>性别<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>女<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>身份证件类型<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>本地居民<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>曾用名<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>无<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>班级<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>初三（1）班<span><span><span>&lt;/</span>td</span><span>></span></span>
+    <span><span><span>&lt;/</span>tr</span><span>></span></span>
+    <span><span><span>&lt;</span>tr</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>出生日期<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>2002年9月1日<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>民族<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>汉<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>户口所在地<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>北京<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>入学年份<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>2015年<span><span><span>&lt;/</span>td</span><span>></span></span>
+    <span><span><span>&lt;/</span>tr</span><span>></span></span>
+    <span><span><span>&lt;</span>tr</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>出生地<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>北京<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>政治面貌<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>团员<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>户口性质<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>城镇户口<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>入学方式<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>普通入学<span><span><span>&lt;/</span>td</span><span>></span></span>
+    <span><span><span>&lt;/</span>tr</span><span>></span></span>
+    <span><span><span>&lt;</span>tr</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>籍贯<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>海淀区<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>健康状况<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>良好<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>特长<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>书法<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>就读方式<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>走读<span><span><span>&lt;/</span>td</span><span>></span></span>
+    <span><span><span>&lt;/</span>tr</span><span>></span></span>
+    <span><span><span>&lt;</span>tr</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>身份证号<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span> <span>colspan</span><span><span>=</span><span>"</span>3<span>"</span></span><span>></span></span><span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>身份证有效期<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span> <span>colspan</span><span><span>=</span><span>"</span>3<span>"</span></span><span>></span></span><span><span><span>&lt;/</span>td</span><span>></span></span>
+    <span><span><span>&lt;/</span>tr</span><span>></span></span>
+    <span><span><span>&lt;</span>tr</span><span>></span></span>
+      <span><span><span>&lt;</span>th</span> <span>colspan</span><span><span>=</span><span>"</span>8<span>"</span></span><span>></span></span>学生个人联系信息<span><span><span>&lt;/</span>th</span><span>></span></span>
+    <span><span><span>&lt;/</span>tr</span><span>></span></span>
+    <span><span><span>&lt;</span>tr</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>现住址<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span> <span>colspan</span><span><span>=</span><span>"</span>7<span>"</span></span><span>></span></span><span><span><span>&lt;/</span>td</span><span>></span></span>
+    <span><span><span>&lt;/</span>tr</span><span>></span></span>
+    <span><span><span>&lt;</span>tr</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>家庭地址<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span> <span>colspan</span><span><span>=</span><span>"</span>7<span>"</span></span><span>></span></span><span><span><span>&lt;/</span>td</span><span>></span></span>
+    <span><span><span>&lt;/</span>tr</span><span>></span></span>
+    <span><span><span>&lt;</span>tr</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>联系电话<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span> <span>colspan</span><span><span>=</span><span>"</span>7<span>"</span></span><span>></span></span><span><span><span>&lt;/</span>td</span><span>></span></span>
+    <span><span><span>&lt;/</span>tr</span><span>></span></span>
+    <span><span><span>&lt;</span>tr</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span><span>></span></span>电子信箱<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;</span>td</span> <span>colspan</span><span><span>=</span><span>"</span>7<span>"</span></span><span>></span></span><span><span><span>&lt;/</span>td</span><span>></span></span>
+    <span><span><span>&lt;/</span>tr</span><span>></span></span>
+  <span><span><span>&lt;/</span>table</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><img src="/core-foundation/basic/html/assets/image-20211123220132116-165687352104347.cc6d5593.png" alt="image-20211123220132116-165687352104347.cc6d5593"></p>
+<p>跨行、跨列</p>
+<div><pre><code>    <span><span><span>&lt;</span>h2</span><span>></span></span>表格实战 - 跨行跨列<span><span><span>&lt;/</span>h2</span><span>></span></span>
+
+    <span><span><span>&lt;</span>table</span> <span>border</span><span><span>=</span><span>"</span>1<span>"</span></span> <span>width</span><span><span>=</span><span>"</span>800<span>"</span></span><span>></span></span>
+      <span><span><span>&lt;</span>caption</span><span>></span></span>
+        版本规划任务分配表
+      <span><span><span>&lt;/</span>caption</span><span>></span></span>
+      <span><span><span>&lt;</span>tr</span><span>></span></span>
+        <span><span><span>&lt;</span>th</span> <span>colspan</span><span><span>=</span><span>"</span>2<span>"</span></span><span>></span></span>需求：V0.3版本规划<span><span><span>&lt;/</span>th</span><span>></span></span>
+        <span><span><span>&lt;</span>th</span><span>></span></span>优先级<span><span><span>&lt;/</span>th</span><span>></span></span>
+        <span><span><span>&lt;</span>th</span><span>></span></span>任务分解<span><span><span>&lt;/</span>th</span><span>></span></span>
+        <span><span><span>&lt;</span>th</span><span>></span></span>产品负责人<span><span><span>&lt;/</span>th</span><span>></span></span>
+      <span><span><span>&lt;/</span>tr</span><span>></span></span>
+      <span><span><span>&lt;</span>tr</span><span>></span></span>
+        <span><span><span>&lt;</span>td</span> <span>rowspan</span><span><span>=</span><span>"</span>3<span>"</span></span><span>></span></span>功能模块1<span><span><span>&lt;/</span>td</span><span>></span></span>
+        <span><span><span>&lt;</span>td</span><span>></span></span>具体事项1<span><span><span>&lt;/</span>td</span><span>></span></span>
+        <span><span><span>&lt;</span>td</span><span>></span></span>3<span><span><span>&lt;/</span>td</span><span>></span></span>
+        <span><span><span>&lt;</span>td</span><span>></span></span>任务1<span><span><span>&lt;/</span>td</span><span>></span></span>
+        <span><span><span>&lt;</span>td</span> <span>rowspan</span><span><span>=</span><span>"</span>3<span>"</span></span><span>></span></span>@翠花<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;/</span>tr</span><span>></span></span>
+      <span><span><span>&lt;</span>tr</span><span>></span></span>
+        <span><span><span>&lt;</span>td</span> <span>rowspan</span><span><span>=</span><span>"</span>2<span>"</span></span><span>></span></span>具体事项2<span><span><span>&lt;/</span>td</span><span>></span></span>
+        <span><span><span>&lt;</span>td</span><span>></span></span>4<span><span><span>&lt;/</span>td</span><span>></span></span>
+        <span><span><span>&lt;</span>td</span><span>></span></span>任务2<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;/</span>tr</span><span>></span></span>
+      <span><span><span>&lt;</span>tr</span><span>></span></span>
+        <span><span><span>&lt;</span>td</span><span>></span></span>1<span><span><span>&lt;/</span>td</span><span>></span></span>
+        <span><span><span>&lt;</span>td</span><span>></span></span>任务3<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;/</span>tr</span><span>></span></span>
+      <span><span><span>&lt;</span>tr</span><span>></span></span>
+        <span><span><span>&lt;</span>td</span> <span>rowspan</span><span><span>=</span><span>"</span>6<span>"</span></span><span>></span></span>功能模块2<span><span><span>&lt;/</span>td</span><span>></span></span>
+        <span><span><span>&lt;</span>td</span><span>></span></span>具体事项1<span><span><span>&lt;/</span>td</span><span>></span></span>
+        <span><span><span>&lt;</span>td</span><span>></span></span>2<span><span><span>&lt;/</span>td</span><span>></span></span>
+        <span><span><span>&lt;</span>td</span><span>></span></span>任务1<span><span><span>&lt;/</span>td</span><span>></span></span>
+        <span><span><span>&lt;</span>td</span> <span>rowspan</span><span><span>=</span><span>"</span>6<span>"</span></span><span>></span></span><span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;/</span>tr</span><span>></span></span>
+      <span><span><span>&lt;</span>tr</span><span>></span></span>
+        <span><span><span>&lt;</span>td</span> <span>rowspan</span><span><span>=</span><span>"</span>4<span>"</span></span><span>></span></span>具体事项2<span><span><span>&lt;/</span>td</span><span>></span></span>
+        <span><span><span>&lt;</span>td</span><span>></span></span>3<span><span><span>&lt;/</span>td</span><span>></span></span>
+        <span><span><span>&lt;</span>td</span><span>></span></span>任务1<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;/</span>tr</span><span>></span></span>
+      <span><span><span>&lt;</span>tr</span><span>></span></span>
+        <span><span><span>&lt;</span>td</span><span>></span></span>2<span><span><span>&lt;/</span>td</span><span>></span></span>
+        <span><span><span>&lt;</span>td</span><span>></span></span>任务2<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;/</span>tr</span><span>></span></span>
+      <span><span><span>&lt;</span>tr</span><span>></span></span>
+        <span><span><span>&lt;</span>td</span><span>></span></span>1<span><span><span>&lt;/</span>td</span><span>></span></span>
+        <span><span><span>&lt;</span>td</span><span>></span></span>任务3<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;/</span>tr</span><span>></span></span>
+      <span><span><span>&lt;</span>tr</span><span>></span></span>
+        <span><span><span>&lt;</span>td</span><span>></span></span>4<span><span><span>&lt;/</span>td</span><span>></span></span>
+        <span><span><span>&lt;</span>td</span><span>></span></span>任务4<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;/</span>tr</span><span>></span></span>
+      <span><span><span>&lt;</span>tr</span><span>></span></span>
+        <span><span><span>&lt;</span>td</span><span>></span></span>具体事项3<span><span><span>&lt;/</span>td</span><span>></span></span>
+        <span><span><span>&lt;</span>td</span><span>></span></span>1<span><span><span>&lt;/</span>td</span><span>></span></span>
+        <span><span><span>&lt;</span>td</span><span>></span></span>任务1<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;/</span>tr</span><span>></span></span>
+      <span><span><span>&lt;</span>tr</span><span>></span></span>
+        <span><span><span>&lt;</span>th</span> <span>colspan</span><span><span>=</span><span>"</span>5<span>"</span></span><span>></span></span>备注信息<span><span><span>&lt;/</span>th</span><span>></span></span>
+      <span><span><span>&lt;/</span>tr</span><span>></span></span>
+      <span><span><span>&lt;</span>tr</span><span>></span></span>
+        <span><span><span>&lt;</span>td</span> <span>colspan</span><span><span>=</span><span>"</span>5<span>"</span></span><span>></span></span>...<span><span><span>&lt;/</span>td</span><span>></span></span>
+      <span><span><span>&lt;/</span>tr</span><span>></span></span>
+    <span><span><span>&lt;/</span>table</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><img src="/core-foundation/basic/html/assets/image-20211123220227307-165687353660549.88056c1b.png" alt="image-20211123220227307-165687353660549.88056c1b"></p>
+<h3 id="_4、thead-tbody-tfoot-标签" tabindex="-1"> 4、thead，tbody，tfoot 标签</h3>
+<div><pre><code>    <span><span><span>&lt;</span>h2</span><span>></span></span>表格：thead、tbody、tfoot标签<span><span><span>&lt;/</span>h2</span><span>></span></span>
+
+    <span><span><span>&lt;</span>table</span> <span>border</span><span><span>=</span><span>"</span>1<span>"</span></span> <span>width</span><span><span>=</span><span>"</span>500<span>"</span></span><span>></span></span>
+      <span><span><span>&lt;</span>thead</span><span>></span></span>
+        <span><span><span>&lt;</span>caption</span><span>></span></span>
+          同学通讯录
+        <span><span><span>&lt;/</span>caption</span><span>></span></span>
+        <span><span><span>&lt;</span>tr</span><span>></span></span>
+          <span><span><span>&lt;</span>th</span><span>></span></span>专业<span><span><span>&lt;/</span>th</span><span>></span></span>
+          <span><span><span>&lt;</span>th</span><span>></span></span>姓名<span><span><span>&lt;/</span>th</span><span>></span></span>
+          <span><span><span>&lt;</span>th</span><span>></span></span>性别<span><span><span>&lt;/</span>th</span><span>></span></span>
+          <span><span><span>&lt;</span>th</span><span>></span></span>年龄<span><span><span>&lt;/</span>th</span><span>></span></span>
+          <span><span><span>&lt;</span>th</span><span>></span></span>所在城市<span><span><span>&lt;/</span>th</span><span>></span></span>
+        <span><span><span>&lt;/</span>tr</span><span>></span></span>
+      <span><span><span>&lt;/</span>thead</span><span>></span></span>
+
+      <span><span><span>&lt;</span>tbody</span><span>></span></span>
+        <span><span><span>&lt;</span>tr</span><span>></span></span>
+          <span><span><span>&lt;</span>th</span><span>></span></span>计算机<span><span><span>&lt;/</span>th</span><span>></span></span>
+          <span><span><span>&lt;</span>td</span><span>></span></span>arry<span><span><span>&lt;/</span>td</span><span>></span></span>
+          <span><span><span>&lt;</span>td</span><span>></span></span>男<span><span><span>&lt;/</span>td</span><span>></span></span>
+          <span><span><span>&lt;</span>td</span><span>></span></span>18<span><span><span>&lt;/</span>td</span><span>></span></span>
+          <span><span><span>&lt;</span>td</span><span>></span></span>北京<span><span><span>&lt;/</span>td</span><span>></span></span>
+        <span><span><span>&lt;/</span>tr</span><span>></span></span>
+        <span><span><span>&lt;</span>tr</span><span>></span></span>
+          <span><span><span>&lt;</span>th</span><span>></span></span>外语<span><span><span>&lt;/</span>th</span><span>></span></span>
+          <span><span><span>&lt;</span>td</span><span>></span></span>豆豆<span><span><span>&lt;/</span>td</span><span>></span></span>
+          <span><span><span>&lt;</span>td</span><span>></span></span>女<span><span><span>&lt;/</span>td</span><span>></span></span>
+          <span><span><span>&lt;</span>td</span><span>></span></span>21<span><span><span>&lt;/</span>td</span><span>></span></span>
+          <span><span><span>&lt;</span>td</span><span>></span></span>上海<span><span><span>&lt;/</span>td</span><span>></span></span>
+        <span><span><span>&lt;/</span>tr</span><span>></span></span>
+        <span><span><span>&lt;</span>tr</span><span>></span></span>
+          <span><span><span>&lt;</span>th</span><span>></span></span>市场营销<span><span><span>&lt;/</span>th</span><span>></span></span>
+          <span><span><span>&lt;</span>td</span><span>></span></span>翠花<span><span><span>&lt;/</span>td</span><span>></span></span>
+          <span><span><span>&lt;</span>td</span><span>></span></span>19<span><span><span>&lt;/</span>td</span><span>></span></span>
+          <span><span><span>&lt;</span>td</span><span>></span></span>男<span><span><span>&lt;/</span>td</span><span>></span></span>
+          <span><span><span>&lt;</span>td</span><span>></span></span>深圳<span><span><span>&lt;/</span>td</span><span>></span></span>
+        <span><span><span>&lt;/</span>tr</span><span>></span></span>
+      <span><span><span>&lt;/</span>tbody</span><span>></span></span>
+
+      <span><span><span>&lt;</span>tfoot</span><span>></span></span>
+        <span><span><span>&lt;</span>tr</span><span>></span></span>
+          <span><span><span>&lt;</span>th</span><span>></span></span>备注<span><span><span>&lt;/</span>th</span><span>></span></span>
+          <span><span><span>&lt;</span>td</span> <span>colspan</span><span><span>=</span><span>"</span>4<span>"</span></span><span>></span></span><span><span><span>&lt;/</span>td</span><span>></span></span>
+        <span><span><span>&lt;/</span>tr</span><span>></span></span>
+      <span><span><span>&lt;/</span>tfoot</span><span>></span></span>
+    <span><span><span>&lt;/</span>table</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><img src="/core-foundation/basic/html/assets/image-20211123221724473-165687355222551.8d335914.png" alt="image-20211123221724473-165687355222551.8d335914"></p>
+]]></content:encoded>
+      <enclosure url="https://brysonlin.github.io/blog/blog/core-foundation/basic/html/assets/pppppp.2dd52f76.png" type="image/png"/>
+    </item>
     <item>
       <title>学习笔记</title>
       <link>https://brysonlin.github.io/blog/blog/learning/</link>
@@ -313,17 +3131,24 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>HTML/HTML5基础介绍</title>
+      <title>HTML标签和属性系统学习</title>
       <link>https://brysonlin.github.io/blog/blog/core-foundation/basic/html/</link>
       <guid>https://brysonlin.github.io/blog/blog/core-foundation/basic/html/</guid>
-      <source url="https://brysonlin.github.io/blog/blog/rss.xml">HTML/HTML5基础介绍</source>
+      <source url="https://brysonlin.github.io/blog/blog/rss.xml">HTML标签和属性系统学习</source>
       <pubDate>Tue, 02 Aug 2022 13:08:47 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2 id="该内容正在努力建设中" tabindex="-1"> 该内容正在努力建设中 ......</h2>
-<blockquote>
-<p>That's a Four-Oh-Four.</p>
-</blockquote>
-<p><a href="/">Take me home.</a></p>
+<h2 id="目录" tabindex="-1"> 目录</h2>
+<ul>
+<li>
+<p><a href="/core-foundation/basic/html/basic.html">HTML5 核心标签和属性</a></p>
+</li>
+<li>
+<p><a href="/core-foundation/basic/html/html-core.html">HTML/HTML5基础介绍</a></p>
+</li>
+<li>
+<p><a href="/core-foundation/basic/html/html-html5-course.html">HTML/HTML5 常用标签和属性</a></p>
+</li>
+</ul>
 ]]></content:encoded>
     </item>
     <item>
