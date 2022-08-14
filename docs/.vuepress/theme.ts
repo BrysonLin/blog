@@ -132,6 +132,132 @@ export default hopeTheme({
       "Badge",
       "CodePen",
       "PDF",
-    ]
+    ],
+    pwa: {
+      favicon: "/favicon.ico",
+      themeColor: "#5c92d1",
+      cacheHTML: false,
+      maxSize: 3072,
+      apple: {
+        icon: "/assets/icon/apple-touch-icon.png",
+        statusBarColor: "white",
+      },
+      msTile: {
+        image: "/assets/icon/ms-icon-144.png",
+        color: "#ffffff",
+      },
+      manifest: {
+        name: "BrysonLin 的个人博客",
+        short_name: "BrysonLin Blog",
+        description: "BrysonLin 的个人博客",
+        theme_color: "#5c92d1",
+        icons: [
+          {
+            src: "/assets/icon/chrome-192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
+          {
+            src: "/assets/icon/chrome-512.png",
+            sizes: "512x512",
+            type: "image/png",
+          },
+          {
+            src: "/assets/icon/chrome-mask-192.png",
+            sizes: "192x192",
+            purpose: "maskable",
+            type: "image/png",
+          },
+          {
+            src: "/assets/icon/chrome-mask-512.png",
+            sizes: "512x512",
+            purpose: "maskable",
+            type: "image/png",
+          },
+        ],
+        shortcuts: [
+          {
+            name: "分类",
+            short_name: "分类",
+            icons: [
+              {
+                src: "/assets/icon/category-maskable.png",
+                sizes: "192x192",
+                purpose: "maskable",
+                type: "image/png",
+              },
+              {
+                src: "/assets/icon/category-monochrome.png",
+                sizes: "192x192",
+                purpose: "monochrome",
+                type: "image/png",
+              },
+            ],
+            url: "/category/",
+            description: "文章分类分组",
+          },
+          {
+            name: "标签",
+            short_name: "标签",
+            icons: [
+              {
+                src: "/assets/icon/tag-maskable.png",
+                sizes: "192x192",
+                purpose: "maskable",
+                type: "image/png",
+              },
+              {
+                src: "/assets/icon/tag-monochrome.png",
+                sizes: "192x192",
+                purpose: "monochrome",
+                type: "image/png",
+              },
+            ],
+            url: "/tag/",
+            description: "文章标签分组",
+          },
+          {
+            name: "时间线",
+            short_name: "时间线",
+            icons: [
+              {
+                src: "/assets/icon/timeline-maskable.png",
+                sizes: "192x192",
+                purpose: "maskable",
+                type: "image/png",
+              },
+              {
+                src: "/assets/icon/timeline-monochrome.png",
+                sizes: "192x192",
+                purpose: "monochrome",
+                type: "image/png",
+              },
+            ],
+            url: "/timeline/",
+            description: "时间线文章列表",
+          },
+          {
+            name: "个人介绍",
+            short_name: "个人介绍",
+            icons: [
+              {
+                src: "/assets/icon/about-maskable.png",
+                sizes: "192x192",
+                purpose: "maskable",
+                type: "image/png",
+              },
+              {
+                src: "/assets/icon/about-monochrome.png",
+                sizes: "192x192",
+                purpose: "monochrome",
+                type: "image/png",
+              },
+            ],
+            url: "/about/",
+            description: "个人介绍",
+          },
+        ],
+      },
+    },
   },
 });
