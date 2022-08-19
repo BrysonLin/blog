@@ -3,11 +3,9 @@ title: CSS/CSS3 样式系统学习
 icon: icon-css3
 ---
 
-<!-- more -->
+## CSS/CSS3样式系统学习教程
 
-## CSS/CSS3 样式系统学习
-
-- [CSS 基础认知和选择器](css-basics-selector)
+- [CSS 基础认知和选择器](../basic/css/css-basics-selector.md)
   
 - [CSS 文本和字体属性、列表发属性](css-text-font-list-properties)
   

@@ -7,7 +7,7 @@ export default arraySidebar([
     link: "README.md",
     children:[
       {
-        text: "HTML/HTML5基础介绍",
+        text: "HTML/HTML5 基础介绍",
         link: "basic",
         icon: "icon-icon_container-small"
       },
