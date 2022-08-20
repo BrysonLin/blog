@@ -6,8 +6,8 @@
     <link>https://brysonlin.github.io/blog/blog/</link>
     <description>林初笔墨,林初笔墨的博客,Web前端博客,前端博客,Web全栈技术博客,前端工程师博客</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 19 Aug 2022 22:46:10 GMT</pubDate>
-    <lastBuildDate>Fri, 19 Aug 2022 22:46:10 GMT</lastBuildDate>
+    <pubDate>Sat, 20 Aug 2022 07:55:11 GMT</pubDate>
+    <lastBuildDate>Sat, 20 Aug 2022 07:55:11 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>书籍</category>
@@ -272,11 +272,11 @@
 </ul>
 </div>
 <div><pre><code>  <span><span><span>&lt;</span>h2</span> <span><span>style</span><span><span>=</span><span>"</span><span><span>color</span><span>:</span>skyblue</span><span>"</span></span></span><span>></span></span>行内样式<span><span><span>&lt;/</span>h2</span><span>></span></span>
-</code></pre><div aria-hidden="true"><div></div></div></div><p>::: 总结：</p>
+</code></pre><div aria-hidden="true"><div></div></div></div><div><p>总结：</p>
 <p>企业开项目发中，常用的样式有 内嵌式和外链式 ，其他不常用</p>
+</div>
 <h3 id="_6、css-样式的优先级" tabindex="-1"> 6、CSS 样式的优先级</h3>
-<blockquote>
-<p><strong>TIP</strong></p>
+<div><p>提示</p>
 <ul>
 <li>行内样式优先级最高</li>
 <li>内联样式和外部样式在书写时，样式发生冲突，在优先级相同的情况下，以写在后面的为主，如果不相同，则以优先级高的为主。
@@ -306,7 +306,7 @@
       - 去掉 style="color: green"文字颜色为 blue 蓝色
       - 去掉 style="color: green"把link与style标签互换位置，文字颜色为 red 红色
     --></span>
-</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></blockquote>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></div>
 <h3 id="_7、总结-css4-种书写位置特点与区别" tabindex="-1"> 7、总结：CSS4 种书写位置特点与区别</h3>
 <table>
 <thead>
@@ -350,13 +350,11 @@
 </tbody>
 </table>
 <h2 id="二、css-选择器" tabindex="-1"> 二、CSS 选择器</h2>
-<blockquote>
-<p><strong>TIP</strong></p>
+<div><p>提示</p>
 <p>传统 CSS2.1 选择器和 CSS3 新增选择器</p>
-</blockquote>
+</div>
 <h3 id="_1、选择器分类" tabindex="-1"> 1、选择器分类</h3>
-<blockquote>
-<p><strong>TIP</strong></p>
+<div><p>提示</p>
 <ul>
 <li><strong>传统 CSS2.1 选择器</strong>
 <ul>
@@ -377,7 +375,7 @@
 </li>
 <li><strong>层叠性和选择器权重计算</strong></li>
 </ul>
-</blockquote>
+</div>
 <h3 id="_2、标签选择器" tabindex="-1"> 2、标签选择器</h3>
 <p><strong>标签选择器称之为：元素选择器、类型选择器</strong></p>
 <ul>
@@ -406,15 +404,14 @@
     text-decoration: none;
   }
 </code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h3 id="_3、id-选择器" tabindex="-1"> 3、id 选择器</h3>
-<blockquote>
-<p><strong>id 选择器是使用 HTML 元素的 id 属性来选择特定元素</strong></p>
+<div><p>id 选择器是使用 HTML 元素的 id 属性来选择特定元素</p>
 <ul>
 <li>元素的 id 在页面中是唯一的，因此 id 选择器用于选择一个唯一的元素</li>
 <li>要选择具有特定 id 的元素，请写一个井号（＃），后跟该元素的 id。</li>
 <li>id 的名称只能由 字母、数字、下划线、短横线 构成，不能以数字开头，字母区分大小写，但习惯上一般为 小写字母</li>
 <li>名称最好是：见名知意，多一个英文单词之间用 -分隔</li>
 </ul>
-</blockquote>
+</div>
 <div><pre><code>  <span><span><span>&lt;</span>style</span><span>></span></span><span><span>
     <span>#desc</span> <span>{</span>
       <span>background-color</span><span>:</span> black<span>;</span>
@@ -427,52 +424,50 @@
     <span><span><span>&lt;</span>p</span> <span>id</span><span><span>=</span><span>"</span>desc<span>"</span></span><span>></span></span>定义一个id属性<span><span><span>&lt;/</span>p</span><span>></span></span>
   <span><span><span>&lt;/</span>body</span><span>></span></span>
 </code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h3 id="_4、class-选择器" tabindex="-1"> 4、class 选择器</h3>
-<blockquote>
-<p><strong>class 属性表示 &quot;类名&quot;</strong></p>
+<div><p>class 属性表示 "类名"</p>
 <ul>
 <li>类名的命名规范和 id 选择器相同</li>
 <li>类选择器是以 .前缀开头的，并指向 class 的标签</li>
 <li>多个标签可以定义相同的类名</li>
 </ul>
-<div><pre><code>  <span><span><span>&lt;</span>style</span><span>></span></span><span><span>
-    <span>.desc</span> <span>{</span>
-      <span>font-size</span><span>:</span> 30px<span>;</span>
-      <span>color</span><span>:</span> skyblue<span>;</span>
-    <span>}</span>
-  </span></span><span><span><span>&lt;/</span>style</span><span>></span></span>
-
-  <span><span><span>&lt;</span>body</span><span>></span></span>
-    <span><span><span>&lt;</span>p</span> <span>class</span><span><span>=</span><span>"</span>desc<span>"</span></span><span>></span></span>定一个class属性<span><span><span>&lt;/</span>p</span><span>></span></span>
-    <span><span><span>&lt;</span>div</span> <span>class</span><span><span>=</span><span>"</span>desc<span>"</span></span><span>></span></span>我是一个div标签<span><span><span>&lt;/</span>div</span><span>></span></span>
-  <span><span><span>&lt;/</span>body</span><span>></span></span>
+<div><pre><code>   <span><span><span>&lt;</span>style</span><span>></span></span><span><span>
+     <span>.desc</span> <span>{</span>
+       <span>font-size</span><span>:</span> 30px<span>;</span>
+       <span>color</span><span>:</span> skyblue<span>;</span>
+     <span>}</span>
+   </span></span><span><span><span>&lt;/</span>style</span><span>></span></span>
+ 
+   <span><span><span>&lt;</span>body</span><span>></span></span>
+     <span><span><span>&lt;</span>p</span> <span>class</span><span><span>=</span><span>"</span>desc<span>"</span></span><span>></span></span>定一个class属性<span><span><span>&lt;/</span>p</span><span>></span></span>
+     <span><span><span>&lt;</span>div</span> <span>class</span><span><span>=</span><span>"</span>desc<span>"</span></span><span>></span></span>我是一个div标签<span><span><span>&lt;/</span>div</span><span>></span></span>
+   <span><span><span>&lt;/</span>body</span><span>></span></span>
 </code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><ul>
 <li>同一个标签可以同时属于多个类，类名用空格隔开</li>
 </ul>
-<div><pre><code>  <span><span><span>&lt;</span>style</span><span>></span></span><span><span>
-    <span>.desc</span> <span>{</span>
-      <span>font-size</span><span>:</span> 30px<span>;</span>
-      <span>color</span><span>:</span> skyblue<span>;</span>
-    <span>}</span>
-
-    <span>.para</span> <span>{</span>
-      <span>background-color</span><span>:</span> beige<span>;</span>
-    <span>}</span>
-  </span></span><span><span><span>&lt;/</span>style</span><span>></span></span>
-
-  <span><span><span>&lt;</span>body</span><span>></span></span>
-    <span>&lt;!-- 同时属于两个类 --></span>
-    <span><span><span>&lt;</span>p</span> <span>class</span><span><span>=</span><span>"</span>desc para<span>"</span></span><span>></span></span>定一个class属性<span><span><span>&lt;/</span>p</span><span>></span></span>
-  <span><span><span>&lt;/</span>body</span><span>></span></span>
-</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></blockquote>
-<blockquote>
-<p><strong>原子类</strong></p>
+<div><pre><code>   <span><span><span>&lt;</span>style</span><span>></span></span><span><span>
+     <span>.desc</span> <span>{</span>
+       <span>font-size</span><span>:</span> 30px<span>;</span>
+       <span>color</span><span>:</span> skyblue<span>;</span>
+     <span>}</span>
+ 
+     <span>.para</span> <span>{</span>
+       <span>background-color</span><span>:</span> beige<span>;</span>
+     <span>}</span>
+   </span></span><span><span><span>&lt;/</span>style</span><span>></span></span>
+ 
+   <span><span><span>&lt;</span>body</span><span>></span></span>
+     <span>&lt;!-- 同时属于两个类 --></span>
+     <span><span><span>&lt;</span>p</span> <span>class</span><span><span>=</span><span>"</span>desc para<span>"</span></span><span>></span></span>定一个class属性<span><span><span>&lt;/</span>p</span><span>></span></span>
+   <span><span><span>&lt;/</span>body</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></div>
+<div><p>原子类</p>
 <ul>
 <li>在网页项目前，可以将所有的常用字号、文字、颜色、行高、外边距、内边距等等都设置为单独的类</li>
 <li>HTML 标签就可以 “按需选择” 它的类名了，这样就可以快速添加一些常见的样式</li>
 <li>应用场景：组件化开发
 具体实现方法如下：</li>
 </ul>
-</blockquote>
+</div>
 <div><pre><code>  <span><span><span>&lt;</span>style</span><span>></span></span><span><span>
     <span>.fs12</span> <span>{</span>
       <span>font-size</span><span>:</span> 12px<span>;</span>
@@ -518,16 +513,15 @@
     <span><span><span>&lt;/</span>p</span><span>></span></span>
   <span><span><span>&lt;/</span>body</span><span>></span></span>
 </code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h3 id="_5、-通配符选择器" tabindex="-1"> 5、* 通配符选择器</h3>
-<blockquote>
-<p><strong>TIP</strong></p>
+<div><p>提示</p>
 <ul>
 <li>代表页面当中所有的元素</li>
 <li>基本不用，对性能消耗过大</li>
 </ul>
-<div><pre><code> * {
-   color: red;
- } /* 页面当中所有元素的字体颜色为红色 */
-</code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div></blockquote>
+<div><pre><code>  * {
+    color: red;
+  } /* 页面当中所有元素的字体颜色为红色 */
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div></div>
 <h3 id="_6、复合选择器" tabindex="-1"> 6、复合选择器</h3>
 <table>
 <thead>
@@ -556,8 +550,7 @@
 </tbody>
 </table>
 <h4 id="后代选择器" tabindex="-1"> 后代选择器</h4>
-<blockquote>
-<p><strong>TIP</strong></p>
+<div><p>提示</p>
 <ul>
 <li>在 CSS 中，使用 空格表示 “后代”</li>
 <li>后代 并不一定是 “儿子”</li>
@@ -586,25 +579,23 @@
       <span><span><span>&lt;/</span>ul</span><span>></span></span>
     <span><span><span>&lt;/</span>div</span><span>></span></span>
   <span><span><span>&lt;/</span>body</span><span>></span></span>
-</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></blockquote>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></div>
 <h4 id="交集选择器" tabindex="-1"> 交集选择器</h4>
-<blockquote>
-<p><strong>TIP</strong></p>
+<div><p>提示</p>
 <p>如：选择有 .box 类的 h2 标签，此时应该使用 交集选择器</p>
-<div><pre><code>  <span><span><span>&lt;</span>style</span><span>></span></span><span><span>
-    <span>h2.box</span> <span>{</span>
-      <span>color</span><span>:</span> skyblue<span>;</span>
-      <span>font-size</span><span>:</span> 30px<span>;</span>
-    <span>}</span>
-  </span></span><span><span><span>&lt;/</span>style</span><span>></span></span>
-
-  <span><span><span>&lt;</span>body</span><span>></span></span>
-    <span><span><span>&lt;</span>h2</span> <span>class</span><span><span>=</span><span>"</span>box<span>"</span></span><span>></span></span>交集选择器<span><span><span>&lt;/</span>h2</span><span>></span></span>
-  <span><span><span>&lt;/</span>body</span><span>></span></span>
-</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></blockquote>
+<div><pre><code>   <span><span><span>&lt;</span>style</span><span>></span></span><span><span>
+     <span>h2.box</span> <span>{</span>
+       <span>color</span><span>:</span> skyblue<span>;</span>
+       <span>font-size</span><span>:</span> 30px<span>;</span>
+     <span>}</span>
+   </span></span><span><span><span>&lt;/</span>style</span><span>></span></span>
+ 
+   <span><span><span>&lt;</span>body</span><span>></span></span>
+     <span><span><span>&lt;</span>h2</span> <span>class</span><span><span>=</span><span>"</span>box<span>"</span></span><span>></span></span>交集选择器<span><span><span>&lt;/</span>h2</span><span>></span></span>
+   <span><span><span>&lt;/</span>body</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></div>
 <h4 id="并集选择器" tabindex="-1"> 并集选择器</h4>
-<blockquote>
-<p><strong>TIP</strong></p>
+<div><p>提示</p>
 <p>并集选择器也叫作 <code>分组选择器</code>，逗号表示分组</p>
 <div><pre><code>  ul,
   ol,
@@ -612,20 +603,18 @@
     font-size: 12px;
     color: red;
   }
-</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div></div></div></blockquote>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div></div></div></div>
 <h4 id="复合选择器" tabindex="-1"> 复合选择器</h4>
-<blockquote>
-<p><strong>TIP</strong></p>
+<div><p>提示</p>
 <ul>
 <li>选择器可以<code>任何搭配</code>、<code>结合</code>，从而形成<code>复合选择器</code>。我们必须要能一目了然的看出选择器代表的含义</li>
 </ul>
 <div><pre><code>  div.box ul li p.para span {
     color: green;
   }
-</code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div></blockquote>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div></div>
 <h3 id="_7、伪类" tabindex="-1"> 7、伪类</h3>
-<blockquote>
-<p><strong>TIP</strong></p>
+<div><p>提示</p>
 <p>伪类是添加到选择器的描述性词语，指定要选择的元素的特殊状态</p>
 <p><strong>超链接拥有 4 个特殊状态</strong></p>
 <table>
@@ -660,7 +649,7 @@
 <li>LOVE HATE</li>
 <li>:link -&gt; :visited -&gt; :hover -&gt; :active</li>
 </ul>
-</blockquote>
+</div>
 <div><pre><code>  <span><span><span>&lt;</span>head</span><span>></span></span>
     <span><span><span>&lt;</span>style</span><span>></span></span><span><span>
 
@@ -697,14 +686,13 @@
   <span><span><span>&lt;/</span>p</span><span>></span></span>
 
   <span><span><span>&lt;/</span>body</span><span>></span></span>
-</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><blockquote>
-<p><strong>注：</strong></p>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><div><p>注：</p>
 <ul>
 <li>遵守了 “爱恨原则” ，但 a:link 不生效，是因为之前访问过的网址会被浏览器记录，就会显示 a:visited 的样式（修改网址或清楚浏览记录即可）</li>
 <li>四个样式可以根据实际情况单独使用</li>
 <li>伪类:hover 不仅可以用在 a 标签上，还可以用在其他标签上，比如：div、p、列表标签，标题标签 等等</li>
 </ul>
-</blockquote>
+</div>
 <h3 id="_8、元素关系选择器" tabindex="-1"> 8、元素关系选择器</h3>
 <table>
 <thead>
@@ -733,14 +721,13 @@
 </tbody>
 </table>
 <h4 id="子选择器" tabindex="-1"> 子选择器</h4>
-<blockquote>
-<p><strong>TIP</strong></p>
+<div><p>提示</p>
 <ul>
 <li>当使用 &gt;符号分隔两个元素时，它只会匹配那些作为第一个元素的直接后代元素，即：<code>两个标签为父子关系</code></li>
 <li>后代选择器：不一定限制是子元素</li>
 <li>从 IE7 开始兼容</li>
 </ul>
-</blockquote>
+</div>
 <div><pre><code>  <span><span><span>&lt;</span>style</span><span>></span></span><span><span>
     <span>/* 子选择器 ：两个标签为 父子元素 */</span>
     <span>.box > p</span> <span>{</span>
@@ -770,14 +757,13 @@
     <span><span><span>&lt;/</span>div</span><span>></span></span>
   <span><span><span>&lt;/</span>body</span><span>></span></span>
 </code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h4 id="相邻兄弟选择器" tabindex="-1"> 相邻兄弟选择器</h4>
-<blockquote>
-<p><strong>TIP</strong></p>
+<div><p>提示</p>
 <ul>
 <li>相邻兄弟选择器（+）基于两个选择器之间，当第二个元素紧跟在第一个元素之后，并且两个元素都属于同一个父元素的子元素，则第二个元素将被选中</li>
 <li>a + b 即 选择 紧跟在 a 后面的第一个 b</li>
 <li>从 IE7 开始兼容</li>
 </ul>
-</blockquote>
+</div>
 <div><pre><code>  <span><span><span>&lt;</span>style</span><span>></span></span><span><span>
     <span>/* 相邻兄弟选择器：a + b 即 选择 紧跟在a后面的第一个b */</span>
     <span>img + span</span> <span>{</span>
@@ -802,13 +788,12 @@
     <span><span><span>&lt;/</span>p</span><span>></span></span>
   <span><span><span>&lt;/</span>body</span><span>></span></span>
 </code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h4 id="通用兄弟选择器" tabindex="-1"> 通用兄弟选择器</h4>
-<blockquote>
-<p><strong>TIP</strong></p>
+<div><p>提示</p>
 <ul>
 <li>通用兄弟选择器 ~ 波浪线 a~b选择 a 元素之后所有同层级 b 元素</li>
 <li>从 IE7 开始兼容</li>
 </ul>
-</blockquote>
+</div>
 <div><pre><code>  <span><span><span>&lt;</span>style</span><span>></span></span><span><span>
     <span>/* 通用兄弟选择器：a~b选择a元素之后所有同层级b元素 */</span>
     <span>h3 ~ span</span> <span>{</span>
@@ -1025,12 +1010,11 @@
       <span><span><span>&lt;</span>h3</span><span>></span></span>第4号h3标签<span><span><span>&lt;/</span>h3</span><span>></span></span>
     <span><span><span>&lt;/</span>div</span><span>></span></span>
   <span><span><span>&lt;/</span>body</span><span>></span></span>
-</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><blockquote>
-<p><strong>倒数选择</strong></p>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><div><p>倒数选择</p>
 <p><code>:nth-last-child(n)</code> 倒数选择：倒数第 n 个子元素</p>
 <p><code>:nth-last-of-type(n)</code> 倒数第 n 个某类型子元素</p>
 <p>与以上同理，只是顺序不一样</p>
-</blockquote>
+</div>
 <h3 id="_10、属性选择器" tabindex="-1"> 10、属性选择器</h3>
 <table>
 <thead>
@@ -1072,15 +1056,15 @@
 <td>IE9</td>
 </tr>
 <tr>
-<td>`img[alt</td>
-<td>=&quot;艾编程&quot;]`</td>
+<td><code>img[alt |=&quot;艾编程&quot;]</code></td>
 <td>选择 alt 属性中以 艾编程-开头的 img 标签</td>
+<td>IE9</td>
 </tr>
 </tbody>
 </table>
-<blockquote>
-<p>注：实际开发中用到的很少，只做了解即可</p>
-</blockquote>
+<div><p>注</p>
+<p>实际开发中用到的很少，只做了解即可</p>
+</div>
 <div><pre><code>  <span><span><span>&lt;</span>style</span><span>></span></span><span><span>
     <span>/* 选择有alt属性的img标签 */</span>
     <span>img[alt]</span> <span>{</span>
@@ -1282,13 +1266,12 @@
     <span>}</span>
   </span></span><span><span><span>&lt;/</span>style</span><span>></span></span>
 </code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h3 id="_12、css3-新增-伪元素" tabindex="-1"> 12、CSS3 新增：伪元素</h3>
-<blockquote>
-<p><strong>TIP</strong></p>
+<div><p>提示</p>
 <ul>
 <li>CSS3 新增了 “伪元素” 特性，表示虚拟动态创建的元素</li>
 <li>伪元素用双冒号::表示，IE8 及以上可以兼容单冒号 :</li>
 </ul>
-</blockquote>
+</div>
 <table>
 <thead>
 <tr>
@@ -1319,8 +1302,7 @@
 </tr>
 </tbody>
 </table>
-<blockquote>
-<p><strong>::before</strong></p>
+<div><p>::before</p>
 <ul>
 <li>::before 创建一个伪元素，将成为匹配选中的元素的第一个元素</li>
 <li>必须设置 content 属性表示其中的内容</li>
@@ -1338,9 +1320,8 @@
     <span><span><span>&lt;</span>a</span> <span>href</span><span><span>=</span><span>"</span>#<span>"</span></span><span>></span></span>艾编程<span><span><span>&lt;/</span>a</span><span>></span></span>
   <span><span><span>&lt;/</span>body</span><span>></span></span>
 </code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p>企业应用：各种小图标，CSS 精灵图等等，如：小米官网</p>
-</blockquote>
-<blockquote>
-<p><strong>::after</strong></p>
+</div>
+<div><p>::after</p>
 <ul>
 <li>::after 创建一个伪元素，成为匹配选中的元素的最后一个子元素</li>
 <li>必须设置 content 属性表示其中的内容</li>
@@ -1357,31 +1338,29 @@
 
     <span><span><span>&lt;</span>span</span><span>></span></span>艾编程<span><span><span>&lt;/</span>span</span><span>></span></span>
   <span><span><span>&lt;/</span>body</span><span>></span></span>
-</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></blockquote>
-<blockquote>
-<p><strong>::selection</strong></p>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></div>
+<p>::: ::selection</p>
 <ul>
 <li>::selection 选择器匹配被用户选取的部分</li>
-<li>只能向 ::selection 选择器应用少量 CSS 属性：color、background、cursor 以及 outline</li>
+<li>只能向 ::selection 选择器应用少量 CSS 属性：color、background、cursor 以及 outline
+:::</li>
 </ul>
-<div><pre><code> <span><span><span>&lt;</span>style</span><span>></span></span><span><span>
-   <span>/* 
-       ::selection 选择器匹配被用户选取的选取是部分
-       只能向 ::selection 选择器应用少量 CSS 属性：color、background、cursor 以及 outline
-     */</span>
-   <span>.box::selection</span> <span>{</span>
-     <span>color</span><span>:</span> pink<span>;</span>
-     <span>background-color</span><span>:</span> black<span>;</span>
-   <span>}</span>
- </span></span><span><span><span>&lt;/</span>style</span><span>></span></span>
+<div><pre><code>  <span><span><span>&lt;</span>style</span><span>></span></span><span><span>
+    <span>/* 
+        ::selection 选择器匹配被用户选取的选取是部分
+        只能向 ::selection 选择器应用少量 CSS 属性：color、background、cursor 以及 outline
+      */</span>
+    <span>.box::selection</span> <span>{</span>
+      <span>color</span><span>:</span> pink<span>;</span>
+      <span>background-color</span><span>:</span> black<span>;</span>
+    <span>}</span>
+  </span></span><span><span><span>&lt;/</span>style</span><span>></span></span>
 
- <span><span><span>&lt;</span>body</span><span>></span></span>
-   <span><span><span>&lt;</span>h2</span><span>></span></span>::selection 选择器匹配被用户选取的选取是部分<span><span><span>&lt;/</span>h2</span><span>></span></span>
-   <span><span><span>&lt;</span>div</span> <span>class</span><span><span>=</span><span>"</span>box<span>"</span></span><span>></span></span>arry老师是全宇宙最帅气的男神 ！！！！<span><span><span>&lt;/</span>div</span><span>></span></span>
- <span><span><span>&lt;/</span>body</span><span>></span></span>
-</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></blockquote>
-<blockquote>
-<p><strong>:first-letter</strong></p>
+  <span><span><span>&lt;</span>body</span><span>></span></span>
+    <span><span><span>&lt;</span>h2</span><span>></span></span>::selection 选择器匹配被用户选取的选取是部分<span><span><span>&lt;/</span>h2</span><span>></span></span>
+    <span><span><span>&lt;</span>div</span> <span>class</span><span><span>=</span><span>"</span>box<span>"</span></span><span>></span></span>arry老师是全宇宙最帅气的男神 ！！！！<span><span><span>&lt;/</span>div</span><span>></span></span>
+  <span><span><span>&lt;/</span>body</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><div><p>::first-letter</p>
 <ul>
 <li>会选中某元素中第一行的第一个字母</li>
 <li>必须是块级元素</li>
@@ -1399,9 +1378,8 @@
 
     <span><span><span>&lt;</span>div</span> <span>class</span><span><span>=</span><span>"</span>box1<span>"</span></span><span>></span></span>艾编程连 - 为每个互联网人提供高质量的终身学习平台<span><span><span>&lt;/</span>div</span><span>></span></span>
   <span><span><span>&lt;/</span>body</span><span>></span></span>
-</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></blockquote>
-<blockquote>
-<p><strong>::first-line</strong></p>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></div>
+<div><p>::first-line</p>
 <ul>
 <li>会选中某元素中第一行的全部文字</li>
 <li>必须是块级元素</li>
@@ -1420,16 +1398,15 @@
 
     <span><span><span>&lt;</span>div</span> <span>class</span><span><span>=</span><span>"</span>box2<span>"</span></span><span>></span></span>艾编程连 - 为每个互联网人提供高质量的终身学习平台<span><span><span>&lt;/</span>div</span><span>></span></span>
   <span><span><span>&lt;/</span>body</span><span>></span></span>
-</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></blockquote>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></div>
 <h2 id="三、css-选择器的权重计算" tabindex="-1"> 三、CSS 选择器的权重计算</h2>
 <h3 id="_1、层叠性" tabindex="-1"> 1、层叠性</h3>
-<blockquote>
-<p><strong>TIP</strong></p>
+<div><p>提示</p>
 <ul>
 <li>CSS 全名叫 层叠式样式表 ，层叠性是它很重要的性质</li>
 <li>层叠性：多个选择器可以同时作用于同一个标签，效果叠加</li>
 </ul>
-</blockquote>
+</div>
 <div><pre><code>  <span><span><span>&lt;</span>style</span><span>></span></span><span><span>
     <span>div</span> <span>{</span>
       <span>width</span><span>:</span> 300px<span>;</span>
@@ -1452,14 +1429,13 @@
     <span><span><span>&lt;</span>div</span> <span>class</span><span><span>=</span><span>"</span>para<span>"</span></span> <span>id</span><span><span>=</span><span>"</span>desc<span>"</span></span><span>></span></span>我是一个div<span><span><span>&lt;/</span>div</span><span>></span></span>
   <span><span><span>&lt;/</span>body</span><span>></span></span>
 </code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h3 id="_2、层叠性的冲突处理" tabindex="-1"> 2、层叠性的冲突处理</h3>
-<blockquote>
-<p><strong>TIP</strong></p>
+<div><p>提示</p>
 <ul>
 <li>多个选择器定义同一元素的冲突问题</li>
 <li>CSS 有严密的处理冲突的规则</li>
 <li><code>id 权重 &gt; class权重 &gt; 标签权重 &gt; 通配符权重</code></li>
 </ul>
-</blockquote>
+</div>
 <div><pre><code>  <span><span><span>&lt;</span>style</span><span>></span></span><span><span>
     <span>/* id 权重 > class权重 > 标签权重 */</span>
     <span>p</span> <span>{</span>
@@ -1481,12 +1457,11 @@
     <span><span><span>&lt;</span>p</span> <span>class</span><span><span>=</span><span>"</span>me<span>"</span></span> <span>id</span><span><span>=</span><span>"</span>arry<span>"</span></span><span>></span></span>我是一个段落标签<span><span><span>&lt;/</span>p</span><span>></span></span>
   <span><span><span>&lt;/</span>body</span><span>></span></span>
 </code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h3 id="_3、复杂选择器权重计算" tabindex="-1"> 3、复杂选择器权重计算</h3>
-<blockquote>
-<p><strong>TIP</strong></p>
+<div><p>提示</p>
 <ul>
 <li>复杂选择器可以通过（id的个数，class的个数，标签的个数）的形式，计算权重</li>
 </ul>
-</blockquote>
+</div>
 <div><pre><code>  <span><span><span>&lt;</span>style</span><span>></span></span><span><span>
     <span>/* id 权重 > class权重 > 标签权重 */</span>
 
@@ -1518,13 +1493,12 @@
     <span><span><span>&lt;/</span>div</span><span>></span></span>
   <span><span><span>&lt;/</span>body</span><span>></span></span>
 </code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h3 id="_4、-important-提升权重" tabindex="-1"> 4、!important 提升权重</h3>
-<blockquote>
-<p><strong>TIP</strong></p>
+<div><p>提示</p>
 <ul>
 <li>如果我们需要将某个选择器的某条属性提升权重，可以在属性后边写上 <code>!important</code></li>
 <li>市级企业中，不允许使用 <code>!important</code> ，因为这会带来不经意的样式冲突</li>
 </ul>
-</blockquote>
+</div>
 <div><pre><code>  <span><span><span>&lt;</span>style</span><span>></span></span><span><span>
     <span>/* 权重 （0,1,2） */</span>
     <span>.list ul li</span> <span>{</span>
@@ -1552,13 +1526,12 @@
     <span><span><span>&lt;/</span>div</span><span>></span></span>
   <span><span><span>&lt;/</span>body</span><span>></span></span>
 </code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h2 id="四、css-选择器分类汇总" tabindex="-1"> 四、CSS 选择器分类汇总</h2>
-<blockquote>
-<p><strong>项目中常用选择器和不常用选择器总结</strong></p>
+<div><p>项目中常用选择器和不常用选择器总结</p>
 <ul>
 <li>CSS 选择器用于选择你想要的元素的样式的模式</li>
 <li>&quot;CSS 版本&quot; 该列，表示在 CSS 版本的属性定义（CSS1，CSS2，或对 CSS3）</li>
 </ul>
-</blockquote>
+</div>
 <h3 id="_1、常用选择器" tabindex="-1"> 1、常用选择器</h3>
 <table>
 <thead>
@@ -1950,8 +1923,7 @@
 </tbody>
 </table>
 <h3 id="_1、color-属性" tabindex="-1"> 1、color 属性</h3>
-<blockquote>
-<p><strong>TIP</strong></p>
+<p>::: thp</p>
 <ul>
 <li>color 属性可设置文本内容的字体颜色</li>
 <li>color 属性主要可以用 英语单词、十六进制、rgb()、rgba() 等表示法</li>
@@ -1959,10 +1931,9 @@
 <p>注：英语单词表示法，如：color:red;仅用于学习或测试使用，工作中基本不用这样的形式，需要精准</p>
 <div><pre><code>  <span>color</span><span>:</span> red<span>;</span>
   <span>color</span><span>:</span> skyblue<span>;</span>
-</code></pre><div aria-hidden="true"><div></div><div></div></div></div></blockquote>
+</code></pre><div aria-hidden="true"><div></div><div></div></div></div><p>:::</p>
 <h3 id="_2、color-属性-十六进制表示法" tabindex="-1"> 2、color 属性 - 十六进制表示法</h3>
-<blockquote>
-<p><strong>TIP</strong></p>
+<div><p>提示</p>
 <ul>
 <li>十六进制表示法是所有设计软件中都通过的颜色表示法</li>
 <li>设计师会给我们在设计图上标注的颜色，通常为十六进制表示</li>
@@ -1979,7 +1950,8 @@
 </ul>
 <div><pre><code>  <span>color</span><span>:</span>#cc0066      可以简写成       <span>color</span><span>:</span>#c06<span>;</span>
   <span>color</span><span>:</span>#ff43dd       不能写成        <span>color</span><span>:</span>f43d<span>;</span>
-</code></pre><div aria-hidden="true"><div></div><div></div></div></div><p>常用的十六进制表示法</p>
+</code></pre><div aria-hidden="true"><div></div><div></div></div></div></div>
+<p><strong>常用的十六进制表示法</strong></p>
 <table>
 <thead>
 <tr>
@@ -2002,10 +1974,8 @@
 </tr>
 </tbody>
 </table>
-</blockquote>
 <h3 id="_3、color-属性-rgb-表示法" tabindex="-1"> 3、color 属性 - rgb() 表示法</h3>
-<blockquote>
-<p><strong>TIP</strong></p>
+<div><p>提示</p>
 <ul>
 <li>rgb 中三个数字的范围是 0-255 之间</li>
 <li>rgb 是光学显示器三原色：红（red ）、绿（green）、 蓝（blue） 三个单词的缩写</li>
@@ -2022,10 +1992,9 @@
 
   <span>/* 黑色 */</span>
   <span>color</span><span>:</span> <span>rgb</span><span>(</span>0<span>,</span> 0<span>,</span> 0<span>)</span><span>;</span>
-</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></blockquote>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></div>
 <h3 id="_4、color-属性-rgba-表示法" tabindex="-1"> 4、color 属性 - rgba() 表示法</h3>
-<blockquote>
-<p><strong>TIP</strong></p>
+<div><p>提示</p>
 <ul>
 <li>颜色也可以用 rgba() 表示法，rgba 中前三个数字的范围是 0-255 之间，表示的是颜色</li>
 <li>最后一个参数表示颜色透明度介于 0 到 1 之间</li>
@@ -2033,10 +2002,9 @@
 <li>rgba() 表示法从 IE9 开始兼容</li>
 </ul>
 <div><pre><code>  <span>color</span><span>:</span> <span>rgba</span><span>(</span>255<span>,</span> 0<span>,</span> 0<span>,</span> 0.35<span>)</span><span>;</span>
-</code></pre><div aria-hidden="true"><div></div></div></div></blockquote>
+</code></pre><div aria-hidden="true"><div></div></div></div></div>
 <h3 id="_5、font-size-属性-字体大小" tabindex="-1"> 5、font-size 属性，字体大小</h3>
-<blockquote>
-<p><strong>TIP</strong></p>
+<div><p>提示</p>
 <ul>
 <li>font-size 属性用来设置文字的字体字号大小，单位通常为 px（像素）、%百分比</li>
 <li>移动端还会学习 em、rem、vw、vh 单位</li>
@@ -2061,10 +2029,9 @@
   <span><span><span>&lt;</span>body</span><span>></span></span>
     <span><span><span>&lt;</span>p</span><span>></span></span><span><span><span>&lt;</span>span</span><span>></span></span>字体<span><span><span>&lt;/</span>span</span><span>></span></span>大小以百分比为单位，相对的是父元素font-size大小<span><span><span>&lt;/</span>p</span><span>></span></span>
   <span><span><span>&lt;/</span>body</span><span>></span></span>
-</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></blockquote>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></div>
 <h3 id="_6、font-weight-属性" tabindex="-1"> 6、font-weight 属性</h3>
-<blockquote>
-<p><strong>TIP</strong></p>
+<div><p>提示</p>
 <ul>
 <li>font-weight 属性设置字体的粗细程度</li>
 <li>通常用 normal 和 bold 两个值，或其对应数字 400 与 700 来表示</li>
@@ -2122,10 +2089,9 @@
       <span>></span></span>
     <span><span><span>&lt;/</span>div</span><span>></span></span>
   <span><span><span>&lt;/</span>body</span><span>></span></span>
-</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></blockquote>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></div>
 <h3 id="_7、font-style-属性" tabindex="-1"> 7、font-style 属性</h3>
-<blockquote>
-<p><strong>TIP</strong></p>
+<div><p>提示</p>
 <ul>
 <li>font-style 属性设置字体的倾斜</li>
 </ul>
@@ -2167,9 +2133,9 @@
     <span><span><span>&lt;</span>p</span> <span>class</span><span><span>=</span><span>"</span>line1<span>"</span></span><span>></span></span>我是italic下的倾斜<span><span><span>&lt;/</span>p</span><span>></span></span>
     <span><span><span>&lt;</span>p</span> <span>class</span><span><span>=</span><span>"</span>line2<span>"</span></span><span>></span></span>我是oblique下的倾斜<span><span><span>&lt;/</span>p</span><span>></span></span>
   <span><span><span>&lt;/</span>body</span><span>></span></span>
-</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></blockquote>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></div>
 <h3 id="_8、-font-face-自定义字体" tabindex="-1"> 8、@font-face 自定义字体</h3>
-<blockquote>
+<div><p>相关信息</p>
 <p><strong>设置用户电脑中没有的字体</strong></p>
 <p><code>@font-face</code> 可以消除对用户电脑字体的依赖，如果用户电脑中没有我们想要的字体，那用户在浏览网页时就会下载相关字体，然后&gt; 显示字体效果。</p>
 <p><strong>定义字体前准备工作</strong></p>
@@ -2191,7 +2157,7 @@
 <li>使用阿里巴巴普惠字体，可以下载，也可以在线使用，也省去了下载字体的麻烦</li>
 <li>实际应用场景：指定特定文字设置样式，比如：标题 ...</li>
 </ul>
-</blockquote>
+</div>
 <p><strong>使用阿里巴巴普惠字体步骤</strong></p>
 <p>① 点击网址<a href="https://www.iconfont.cn/webfont" target="_blank" rel="noopener noreferrer">https://www.iconfont.cn/webfont</a> 进入</p>
 <p><img src="/core-foundation/basic/css/assets/image-20220705221154007.eaec028e.png" alt="image-20220705221154007.eaec028e"></p>
@@ -2226,13 +2192,11 @@
 </code></pre><div aria-hidden="true"><div></div><div></div></div></div><p>查看字体效果：</p>
 <p><img src="/core-foundation/basic/css/assets/image-20220705222200384.ab6e97f7.png" alt="image-20220705222200384.ab6e97f7"></p>
 <h2 id="二、css-文本属性" tabindex="-1"> 二、CSS 文本属性</h2>
-<blockquote>
-<p><strong>包含内容</strong></p>
+<div><p>包含内容</p>
 <p>修饰线，首行缩进，行高，font 属性复合写法，内容水平居中，字间距，字符间距</p>
-</blockquote>
+</div>
 <h3 id="_1、text-decoration-属性-修饰线" tabindex="-1"> 1、text-decoration 属性 - 修饰线</h3>
-<blockquote>
-<p><strong>修饰线</strong></p>
+<div><p>修饰线</p>
 <ul>
 <li>用于设置文本的修饰线外观的（下划线、上划线、贯穿线/删除线 或 闪烁）</li>
 <li>常用的属性值有以下三种</li>
@@ -2259,7 +2223,7 @@
 </tr>
 </tbody>
 </table>
-</blockquote>
+</div>
 <div><pre><code>  <span><span><span>&lt;</span>style</span><span>></span></span><span><span>
     <span>a</span> <span>{</span>
       <span>/* 去掉下划线 */</span>
@@ -2280,8 +2244,7 @@
     <span><span><span>&lt;</span>div</span><span>></span></span>删除线<span><span><span>&lt;/</span>div</span><span>></span></span>
   <span><span><span>&lt;/</span>body</span><span>></span></span>
 </code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><img src="/core-foundation/basic/css/assets/image-20220705223416158.b6104ab8.png" alt="image-20220705223416158.b6104ab8"></p>
-<blockquote>
-<p><strong>扩展延伸：</strong></p>
+<div><p>扩展延伸：</p>
 <p><code>text-decoration</code> 它是以下四个属性的简写</p>
 <p><code>text-decoration-line</code> ：文本修饰的位置，如下划线<code>underline</code>，删除线<code>line-through</code>
 <code>text-decoration-color</code>：文本修饰的颜色
@@ -2296,10 +2259,9 @@
     <span><span><span>&lt;</span>div</span> <span>class</span><span><span>=</span><span>"</span>wavy<span>"</span></span><span>></span></span>艾编程-为每个互联网人提供高质量的终身学习平台<span><span><span>&lt;/</span>div</span><span>></span></span>
   <span><span><span>&lt;/</span>body</span><span>></span></span>
 </code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><img src="/core-foundation/basic/css/assets/image-20220705224218275.2765c3d2.png" alt="image-20220705224218275.2765c3d2"></p>
-</blockquote>
+</div>
 <h3 id="_2、text-indent-属性-首行缩进" tabindex="-1"> 2、text-indent 属性 - 首行缩进</h3>
-<blockquote>
-<p><strong>首行缩进</strong></p>
+<div><p>首行缩进</p>
 <ul>
 <li>text-indent 属性定义首行文本内容之前的缩进量</li>
 <li>比如：中文一般文章书写都会 缩进两个字符</li>
@@ -2325,9 +2287,9 @@
     <span><span><span>&lt;/</span>p</span><span>></span></span>
   <span><span><span>&lt;/</span>body</span><span>></span></span>
 </code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><img src="/core-foundation/basic/css/assets/image-20220712120323107.20d4176d.png" alt="image-20220712120323107.20d4176d"></p>
-</blockquote>
+</div>
 <h3 id="_3、line-height-属性-行高" tabindex="-1"> 3、line-height 属性 - 行高</h3>
-<blockquote>
+<div><p>提示</p>
 <p><strong>行高</strong></p>
 <ul>
 <li>line-height 属性定义行高</li>
@@ -2342,7 +2304,7 @@
 <li>实际工作中行高：1.25 , 1.5 , 1.75 都是常用的倍数设置</li>
 <li>line-height 属性也可以是百分数，表示字号的倍数</li>
 </ul>
-</blockquote>
+</div>
 <p><strong>line-height 行高值的 4 种写法</strong></p>
 <table>
 <thead>
@@ -2395,16 +2357,15 @@
     <span><span><span>&lt;</span>div</span> <span>class</span><span><span>=</span><span>"</span>line2<span>"</span></span><span>></span></span>行高为数值2<span><span><span>&lt;/</span>div</span><span>></span></span>
     <span><span><span>&lt;</span>div</span> <span>class</span><span><span>=</span><span>"</span>line3<span>"</span></span><span>></span></span>行高为200%<span><span><span>&lt;/</span>div</span><span>></span></span>
   <span><span><span>&lt;/</span>body</span><span>></span></span>
-</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><blockquote>
-<p><strong>注：</strong></p>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><div><p>注意</p>
 <ul>
 <li>推荐在设置 line-height 时使用无单位数值</li>
 <li>主段落内容的 line-height 至少应为 1.5</li>
 <li>如果文字的大小要随页面的缩放而变化，请使用无单位的值，以确保行高也会等比例缩放。</li>
 </ul>
-</blockquote>
+</div>
 <h3 id="_4、行文本垂直、水平居中" tabindex="-1"> 4、行文本垂直、水平居中</h3>
-<blockquote>
+<div><p>相关信息</p>
 <p><strong>① 行文本垂直居中</strong></p>
 <ul>
 <li>设置 <strong>行高 = 盒子高度</strong>，即可实现单行文本垂直居中</li>
@@ -2439,10 +2400,9 @@
     <span><span><span>&lt;</span>div</span> <span>class</span><span><span>=</span><span>"</span>right<span>"</span></span><span>></span></span>右边<span><span><span>&lt;/</span>div</span><span>></span></span>
   <span><span><span>&lt;/</span>body</span><span>></span></span>
 </code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><img src="/core-foundation/basic/css/assets/line-height.png" alt="line-height"></p>
-</blockquote>
+</div>
 <h3 id="_5、font-合写属性-复合写法" tabindex="-1"> 5、font 合写属性 - 复合写法</h3>
-<blockquote>
-<p><strong>TIP</strong></p>
+<div><p>提示</p>
 <ul>
 <li>font 属性可以用来作为 font-style，font-weight ，font-size ，line-height 和 font-family 属性的合写</li>
 </ul>
@@ -2476,9 +2436,8 @@
     <span><span><span>&lt;</span>p</span><span>></span></span>积善行、思利他<span><span><span>&lt;/</span>p</span><span>></span></span>
     <span><span><span>&lt;</span>p</span><span>></span></span>不要有感性的烦恼<span><span><span>&lt;/</span>p</span><span>></span></span>
   <span><span><span>&lt;/</span>body</span><span>></span></span>
-</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></blockquote>
-<blockquote>
-<p><strong>font 属性连写注意事项</strong></p>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></div>
+<div><p>font 属性连写注意事项</p>
 <ul>
 <li>font 属性连写时，必须设置 font-size 和 font-family 才能生效</li>
 <li>连写时，行高问题</li>
@@ -2506,7 +2465,7 @@
   <span>/* 错误写法 */</span>
   <span>font</span><span>:</span> italic 20px/1.5 bold<span>;</span>
   <span>font</span><span>:</span> 20px/1.5 bold <span>"宋体"</span><span>;</span>
-</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></blockquote>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></div>
 <h3 id="_6、继承性" tabindex="-1"> 6、继承性</h3>
 <p><strong>TIP</strong></p>
 <p>关于文字属性的继承性和就近原则</p>
@@ -2603,8 +2562,7 @@
     <span><span><span>&lt;/</span>div</span><span>></span></span>
   <span><span><span>&lt;/</span>body</span><span>></span></span> 
 </code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h3 id="_6、word-spacing-字间距" tabindex="-1"> 6、word-spacing 字间距</h3>
-<blockquote>
-<p><strong>TIP</strong></p>
+<div><p>提示</p>
 <p>word-spacing 表示字间距，对中文是无效的，仅对英文字单词起作用</p>
 <table>
 <thead>
@@ -2634,10 +2592,9 @@
     <span><span><span>&lt;</span>h3</span> <span>class</span><span><span>=</span><span>"</span>f1<span>"</span></span><span>></span></span>display is different<span><span><span>&lt;/</span>h3</span><span>></span></span>
   <span><span><span>&lt;/</span>body</span><span>></span></span>
 </code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><img src="/core-foundation/basic/css/assets/image-20220705235229227.7f7fdad2.png" alt="image-20220705235229227.7f7fdad2"></p>
-</blockquote>
+</div>
 <h3 id="_7、letter-spacing-字符间距" tabindex="-1"> 7、letter-spacing 字符间距</h3>
-<blockquote>
-<p><strong>TIP</strong></p>
+<div><p>提示</p>
 <p><code>letter-spacing</code> 属性用于设置文本字符的间距表现。</p>
 <p>|属性值	|描述|
 |normal	|此间距是按照当前字体的正常间距确定的|
@@ -2652,7 +2609,7 @@
     <span><span><span>&lt;</span>h3</span> <span>class</span><span><span>=</span><span>"</span>f1<span>"</span></span><span>></span></span>display is different<span><span><span>&lt;/</span>h3</span><span>></span></span>
   <span><span><span>&lt;/</span>body</span><span>></span></span>
 </code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><img src="/core-foundation/basic/css/assets/image-20220705235400370.7cecc5f6.png" alt="image-20220705235400370.7cecc5f6"></p>
-</blockquote>
+</div>
 <h2 id="三、列表样式" tabindex="-1"> 三、列表样式</h2>
 <h3 id="_1、list-style-type" tabindex="-1"> 1、list-style-type</h3>
 <p>list-style-type 属性设置列表项标记的类型</p>
@@ -2698,8 +2655,7 @@
 </tr>
 </tbody>
 </table>
-<blockquote>
-<p><strong>最佳实践：</strong></p>
+<div><p>最佳实践：</p>
 <ul>
 <li>标记的类型多在 20 多项，以上只列出了部分，但实际开发中几乎不用。</li>
 <li>在实际开发中，一般会把前面的标记类型去掉</li>
@@ -2718,10 +2674,9 @@
       <span><span><span>&lt;</span>li</span><span>></span></span>大数据<span><span><span>&lt;/</span>li</span><span>></span></span>
     <span><span><span>&lt;/</span>ul</span><span>></span></span>
   <span><span><span>&lt;/</span>body</span><span>></span></span>
-</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></blockquote>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></div>
 <h3 id="_2、list-style-image" tabindex="-1"> 2、list-style-image</h3>
-<blockquote>
-<p><strong>TIP</strong></p>
+<div><p>提示</p>
 <p>用来指定列表中的列表标记图像，几乎不用，了解就好</p>
 <table>
 <thead>
@@ -2750,7 +2705,7 @@
     <span>list-style-type</span><span>:</span> none<span>;</span>
     <span>list-style-image</span><span>:</span> <span><span>url</span><span>(</span>images/dot.png<span>)</span></span><span>;</span>
   <span>}</span>
-</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div></div></div></blockquote>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div></div></div></div>
 <h3 id="_3、list-style-position" tabindex="-1"> 3、list-style-position</h3>
 <p><strong>TIP</strong></p>
 <p>规定列表中列表项目标记的位置 ，几乎不用，了解就好</p>
@@ -2797,20 +2752,18 @@
 </tbody>
 </table>
 <h3 id="_4、list-style" tabindex="-1"> 4、list-style</h3>
-<blockquote>
-<p><strong>TIP</strong></p>
+<div><p>提示</p>
 <ul>
 <li>list-style 是 list-style-type 、 list-type-position 、list-style-image 的三个的综合写法。</li>
 <li>但在实际开发中，用的最多的是 list-style:none; 和 list-style-type:none用来去掉标记。</li>
 </ul>
-</blockquote>
+</div>
 <h2 id="四、应用实践" tabindex="-1"> 四、应用实践</h2>
-<blockquote>
-<p><strong>TIP</strong></p>
+<div><p>提示</p>
 <ul>
 <li>将所学 CSS 文本样式属性用于实践</li>
 </ul>
-</blockquote>
+</div>
 <h3 id="_1、单行文本水平垂直居中" tabindex="-1"> 1、单行文本水平垂直居中</h3>
 <div><pre><code>  <span><span><span>&lt;</span>style</span><span>></span></span><span><span>
     <span>.box</span> <span>{</span>
