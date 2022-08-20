@@ -230,46 +230,48 @@ icon: icon-css3
   <h2 style="color:skyblue">行内样式</h2>
 ```
 
-::: 总结：
+::: tip 总结：
  
  企业开项目发中，常用的样式有 内嵌式和外链式 ，其他不常用
+:::
 
 ### 6、CSS 样式的优先级
 
-> **TIP**
-> 
->- 行内样式优先级最高
->- 内联样式和外部样式在书写时，样式发生冲突，在优先级相同的情况下，以写在后面的为主，如果不相同，则以优先级高的为主。
-> **如下案例所示**：
-> 
-> `basic.css` 创建外部连接样式文件，代码如下
-> ```html
->     div {
->       color: red;
->     }
-> ```
-> index.html代码如下
-> ```html
->     <head>
->       <link rel="stylesheet" href="basic.css" />
->       <style>
->         div {
->           color: blue;
->         }
->       </style>
->     </head>
->     <body>
->       <div style="color: green">我是div</div>
->       <!-- 按CSS优先级判断，该文字为 green 绿色 -->
->     </body>
-> 
->     <!--
->       以上代码解读：
->       - 默认以上文字的颜色为 green 绿色
->       - 去掉 style="color: green"文字颜色为 blue 蓝色
->       - 去掉 style="color: green"把link与style标签互换位置，文字颜色为 red 红色
->     -->
-> ```
+::: tip
+ 
+- 行内样式优先级最高
+- 内联样式和外部样式在书写时，样式发生冲突，在优先级相同的情况下，以写在后面的为主，如果不相同，则以优先级高的为主。
+ **如下案例所示**：
+ 
+ `basic.css` 创建外部连接样式文件，代码如下
+ ```html
+     div {
+       color: red;
+     }
+ ```
+ index.html代码如下
+ ```html
+     <head>
+       <link rel="stylesheet" href="basic.css" />
+       <style>
+         div {
+           color: blue;
+         }
+       </style>
+     </head>
+     <body>
+       <div style="color: green">我是div</div>
+       <!-- 按CSS优先级判断，该文字为 green 绿色 -->
+     </body>
+ 
+     <!--
+       以上代码解读：
+       - 默认以上文字的颜色为 green 绿色
+       - 去掉 style="color: green"文字颜色为 blue 蓝色
+       - 去掉 style="color: green"把link与style标签互换位置，文字颜色为 red 红色
+     -->
+ ```
+:::
 
 ### 7、总结：CSS4 种书写位置特点与区别
 
@@ -282,26 +284,27 @@ icon: icon-css3
 
 ## 二、CSS 选择器
 
-> **TIP**
-> 
-> 传统 CSS2.1 选择器和 CSS3 新增选择器
-
+::: tip
+ 
+ 传统 CSS2.1 选择器和 CSS3 新增选择器
+:::
 ### 1、选择器分类
 
-> **TIP**
-> 
->- **传统 CSS2.1 选择器**
->   - 标签选择器和 id 选择器
->   - class（类）选择器
->   - 复合选择器
->   - 伪类
->- **CSS3 新增选择器**
->   - 元素关系选择器
->   - 序号选择器
->   - 属性选择器
->   - CSS3 新增伪类
->   - 伪元素
->- **层叠性和选择器权重计算**
+::: tip
+ 
+- **传统 CSS2.1 选择器**
+   - 标签选择器和 id 选择器
+   - class（类）选择器
+   - 复合选择器
+   - 伪类
+- **CSS3 新增选择器**
+   - 元素关系选择器
+   - 序号选择器
+   - 属性选择器
+   - CSS3 新增伪类
+   - 伪元素
+- **层叠性和选择器权重计算**
+:::
 
 ### 2、标签选择器
 
@@ -335,12 +338,14 @@ icon: icon-css3
 
 ### 3、id 选择器
 
-> **id 选择器是使用 HTML 元素的 id 属性来选择特定元素**
-> 
->- 元素的 id 在页面中是唯一的，因此 id 选择器用于选择一个唯一的元素
->- 要选择具有特定 id 的元素，请写一个井号（＃），后跟该元素的 id。
->- id 的名称只能由 字母、数字、下划线、短横线 构成，不能以数字开头，字母区分大小写，但习惯上一般为 小写字母
->- 名称最好是：见名知意，多一个英文单词之间用 -分隔
+::: info id 选择器是使用 HTML 元素的 id 属性来选择特定元素
+
+- 元素的 id 在页面中是唯一的，因此 id 选择器用于选择一个唯一的元素
+- 要选择具有特定 id 的元素，请写一个井号（＃），后跟该元素的 id。
+- id 的名称只能由 字母、数字、下划线、短横线 构成，不能以数字开头，字母区分大小写，但习惯上一般为 小写字母
+- 名称最好是：见名知意，多一个英文单词之间用 -分隔
+:::
+
 ```html
   <style>
     #desc {
@@ -357,49 +362,52 @@ icon: icon-css3
 
 ### 4、class 选择器
 
->**class 属性表示 "类名"**
->
->- 类名的命名规范和 id 选择器相同
->- 类选择器是以 .前缀开头的，并指向 class 的标签
->- 多个标签可以定义相同的类名
->```html
->   <style>
->     .desc {
->       font-size: 30px;
->       color: skyblue;
->     }
->   </style>
-> 
->   <body>
->     <p class="desc">定一个class属性</p>
->     <div class="desc">我是一个div标签</div>
->   </body>
->```
->- 同一个标签可以同时属于多个类，类名用空格隔开
->```html
->   <style>
->     .desc {
->       font-size: 30px;
->       color: skyblue;
->     }
-> 
->     .para {
->       background-color: beige;
->     }
->   </style>
-> 
->   <body>
->     <!-- 同时属于两个类 -->
->     <p class="desc para">定一个class属性</p>
->   </body>
->```
+::: info class 属性表示 "类名"
 
->**原子类**
->
->- 在网页项目前，可以将所有的常用字号、文字、颜色、行高、外边距、内边距等等都设置为单独的类
->- HTML 标签就可以 “按需选择” 它的类名了，这样就可以快速添加一些常见的样式
->- 应用场景：组件化开发
->具体实现方法如下：
+- 类名的命名规范和 id 选择器相同
+- 类选择器是以 .前缀开头的，并指向 class 的标签
+- 多个标签可以定义相同的类名
+```html
+   <style>
+     .desc {
+       font-size: 30px;
+       color: skyblue;
+     }
+   </style>
+ 
+   <body>
+     <p class="desc">定一个class属性</p>
+     <div class="desc">我是一个div标签</div>
+   </body>
+```
+- 同一个标签可以同时属于多个类，类名用空格隔开
+```html
+   <style>
+     .desc {
+       font-size: 30px;
+       color: skyblue;
+     }
+ 
+     .para {
+       background-color: beige;
+     }
+   </style>
+ 
+   <body>
+     <!-- 同时属于两个类 -->
+     <p class="desc para">定一个class属性</p>
+   </body>
+```
+:::
+
+::: tip 原子类
+
+- 在网页项目前，可以将所有的常用字号、文字、颜色、行高、外边距、内边距等等都设置为单独的类
+- HTML 标签就可以 “按需选择” 它的类名了，这样就可以快速添加一些常见的样式
+- 应用场景：组件化开发
+具体实现方法如下：
+::: 
+
 ```html
   <style>
     .fs12 {
@@ -449,15 +457,16 @@ icon: icon-css3
 
 ### 5、* 通配符选择器
 
-> **TIP**
-> 
->- 代表页面当中所有的元素
->- 基本不用，对性能消耗过大
->```html
->  * {
->    color: red;
->  } /* 页面当中所有元素的字体颜色为红色 */
->```
+::: tip
+ 
+- 代表页面当中所有的元素
+- 基本不用，对性能消耗过大
+```html
+  * {
+    color: red;
+  } /* 页面当中所有元素的字体颜色为红色 */
+```
+:::
 
 ### 6、复合选择器
 
@@ -469,101 +478,106 @@ icon: icon-css3
 
 #### 后代选择器
 
-> **TIP**
-> 
->- 在 CSS 中，使用 空格表示 “后代”
->- 后代 并不一定是 “儿子”
->- 后代选择器可以有很多空格，隔开好几代
-> ```html
->   <style>
->     /* .box p 这种新式的选择器，称之为 “后代选择器” */
->     .box p {
->       color: skyblue;
->       font-size: 20px;
->     }
->     /* 多个空格形式 */
->     .box ul li p a {
->       color: red;
->     }
->   </style>
-> 
->   <body>
->     <div class="box">
->       <p>我是div中的段落标签</p>
->       <p>我是div中的段落标签</p>
->       <ul>
->         <li>
->           <p>我是 ul li 中的 <a href="#">p标签</a></p>
->         </li>
->       </ul>
->     </div>
->   </body>
-> ```
+::: tip
+ 
+- 在 CSS 中，使用 空格表示 “后代”
+- 后代 并不一定是 “儿子”
+- 后代选择器可以有很多空格，隔开好几代
+ ```html
+   <style>
+     /* .box p 这种新式的选择器，称之为 “后代选择器” */
+     .box p {
+       color: skyblue;
+       font-size: 20px;
+     }
+     /* 多个空格形式 */
+     .box ul li p a {
+       color: red;
+     }
+   </style>
+ 
+   <body>
+     <div class="box">
+       <p>我是div中的段落标签</p>
+       <p>我是div中的段落标签</p>
+       <ul>
+         <li>
+           <p>我是 ul li 中的 <a href="#">p标签</a></p>
+         </li>
+       </ul>
+     </div>
+   </body>
+ ```
+:::
 
 #### 交集选择器
 
-> **TIP**
-> 
-> 如：选择有 .box 类的 h2 标签，此时应该使用 交集选择器
-> ```html
->   <style>
->     h2.box {
->       color: skyblue;
->       font-size: 30px;
->     }
->   </style>
-> 
->   <body>
->     <h2 class="box">交集选择器</h2>
->   </body>
-> ```
+::: tip
+ 
+如：选择有 .box 类的 h2 标签，此时应该使用 交集选择器
+```html
+   <style>
+     h2.box {
+       color: skyblue;
+       font-size: 30px;
+     }
+   </style>
+ 
+   <body>
+     <h2 class="box">交集选择器</h2>
+   </body>
+```
+:::
 
 #### 并集选择器
 
-> **TIP**
-> 
-> 并集选择器也叫作 `分组选择器`，逗号表示分组
-> ```html
->   ul,
->   ol,
->   p {
->     font-size: 12px;
->     color: red;
->   }
-> ```
+::: tip
+ 
+ 并集选择器也叫作 `分组选择器`，逗号表示分组
+ ```html
+   ul,
+   ol,
+   p {
+     font-size: 12px;
+     color: red;
+   }
+ ```
+:::
 
 #### 复合选择器
 
-> **TIP**
-> 
->- 选择器可以`任何搭配`、`结合`，从而形成`复合选择器`。我们必须要能一目了然的看出选择器代表的含义
-> ```html
->   div.box ul li p.para span {
->     color: green;
->   }
-> ```
+::: tip
+ 
+- 选择器可以`任何搭配`、`结合`，从而形成`复合选择器`。我们必须要能一目了然的看出选择器代表的含义
+ ```html
+   div.box ul li p.para span {
+     color: green;
+   }
+ ```
+:::
 
 ### 7、伪类
 
-> **TIP**
-> 
-> 伪类是添加到选择器的描述性词语，指定要选择的元素的特殊状态
-> 
-> **超链接拥有 4 个特殊状态**
-> 
-> 
-> |伪类	|描述|
-> |-----|---|
-> |a:link	|没有被访问的超级链接|
-> |a:visited	|已经被访问过的超级链接|
-> |a:hover	|正被鼠标悬停的超级链接|
-> |a:active	|正被激活的超级链接（按下按键，但还没有松开按键）|
-> 
-> **爱恨准则**
-> 
->- a 标签的伪类书写，按照 “爱恨准则” 的顺序，否则会与伪类不生效
->- LOVE HATE
->- :link -> :visited -> :hover -> :active
+::: tip
+ 
+ 伪类是添加到选择器的描述性词语，指定要选择的元素的特殊状态
+ 
+ **超链接拥有 4 个特殊状态**
+ 
+ 
+ |伪类	|描述|
+ |-----|---|
+ |a:link	|没有被访问的超级链接|
+ |a:visited	|已经被访问过的超级链接|
+ |a:hover	|正被鼠标悬停的超级链接|
+ |a:active	|正被激活的超级链接（按下按键，但还没有松开按键）|
+ 
+ **爱恨准则**
+ 
+- a 标签的伪类书写，按照 “爱恨准则” 的顺序，否则会与伪类不生效
+- LOVE HATE
+- :link -> :visited -> :hover -> :active
+:::
 
 ```html
   <head>
@@ -604,11 +618,12 @@ icon: icon-css3
   </body>
 ```
 
-> **注：**
-> 
->- 遵守了 “爱恨原则” ，但 a:link 不生效，是因为之前访问过的网址会被浏览器记录，就会显示 a:visited 的样式（修改网址或清楚浏览记录即可）
->- 四个样式可以根据实际情况单独使用
->- 伪类:hover 不仅可以用在 a 标签上，还可以用在其他标签上，比如：div、p、列表标签，标题标签 等等
+::: warning 注：
+ 
+- 遵守了 “爱恨原则” ，但 a:link 不生效，是因为之前访问过的网址会被浏览器记录，就会显示 a:visited 的样式（修改网址或清楚浏览记录即可）
+- 四个样式可以根据实际情况单独使用
+- 伪类:hover 不仅可以用在 a 标签上，还可以用在其他标签上，比如：div、p、列表标签，标题标签 等等
+:::
 
 ### 8、元素关系选择器
 
@@ -620,11 +635,13 @@ icon: icon-css3
 
 #### 子选择器
 
-> **TIP**
-> 
->- 当使用 >符号分隔两个元素时，它只会匹配那些作为第一个元素的直接后代元素，即：`两个标签为父子关系`
->- 后代选择器：不一定限制是子元素
->- 从 IE7 开始兼容
+::: tip
+ 
+- 当使用 >符号分隔两个元素时，它只会匹配那些作为第一个元素的直接后代元素，即：`两个标签为父子关系`
+- 后代选择器：不一定限制是子元素
+- 从 IE7 开始兼容
+:::
+
 ```html
   <style>
     /* 子选择器 ：两个标签为 父子元素 */
@@ -658,11 +675,13 @@ icon: icon-css3
 
 #### 相邻兄弟选择器
 
-> **TIP**
-> 
->- 相邻兄弟选择器（+）基于两个选择器之间，当第二个元素紧跟在第一个元素之后，并且两个元素都属于同一个父元素的子元素，则第二个元素将被选中
->- a + b 即 选择 紧跟在 a 后面的第一个 b
->- 从 IE7 开始兼容
+::: tip
+ 
+- 相邻兄弟选择器（+）基于两个选择器之间，当第二个元素紧跟在第一个元素之后，并且两个元素都属于同一个父元素的子元素，则第二个元素将被选中
+- a + b 即 选择 紧跟在 a 后面的第一个 b
+- 从 IE7 开始兼容
+:::
+
 ```html
   <style>
     /* 相邻兄弟选择器：a + b 即 选择 紧跟在a后面的第一个b */
@@ -691,10 +710,12 @@ icon: icon-css3
 
 #### 通用兄弟选择器
 
-> **TIP**
-> 
->- 通用兄弟选择器 ~ 波浪线 a~b选择 a 元素之后所有同层级 b 元素
->- 从 IE7 开始兼容
+::: tip
+ 
+- 通用兄弟选择器 ~ 波浪线 a~b选择 a 元素之后所有同层级 b 元素
+- 从 IE7 开始兼容
+:::
+
 ```html
   <style>
     /* 通用兄弟选择器：a~b选择a元素之后所有同层级b元素 */
@@ -909,27 +930,30 @@ icon: icon-css3
   </body>
 ```
 
-> **倒数选择**
-> 
-> `:nth-last-child(n)` 倒数选择：倒数第 n 个子元素
-> 
-> `:nth-last-of-type(n)` 倒数第 n 个某类型子元素
-> 
-> 与以上同理，只是顺序不一样
+::: warning 倒数选择
+ 
+ `:nth-last-child(n)` 倒数选择：倒数第 n 个子元素
+ 
+ `:nth-last-of-type(n)` 倒数第 n 个某类型子元素
+ 
+ 与以上同理，只是顺序不一样
+:::
 
 ### 10、属性选择器
 
 |案例	|描述	|兼容性|
 |-----|-----|-----|
-|`img[alt]`	|选择有 alt 属性的 img 标签	|IE9|
-|`img[alt="艾编程"]`	|选择 alt 属性是艾编程的 img 标签	|IE9|
-|`img[alt^="艾编程"]`	|选择 alt 属性以艾编程开头的 img 标签	|IE9|
-|`img[alt$="艾编程"]`	|选择 alt 属性以艾编程结尾的 img 标签	|IE9|
-|`img[alt*="艾编程"]`	|选择 alt 属性中包含艾编程文字的 img 标签	|IE9|
-|`img[alt~="艾编程"]`	|选择 alt 属性中有空格隔开的艾编程字样的 img 标签	|IE9|
-|`img[alt | ="艾编程"]`	|选择 alt 属性中以 艾编程-开头的 img 标签	|IE9|
+|`img[alt]`{.html}	|选择有 alt 属性的 img 标签	|IE9|
+|`img[alt="艾编程"]`{.html}	|选择 alt 属性是艾编程的 img 标签	|IE9|
+|`img[alt^="艾编程"]`{.html}	|选择 alt 属性以艾编程开头的 img 标签	|IE9|
+|`img[alt$="艾编程"]`{.html}	|选择 alt 属性以艾编程结尾的 img 标签	|IE9|
+|`img[alt*="艾编程"]`{.html}	|选择 alt 属性中包含艾编程文字的 img 标签	|IE9|
+|`img[alt~="艾编程"]`{.html}	|选择 alt 属性中有空格隔开的艾编程字样的 img 标签	|IE9|
+|`img[alt \|="艾编程"]`{.html}	|选择 alt 属性中以 艾编程-开头的 img 标签	|IE9|
 
-> 注：实际开发中用到的很少，只做了解即可
+::: note
+  实际开发中用到的很少，只做了解即可
+:::
 
 ```html
   <style>
@@ -1134,10 +1158,11 @@ icon: icon-css3
 
 ### 12、CSS3 新增：伪元素
 
-> **TIP**
-> 
->- CSS3 新增了 “伪元素” 特性，表示虚拟动态创建的元素
->- 伪元素用双冒号::表示，IE8 及以上可以兼容单冒号 :
+::: tip 
+
+- CSS3 新增了 “伪元素” 特性，表示虚拟动态创建的元素
+- 伪元素用双冒号::表示，IE8 及以上可以兼容单冒号 :
+:::
 
 |CSS3 新增伪元素	|描述|
 |----------------|----|
@@ -1147,120 +1172,126 @@ icon: icon-css3
 |:first-letter	|会选中某元素中第一行的第一个字母|
 |::first-line	|会选中某元素中第一行的全部文字|
 
-> **::before**
-> 
->- ::before 创建一个伪元素，将成为匹配选中的元素的第一个元素
->- 必须设置 content 属性表示其中的内容
-> 
-> ```html
->   <style>
->     /* ::before 创建一个伪元素，将成为匹配选中的元素的第一个元素 */
->     a::before {
->       content: "※☆";
->     }
->   </style>
-> 
->   <body>
->     <h2>::before 创建一个伪元素，将成为匹配选中的元素的第一个元素</h2>
-> 
->     <a href="#">艾编程</a>
->   </body>
-> ```
-> 企业应用：各种小图标，CSS 精灵图等等，如：小米官网
+::: tip ::before
+ 
+- ::before 创建一个伪元素，将成为匹配选中的元素的第一个元素
+- 必须设置 content 属性表示其中的内容
+ 
+ ```html
+   <style>
+     /* ::before 创建一个伪元素，将成为匹配选中的元素的第一个元素 */
+     a::before {
+       content: "※☆";
+     }
+   </style>
+ 
+   <body>
+     <h2>::before 创建一个伪元素，将成为匹配选中的元素的第一个元素</h2>
+ 
+     <a href="#">艾编程</a>
+   </body>
+ ```
+ 企业应用：各种小图标，CSS 精灵图等等，如：小米官网
+:::
 
-> **::after**
-> 
->- ::after 创建一个伪元素，成为匹配选中的元素的最后一个子元素
->- 必须设置 content 属性表示其中的内容
-> ```html
->   <style>
->     /* ::after 创建一个伪元素，成为匹配选中的元素的最后一个子元素 */
->     span::after {
->       content: "△❥(^_-)";
->     }
->   </style>
-> 
->   <body>
->     <h2>::after 创建一个伪元素，成为匹配选中的元素的最后一个子元素</h2>
-> 
->     <span>艾编程</span>
->   </body>
-> ```
+::: tip ::after
+ 
+- ::after 创建一个伪元素，成为匹配选中的元素的最后一个子元素
+- 必须设置 content 属性表示其中的内容
+ ```html
+   <style>
+     /* ::after 创建一个伪元素，成为匹配选中的元素的最后一个子元素 */
+     span::after {
+       content: "△❥(^_-)";
+     }
+   </style>
+ 
+   <body>
+     <h2>::after 创建一个伪元素，成为匹配选中的元素的最后一个子元素</h2>
+ 
+     <span>艾编程</span>
+   </body>
+ ```
+:::
 
->**::selection**
->
->- ::selection 选择器匹配被用户选取的部分
->- 只能向 ::selection 选择器应用少量 CSS 属性：color、background、cursor 以及 outline
->
->```html
->  <style>
->    /* 
->        ::selection 选择器匹配被用户选取的选取是部分
->        只能向 ::selection 选择器应用少量 CSS 属性：color、background、cursor 以及 outline
->      */
->    .box::selection {
->      color: pink;
->      background-color: black;
->    }
->  </style>
->
->  <body>
->    <h2>::selection 选择器匹配被用户选取的选取是部分</h2>
->    <div class="box">arry老师是全宇宙最帅气的男神 ！！！！</div>
->  </body>
->```
+::: ::selection
 
-> **:first-letter**
-> 
->- 会选中某元素中第一行的第一个字母
->- 必须是块级元素
-> 
-> ```html
->   <style>
->     /* ::first-letter 会选中某元素中第一行的第一个字母 */
->     .box1::first-letter {
->       font-size: 30px;
->       color: skyblue;
->     }
->   </style>
-> 
->   <body>
->     <h2>::first-letter 会选中某元素中第一行的第一个字母</h2>
-> 
->     <div class="box1">艾编程连 - 为每个互联网人提供高质量的终身学习平台</div>
->   </body>
-> ```
+- ::selection 选择器匹配被用户选取的部分
+- 只能向 ::selection 选择器应用少量 CSS 属性：color、background、cursor 以及 outline
+:::
 
-> **::first-line**
-> 
->- 会选中某元素中第一行的全部文字
->- 必须是块级元素
-> 
-> ```html
->   <style>
->     /* ::first-line 会选中某元素中第一行的全部文字 */
->     .box2::first-line {
->       font-size: 20px;
->       color: salmon;
->       text-decoration: underline;
->     }
->   </style>
-> 
->   <body>
->     <h2>::first-line 会选中某元素中第一行的全部文字</h2>
-> 
->     <div class="box2">艾编程连 - 为每个互联网人提供高质量的终身学习平台</div>
->   </body>
-> ```
+```html
+  <style>
+    /* 
+        ::selection 选择器匹配被用户选取的选取是部分
+        只能向 ::selection 选择器应用少量 CSS 属性：color、background、cursor 以及 outline
+      */
+    .box::selection {
+      color: pink;
+      background-color: black;
+    }
+  </style>
+
+  <body>
+    <h2>::selection 选择器匹配被用户选取的选取是部分</h2>
+    <div class="box">arry老师是全宇宙最帅气的男神 ！！！！</div>
+  </body>
+```
+
+::: tip ::first-letter
+ 
+- 会选中某元素中第一行的第一个字母
+- 必须是块级元素
+ 
+ ```html
+   <style>
+     /* ::first-letter 会选中某元素中第一行的第一个字母 */
+     .box1::first-letter {
+       font-size: 30px;
+       color: skyblue;
+     }
+   </style>
+ 
+   <body>
+     <h2>::first-letter 会选中某元素中第一行的第一个字母</h2>
+ 
+     <div class="box1">艾编程连 - 为每个互联网人提供高质量的终身学习平台</div>
+   </body>
+ ```
+:::
+
+::: tip ::first-line
+ 
+- 会选中某元素中第一行的全部文字
+- 必须是块级元素
+ 
+ ```html
+   <style>
+     /* ::first-line 会选中某元素中第一行的全部文字 */
+     .box2::first-line {
+       font-size: 20px;
+       color: salmon;
+       text-decoration: underline;
+     }
+   </style>
+ 
+   <body>
+     <h2>::first-line 会选中某元素中第一行的全部文字</h2>
+ 
+     <div class="box2">艾编程连 - 为每个互联网人提供高质量的终身学习平台</div>
+   </body>
+ ```
+:::
 
 ## 三、CSS 选择器的权重计算
 
 ### 1、层叠性
 
->**TIP**
->
->- CSS 全名叫 层叠式样式表 ，层叠性是它很重要的性质
->- 层叠性：多个选择器可以同时作用于同一个标签，效果叠加
+::: tip
+
+- CSS 全名叫 层叠式样式表 ，层叠性是它很重要的性质
+- 层叠性：多个选择器可以同时作用于同一个标签，效果叠加
+:::
 
 ```html
   <style>
@@ -1288,11 +1319,12 @@ icon: icon-css3
 
 ### 2、层叠性的冲突处理
 
-> **TIP**
-> 
->- 多个选择器定义同一元素的冲突问题
->- CSS 有严密的处理冲突的规则
->- `id 权重 > class权重 > 标签权重 > 通配符权重`
+::: tip
+ 
+- 多个选择器定义同一元素的冲突问题
+- CSS 有严密的处理冲突的规则
+- `id 权重 > class权重 > 标签权重 > 通配符权重`
+:::
 
 ```html
   <style>
@@ -1319,9 +1351,10 @@ icon: icon-css3
 
 ### 3、复杂选择器权重计算
 
-> **TIP**
-> 
->- 复杂选择器可以通过（id的个数，class的个数，标签的个数）的形式，计算权重
+::: tip
+
+- 复杂选择器可以通过（id的个数，class的个数，标签的个数）的形式，计算权重
+:::
 
 ```html
   <style>
@@ -1358,10 +1391,11 @@ icon: icon-css3
 
 ### 4、!important 提升权重
 
->**TIP**
->
->- 如果我们需要将某个选择器的某条属性提升权重，可以在属性后边写上 `!important`
->- 市级企业中，不允许使用 `!important` ，因为这会带来不经意的样式冲突
+::: tip
+
+- 如果我们需要将某个选择器的某条属性提升权重，可以在属性后边写上 `!important`
+- 市级企业中，不允许使用 `!important` ，因为这会带来不经意的样式冲突
+:::
 
 ```html
   <style>
@@ -1394,10 +1428,11 @@ icon: icon-css3
 
 ## 四、CSS 选择器分类汇总
 
->**项目中常用选择器和不常用选择器总结**
->
->- CSS 选择器用于选择你想要的元素的样式的模式
->- "CSS 版本" 该列，表示在 CSS 版本的属性定义（CSS1，CSS2，或对 CSS3）
+::: tip 项目中常用选择器和不常用选择器总结
+
+- CSS 选择器用于选择你想要的元素的样式的模式
+- "CSS 版本" 该列，表示在 CSS 版本的属性定义（CSS1，CSS2，或对 CSS3）
+:::
 
 ### 1、常用选择器
 
