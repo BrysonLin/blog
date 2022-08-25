@@ -7,7 +7,9 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "林初笔墨",
   description: "林初笔墨,林初笔墨的博客,Web前端博客,前端博客,Web全栈技术博客,前端工程师博客",
-  
+  head: [ // 注入到当前页面的 HTML <head> 中的标签
+    ['link', { rel: 'icon', href: '/favicon.ico' }], // 增加一个自定义的 favicon(网页标签的图标)
+  ],
   base: "/blog/",  // 部署站点的基础路径。
   theme, // 主题配置
   plugins: [

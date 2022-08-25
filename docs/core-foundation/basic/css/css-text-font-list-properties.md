@@ -18,7 +18,7 @@ icon: icon-css3
 
 ### 1、color 属性
 
-::: thp
+::: tip
  
 - color 属性可设置文本内容的字体颜色
 - color 属性主要可以用 英语单词、十六进制、rgb()、rgba() 等表示法
