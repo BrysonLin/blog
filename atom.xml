@@ -3,7 +3,7 @@
   <id>https://brysonlin.github.io/blog/blog/</id>
   <title>林初笔墨</title>
   <subtitle>林初笔墨,林初笔墨的博客,Web前端博客,前端博客,Web全栈技术博客,前端工程师博客</subtitle>
-  <updated>2022-08-20T07:55:11.401Z</updated>
+  <updated>2022-08-25T14:25:49.424Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://brysonlin.github.io/blog/blog/atom.xml"/>
   <link rel="alternate" href="https://brysonlin.github.io/blog/blog/"/>
@@ -1873,7 +1873,7 @@
     <title type="html">CSS 文本和字体属性、列表属性</title>
     <id>https://brysonlin.github.io/blog/blog/core-foundation/basic/css/css-text-font-list-properties.html</id>
     <link href="https://brysonlin.github.io/blog/blog/core-foundation/basic/css/css-text-font-list-properties.html"/>
-    <updated>2022-08-20T07:54:02.000Z</updated>
+    <updated>2022-08-25T14:24:38.000Z</updated>
     <content type="html"><![CDATA[<h2 id="一、常用文本样式属性" tabindex="-1"> 一、常用文本样式属性</h2>
 <table>
 <thead>
@@ -1918,7 +1918,7 @@
 </tbody>
 </table>
 <h3 id="_1、color-属性" tabindex="-1"> 1、color 属性</h3>
-<p>::: thp</p>
+<div><p>提示</p>
 <ul>
 <li>color 属性可设置文本内容的字体颜色</li>
 <li>color 属性主要可以用 英语单词、十六进制、rgb()、rgba() 等表示法</li>
@@ -1926,7 +1926,7 @@
 <p>注：英语单词表示法，如：color:red;仅用于学习或测试使用，工作中基本不用这样的形式，需要精准</p>
 <div><pre><code>  <span>color</span><span>:</span> red<span>;</span>
   <span>color</span><span>:</span> skyblue<span>;</span>
-</code></pre><div aria-hidden="true"><div></div><div></div></div></div><p>:::</p>
+</code></pre><div aria-hidden="true"><div></div><div></div></div></div></div>
 <h3 id="_2、color-属性-十六进制表示法" tabindex="-1"> 2、color 属性 - 十六进制表示法</h3>
 <div><p>提示</p>
 <ul>
